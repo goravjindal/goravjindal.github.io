@@ -45,7 +45,9 @@ we recall the following [prop 3](#propbinomiallarge) from {% cite  KOIRAN2019 %}
  <div style="background-color:bisque">
 <span style="font-size:larger;font-weight:bold">Proposition:</span>
 [Proposition 4 in {% cite  KOIRAN2019 %}]
-<a name="propbinomiallarge">(prop 3)</a>Let $g(x)=a_{1}x^{\beta}+a_{2}$ where
+
+<a id="propbinomiallarge">(prop 3)</a>
+Let $g(x)=a_{1}x^{\beta}+a_{2}$ where
 $a_{1},a_{2}$ are two nonzero integers and $\beta$ is a positive
 rational number. Write $\beta=\frac{\beta_{1}}{\beta_{2}}$, where
 $\beta_{1},\beta_{2}$ are positive integers. We evaluate the binomial
@@ -119,6 +121,7 @@ This implies that degree of $f$ is ``low'' (logarithmic). Hence
 we can exactly evaluate $f$ at $\frac{p}{q}$ to compute $\sgn(f(\frac{p}{q}))$,
 in polynomial time.
 </div><br/>
+
  <div style="background-color:bisque">
 <span style="font-size:larger;font-weight:bold">Remark:</span>
 
