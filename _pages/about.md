@@ -20,6 +20,6 @@ social: true
 
  Before this,  I was PhD student at the [Max Planck Institute for Informatics](https://www.mpi-inf.mpg.de/departments/algorithms-complexity/) under the supervision of [Prof. Markus Bläser](https://www-cc.cs.uni-saarland.de/mblaeser/).    Before this, I completed my Masters studies from [Saarland University](https://www-cc.cs.uni-saarland.de/). 
 
- I did my bachelor studies from [Department of Computer Science and Engineering, IIT Delhi](http://www.cse.iitd.ernet.in/). A brief [CV](https://goravjindal.github.io/cv/) can be found here. My proudest achievement can be found [here](https://www.strava.com/activities/1109380107).
+ I did my bachelor studies from [Department of Computer Science and Engineering, IIT Delhi](http://www.cse.iitd.ernet.in/). A brief [CV](/cv/) can be found here. My proudest achievement can be found [here](https://www.strava.com/activities/1109380107).
 
 
