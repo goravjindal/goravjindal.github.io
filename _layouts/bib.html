@@ -10,9 +10,6 @@
 {% endif %}
 
 <div id="{{entry.key}}">
-  {% if entry.type == "thesis" %}
-    {{reference}}
-  {% else %}
     <span class="title">{{entry.title}}</span>
     <span class="author">
       {% for author in entry.author_array %}
@@ -53,12 +50,13 @@
       <em>{{entry.journal}}</em>
     {% elsif entry.type == "inproceedings" %}
       <em>In {{entry.booktitle}}</em>
+    {% elsif entry.type == "thesis" %}
+		<em>{{entry.thesistype}} At   <a href="{{ entry.schoolurl }}" target="_blank">{{ entry.school}} </a> </em>
     {% endif %}
     {% if entry.year %}
       {{entry.year}}
     {% endif %}
     </span>
-  {% endif %}
 
   <span class="links">
   {% if entry.abstract %}
@@ -72,6 +70,9 @@
   {% endif %}
   {% if entry.pdf %}
     [<a href="{{ '/paper.pdf'  | prepend: entry.key | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank"><i class="fas fa-file-pdf"></i>PDF</a>]
+  {% endif %}
+  {% if entry.thesispdf %}
+    [<a href="{{ '.pdf'  | prepend: entry.key | prepend: '/assets/pdf/thesis/' | prepend: site.baseurl | prepend: site.url }}" target="_blank"><i class="fas fa-file-pdf"></i>PDF</a>]
   {% endif %}
   {% if entry.supp %}
     [<a href="{{ entry.supp | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Supp</a>]

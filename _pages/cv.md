@@ -21,6 +21,8 @@ Education
 * M.Sc in Computer Science, 2011-2013.
   * From Universität des Saarlandes, Saarbrücken, Germany.
   * GPA: 1.0/1.0.
+  * Was awarded Die [Günter-Hotz-Medaille](https://www.fdsi.org/index.php?id=7), only given to 1-3 top students of the graduating class every semester.
+  * Scholarship from [Saarbrücken Graduate School of Computer Science](http://www.graduateschool-computerscience.de/).
 * Ph.D in Computer Science, 2014-2019 (Expected).
   * From Universität des Saarlandes, Saarbrücken, Germany.
 
@@ -79,6 +81,10 @@ Research and Conference visits
 - July 2014, [ICALP 2014](http://icalp2014.itu.dk/) at the [IT University of Copenhagen](https://en.itu.dk/).
 - July 2014, [ISSAC 2014](http://www.issac-symposium.org/2014/) at the [Kobe University](http://www.kobe-u.ac.jp/en/).
 - Septmeber 2013, [Heidelberg Laureate Forum 2013](http://www.heidelberg-laureate-forum.org/event_2013/) at the [Heidelberg University](https://www.uni-heidelberg.de).
+
+Reviewer
+======
+I have reviewed papers in: ESA 2016, ICALP 2019, ESA 2019, FOCS 2019.
 
 Skills
 ======
