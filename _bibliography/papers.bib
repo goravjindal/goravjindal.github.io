@@ -9,7 +9,7 @@
     We show some facts regarding the question whether, for any number n, the length of the shortest Addition Multiplications Chain (AMC) computing n is polynomial in the length of the shortest division-free Straight Line Program (SLP) that computes n.
     If the answer to this question is "yes", then we can show a stronger upper bound for PosSLP, the important problem which essentially captures the notion of efficient computation over the reals. If the answer is "no", then this would demonstrate how subtraction helps generating integers super-polynomially faster, given that addition and multiplication can be done in unit time.
     In this paper, we show that, for almost all numbers, AMCs and SLPs need same asymptotic length for computation. However, for one specific form of numbers, SLPs are strictly more powerful than AMCs by at least one step of computation.},
- pdf={posslp.pdf},
+ pdf={jsarxiv12.pdf},
  URL={https://arxiv.org/abs/1212.2549}
 
 }
@@ -31,7 +31,7 @@
  address = {New York, NY, USA},
  keywords = {arithmetic circuits, black box interpolation, interpolation, polynomial interpolation},
  abstract={We present a deterministic algorithm to interpolate an m-sparse n-variate polynomial which uses poly(n, m, log(H), log(d)) bit operations. Our algorithm works over the integers. Here H is a bound on the magnitude of the coefficient values of the given polynomial. The degree of given polynomial is bounded by d and m is upper bound on number of monomials. This running time is polynomial in the output size. Our algorithm only requires modular black box access to the given polynomial, as introduced in [12]. As an easy consequence, we obtain an algorithm to interpolate polynomials represented by arithmetic circuits.},
- pdf={sparse-inter.pdf}
+ pdf={bjissac14.pdf}
 } 
 
 @InProceedings{bjpccc2017,
@@ -50,7 +50,7 @@
   URL =		{http://drops.dagstuhl.de/opus/volltexte/2017/7519},
   URN =		{urn:nbn:de:0030-drops-75194},
   doi =		{10.4230/LIPIcs.CCC.2017.33},
-  pdf={ptas-commrank.pdf},
+  pdf={bjpccc2017.pdf},
   annote =	{Keywords: Commutative Rank, Matrix Spaces, PTAS, Wong sequences},
   abstract={
             We consider the problem of commutative rank computation of a given matrix space. A matrix space is a (linear) subspace of the (linear) space of n x n matrices over a given field. The problem is fundamental, as it generalizes several computational problems from algebra and combinatorics. For instance, checking if the commutative rank of the space is n, subsumes problems such as testing perfect matching in graphs and identity testing of algebraic branching programs. An efficient deterministic computation of the commutative rank is a major open problem, although there is a simple and efficient randomized algorithm for it. Recently, there has been a series of results on computing the non-commutative rank of matrix spaces in deterministic polynomial time. Since the non-commutative rank of any matrix space is at most twice the commutative rank, one immediately gets a deterministic 1/2-approximation algorithm for the computation of the commutative rank. This leads to a natural question of whether this approximation ratio can be improved. In this paper, we answer this question affirmatively. We present a deterministic Polynomial-time approximation scheme (PTAS) for computing the commutative rank of a given matrix space B. More specifically, given a matrix space and a rational number e > 0, we give an algorithm, that runs in time O(n^(4 + 3/e)) and computes a matrix A in the given matrix space B such that the rank of A is at least (1-e) times the commutative rank of B. The algorithm is the natural greedy algorithm. It always takes the first set of k matrices that will increase the rank of the matrix constructed so far until it does not find any improvement, where the size of the set k depends on e.
@@ -68,7 +68,7 @@ author = {Bl{\"a}ser, Markus and Jindal, Gorav and Pandey, Anurag},
  journal = {Theory of Computing},
  volume = {14},
  number = {3},
- pdf={ptascommranktoc.pdf},
+ pdf={bjptoc2018.pdf},
  URL = {http://www.theoryofcomputing.org/articles/v014a003},
  abstract={
            We consider the problem of computing the commutative rank of a given matrix space B⊆Fn×n, that is, given a basis of B, find a matrix of maximum rank in B. This problem is fundamental, as it generalizes several computational problems from algebra and combinatorics. For instance, checking if the commutative rank of the space is n, subsumes problems such as testing perfect matching in graphs and identity testing of algebraic branching programs. Finding an efficient deterministic algorithm for the commutative rank is a major open problem, although there is a simple and efficient randomized algorithm for it. Recently, there has been a series of results on computing the non-commutative rank of matrix spaces in deterministic polynomial time. Since the non-commutative rank of any matrix space is at most twice the commutative rank, one immediately gets a deterministic 1/2
@@ -88,7 +88,7 @@ chapter = {},
 pages = {647-661},
 doi = {10.1137/1.9781611975482.41},
 URL = {https://epubs.siam.org/doi/abs/10.1137/1.9781611975482.41},
-pdf={soda19-ptas.pdf},
+pdf={bbjpsoda19.pdf},
 eprint = {https://epubs.siam.org/doi/pdf/10.1137/1.9781611975482.41},
 abstract={
           We present a deterministic polynomial time approximation scheme (PTAS) for computing the algebraic rank of a set of bounded degree polynomials. The notion of algebraic rank naturally generalizes the notion of rank in linear algebra, i.e., instead of considering only the linear dependencies, we also consider higher degree algebraic dependencies among the input polynomials.
@@ -117,7 +117,7 @@ author =	{Markus Bl{\"a}ser and Gorav Jindal},
   URL =		{http://drops.dagstuhl.de/opus/volltexte/2018/10140},
   URN =		{urn:nbn:de:0030-drops-101402},
   doi =		{10.4230/LIPIcs.ITCS.2019.47},
-  pdf={2019-sympoly.pdf},
+  pdf={bjitcs19.pdf},
   annote =	{Keywords: Symmetric Polynomials, Arithmetic Circuits, Arithmetic Complexity, Power Series, Elementary Symmetric Polynomials, Newton's Iteration},
   abstract={The fundamental theorem of symmetric polynomials states that for a symmetric polynomial f_{Sym} in C[x_1,x_2,...,x_n], there exists a unique "witness" f in C[y_1,y_2,...,y_n] such that f_{Sym}=f(e_1,e_2,...,e_n), where the e_i's are the elementary symmetric polynomials. In this paper, we study the arithmetic complexity L(f) of the witness f as a function of the arithmetic complexity L(f_{Sym}) of f_{Sym}. We show that the arithmetic complexity L(f) of f is bounded by poly(L(f_{Sym}),deg(f),n). To the best of our knowledge, prior to this work only exponential upper bounds were known for L(f). The main ingredient in our result is an algebraic analogue of Newton's iteration on power series. As a corollary of this result, we show that if VP != VNP then there exist symmetric polynomial families which have super-polynomial arithmetic complexity. Furthermore, we study the complexity of testing whether a function is symmetric. For polynomials, this question is equivalent to arithmetic circuit identity testing. In contrast to this, we show that it is hard for Boolean functions.}
 }
@@ -139,7 +139,7 @@ author =	{Markus Bl{\"a}ser and Gorav Jindal},
   URL =		{http://drops.dagstuhl.de/opus/volltexte/2017/7563},
   URN =		{urn:nbn:de:0030-drops-75638},
   doi =		{10.4230/LIPIcs.APPROX-RANDOM.2017.14},
-  pdf={k-step.pdf},
+  pdf={jkpsapprox17.pdf},
   annote =	{Keywords: random walks, graph sparsification, spectral graph theory, effective resistances},
   abstract={We give faster algorithms for producing sparse approximations of the transition matrices of k-step random walks on undirected and weighted graphs. These transition matrices also form graphs, and arise as intermediate objects in a variety of graph algorithms. Our improvements are based on a better understanding of processes that sample such walks, as well as tighter bounds on key weights underlying these sampling processes. On a graph with n vertices and m edges, our algorithm produces a graph with about nlog(n) edges that approximates the k-step random walk graph in about m + k^2 nlog^4(n) time. In order to obtain this runtime bound, we also revisit "density independent" algorithms for sparsifying graphs whose runtime overhead is expressed only in terms of the number of vertices.}
 }
@@ -159,7 +159,7 @@ author =	{Markus Bl{\"a}ser and Gorav Jindal},
  acmid = {3188832},
  publisher = {ACM},
  address = {New York, NY, USA},
-  pdf={br-mc.pdf},
+  pdf={bijvstoc18.pdf},
  keywords = {Algebraic natural proofs, completion rank, geometric complexity theory, matrix completion, tensor rank},
 abstract={Algebraic natural proofs were recently introduced by Forbes, Shpilka and Volk (Proc. of the 49th Annual ACM SIGACT Symposium on Theory of Computing (STOC), pages 653–664, 2017) and independently by Grochow, Kumar, Saks and Saraf (CoRR, abs/1701.01717, 2017) as an attempt to transfer Razborov and Rudich’s famous barrier result (J. Comput. Syst. Sci., 55(1): 24–35, 1997) for Boolean circuit complexity to algebraic complexity theory. Razborov and Rudich’s barrier result relies on a widely believed assumption, namely, the existence of pseudo-random generators. Unfortunately, there is no known analogous theory of pseudo-randomness in the algebraic setting. Therefore, Forbes et al. use a concept called succinct hitting sets instead. This assumption is related to polynomial identity testing, but it is currently not clear how plausible this assumption is. Forbes et al. are only able to construct succinct hitting sets against rather weak models of arithmetic circuits.
 
@@ -176,7 +176,7 @@ Furthermore, we prove a similar result for the variety of matrices with permanen
   school       = {Saarland University},
   schoolurl = {https://saarland-informatics-campus.de/en/},
   year         = {2013},
-  thesispdf      ={master-tests.pdf},
+  pdf      ={master-thesis.pdf},
   thesistype      ={Master's Thesis}
 }
 
@@ -186,7 +186,7 @@ Furthermore, we prove a similar result for the variety of matrices with permanen
   school       = {Saarland University},
   schoolurl = {https://saarland-informatics-campus.de/en/},
   year         = {2019},
-  thesispdf      ={phd-thesis-submitted.pdf},
+  pdf      ={phd-thesis-submitted.pdf},
   thesistype      ={Submitted PhD Thesis (Not Final)}
 }
 
@@ -196,7 +196,7 @@ Furthermore, we prove a similar result for the variety of matrices with permanen
   school       = {Department of Computer Science and Engineering, IIT Delhi},
   schoolurl = {https://www.cse.iitd.ernet.in},
   year         = {2008},
-  thesispdf      ={bachelor-thesis.pdf},
+  pdf      ={bachelor-thesis.pdf},
   thesistype      ={Bachelor's Thesis}
 }
 
@@ -216,7 +216,7 @@ Furthermore, we prove a similar result for the variety of matrices with permanen
  doi = {10.1145/3087604.3087652},
  acmid = {3087652},
  publisher = {ACM},
- pdf={realroots.pdf},
+ pdf={jsissac17.pdf},
  address = {New York, NY, USA},
  keywords = {bit complexity, numerical algorithms, real roots, root approximation, root isolation, root refinement, sparse polynomials},
  abstract={We propose an efficient algorithm to compute the real roots of a sparse polynomial f∈R[x] having k non-zero real-valued coefficients. It is assumed that arbitrarily good approximations of the non-zero coefficients are given by means of a coefficient oracle. For a given positive integer L, our algorithm returns disjoint disks Δ1,...,Δs⊂C, with s<2k, centered at the real axis and of radius less than 2-L together with positive integers μ1,...,μs such that each disk Δi contains exactly μi roots of f counted with multiplicity. In addition, it is ensured that each real root of f is contained in one of the disks. If f has only simple real roots, our algorithm can also be used to isolate all real roots. The bit complexity of our algorithm is polynomial in k and log n, and near-linear in L and τ, where 2-τ and 2τ constitute lower and upper bounds on the absolute values of the non-zero coefficients of f, and n is the degree of f. For root isolation, the bit complexity is polynomial in k and log n, and near-linear in τ and logσ-1, where σ denotes the separation of the real roots.}
