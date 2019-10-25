@@ -173,3 +173,10 @@ What is this sadness?
 Tear drops shining on the floor
 Dry at the sun’s touch.
 ```
+
+```
+In ecstasy of flight
+Diving to death-
+a maple leaf -----
+```
+
