@@ -71,6 +71,9 @@
   {% if entry.pdf %}
     [<a href="{{ entry.pdf  | prepend: '/' |  prepend: entry.year | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank"><i class="fas fa-file-pdf"></i>PDF</a>]
   {% endif %}
+	 {% if entry.thesispdf %}
+    [<a href="{{ entry.thesispdf  | prepend: '/assets/pdf/thesis/' | prepend: site.baseurl | prepend: site.url }}" target="_blank"><i class="fas fa-file-pdf"></i>PDF</a>]
+  {% endif %}
   {% if entry.supp %}
     [<a href="{{ entry.supp | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Supp</a>]
   {% endif %}
