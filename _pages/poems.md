@@ -2,18 +2,14 @@
 layout: page
 permalink: /poems/
 title: Poems
+type: "docs"
 ---
+
 
 ```
 Goodbye old friend
 The light has called upon my soul
 I go where butterflies go
-```
-
-```
-Christmas snow falls
-Snowmen wiggles back to life once more
-The sun is no more
 ```
 
 ```
@@ -84,19 +80,6 @@ And what is more generous than a window?
 ```
 
 ```
-Birds have vanished into deep skies.
-A last cloud drifts away, all idleness. 
-Inexhaustible, this mountain and I gaze at each other, it alone remaining.
------------------------------
-The birds have vanished down the sky. Now the last cloud drains away.
-We sit together, the mountain and me, until only the mountain remains.
-```
-
-
-
-
-
-```
 "He was offered the whole world,
 He declined and turned away. 
 He did not write poetry,
@@ -117,4 +100,76 @@ The vertigo of Heaven
 Beyond the cage of words,
 Suddenly to be naked
 In the searchlight of truth …
+```
+
+### Haiku
+
+```
+Christmas snow falls
+Snowmen wiggles back to life once more
+The sun is no more
+```
+
+```
+Birds have vanished into deep skies.
+A last cloud drifts away, all idleness. 
+Inexhaustible, this mountain and I gaze at each other, it alone remaining.
+-----------------------------
+The birds have vanished down the sky. Now the last cloud drains away.
+We sit together, the mountain and me, until only the mountain remains.
+```
+
+
+```
+Opening their hearts
+ice and water become
+friends again
+```
+
+```
+With each falling petal
+they grow older—
+plum branches
+```
+
+```
+Spring rain—
+just enough to wet tiny shells
+on the tiny beach
+```
+
+```
+Crazed by flowers
+surprised by the moon—
+a butterfly
+```
+
+```
+Out from the darkness
+back into the darkness—
+affairs of the cat
+```
+
+```
+Crouching,
+studying the clouds—
+a frog
+```
+
+```
+With the power of non-attachment
+floating on the water—
+a frog
+```
+
+```
+Spring passes—
+the last reluctant
+cherry blossoms
+```
+
+```
+What is this sadness?
+Tear drops shining on the floor
+Dry at the sun’s touch.
 ```
