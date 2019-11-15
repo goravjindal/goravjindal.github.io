@@ -23,12 +23,14 @@ Education
   * GPA: 1.0/1.0.
   * Was awarded Die [Günter-Hotz-Medaille](https://www.fdsi.org/index.php?id=7), only given to 1-3 top students of the graduating class every semester.
   * Scholarship from [Saarbrücken Graduate School of Computer Science](http://www.graduateschool-computerscience.de/).
-* Ph.D in Computer Science, 2014-2019 (Expected).
+* Ph.D in Computer Science, 2014-2019.
   * From Universität des Saarlandes, Saarbrücken, Germany.
 
 Work experience
 ======
-* September 2018-present:  Visiting doctoral candidate.
+* November 2019-present:  Postdoctoral researcher.
+  * Department of Computer Science, Aalto University, Espoo ,Finland.
+* September 2018-November 2019:  Visiting doctoral candidate.
   * Department of Computer Science, Aalto University, Espoo ,Finland.
 * December 2013-September 2018: Doctoral candidate.
   * Max Planck Institut für Informatik, Saarbrücken, Germany.
