@@ -89,6 +89,7 @@ pages = {647-661},
 doi = {10.1137/1.9781611975482.41},
 URL = {https://epubs.siam.org/doi/abs/10.1137/1.9781611975482.41},
 pdf={bbjpsoda19.pdf},
+slides={AlgRankPTAS.pdf},
 eprint = {https://epubs.siam.org/doi/pdf/10.1137/1.9781611975482.41},
 abstract={
           We present a deterministic polynomial time approximation scheme (PTAS) for computing the algebraic rank of a set of bounded degree polynomials. The notion of algebraic rank naturally generalizes the notion of rank in linear algebra, i.e., instead of considering only the linear dependencies, we also consider higher degree algebraic dependencies among the input polynomials.
@@ -118,6 +119,7 @@ author =	{Markus Bl{\"a}ser and Gorav Jindal},
   URN =		{urn:nbn:de:0030-drops-101402},
   doi =		{10.4230/LIPIcs.ITCS.2019.47},
   pdf={bjitcs19.pdf},
+slides={SymPolyPres.pdf},
   annote =	{Keywords: Symmetric Polynomials, Arithmetic Circuits, Arithmetic Complexity, Power Series, Elementary Symmetric Polynomials, Newton's Iteration},
   abstract={The fundamental theorem of symmetric polynomials states that for a symmetric polynomial f_{Sym} in C[x_1,x_2,...,x_n], there exists a unique "witness" f in C[y_1,y_2,...,y_n] such that f_{Sym}=f(e_1,e_2,...,e_n), where the e_i's are the elementary symmetric polynomials. In this paper, we study the arithmetic complexity L(f) of the witness f as a function of the arithmetic complexity L(f_{Sym}) of f_{Sym}. We show that the arithmetic complexity L(f) of f is bounded by poly(L(f_{Sym}),deg(f),n). To the best of our knowledge, prior to this work only exponential upper bounds were known for L(f). The main ingredient in our result is an algebraic analogue of Newton's iteration on power series. As a corollary of this result, we show that if VP != VNP then there exist symmetric polynomial families which have super-polynomial arithmetic complexity. Furthermore, we study the complexity of testing whether a function is symmetric. For polynomials, this question is equivalent to arithmetic circuit identity testing. In contrast to this, we show that it is hard for Boolean functions.}
 }
@@ -187,6 +189,19 @@ Furthermore, we prove a similar result for the variety of matrices with permanen
   schoolurl = {https://saarland-informatics-campus.de/en/},
   year         = {2019},
   thesispdf      ={phd-thesis-final.pdf},
+  defenceslides      ={DefenseTalkGoravJindal.pdf},
+  abstract = {In this thesis we study the following three topics, which share a connection through the (arithmetic) circuit complexity of polynomials.
+1. Rank of symbolic matrices.
+
+2. Computation of real roots of real sparse polynomials.
+
+3. Complexity of symmetric polynomials.
+
+We start with studying the commutative and non-commutative rank of symbolic matrices with linear forms as their entries. Here we show a deterministic polynomial time approximation scheme (PTAS) for computing the commutative rank. Prior to this work, deterministic polynomial time algorithms were known only for computing a 1/2-approximation of the commutative rank. We give two distinct proofs that our algorithm is a PTAS. We also give a min-max characterization of commutative and non-commutative ranks.
+
+Thereafter we direct our attention to computation of roots of uni-variate polynomial equations. It is known that solving a system of polynomial equations reduces to solving a uni-variate polynomial equation. We describe a polynomial time algorithm for (n,k,\tau)-nomials which computes approximations of all the real roots (even though it may also compute approximations of some complex roots). Moreover, we also show that the roots of integer trinomials are well-separated.
+
+Finally, we study the complexity of symmetric polynomials. It is known that symmetric Boolean functions are easy to compute. In contrast, we show that the assumption \VP\neq\VNP implies that there exist hard symmetric polynomials. To prove this result, we use an algebraic analogue of the classical Newton iteration.},
   thesistype      ={PhD Thesis}
 }
 
