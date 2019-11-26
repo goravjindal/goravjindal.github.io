@@ -174,9 +174,17 @@ Tear drops shining on the floor
 Dry at the sun’s touch.
 ```
 
+
+### My attempts
 ```
 In ecstasy of flight
-Diving to death-
-a maple leaf -----
+diving to death-
+a maple leaf
+```
+
+```
+Eyes half closed 
+a lens of tears
+blurred light
 ```
 
