@@ -2,6 +2,7 @@
 date: 2019-09-08
 layout: post
 title: Trinomial Sign Checking
+comments: true
 ---
 A special case of computing the sign of a trinomial at an integer
 rational number is solved.
