@@ -98,5 +98,6 @@ Recommendations and References
 
 * [Prof. Markus Bläser](https://www-cc.cs.uni-saarland.de/mblaeser/) at [Department of Computer Science,  Saarland University](https://saarland-informatics-campus.de/en/).
 * [Prof. Parinya Chalermsook](https://sites.google.com/site/parinyachalermsook/home) at [Department of Computer Science, Aalto University](http://cs.aalto.fi/en/).
+* [Prof. Michael Sagraloff](https://people.mpi-inf.mpg.de/~msagralo/) at [University of Applied Sciences in Landshut](https://www.haw-landshut.de/hochschule/fakultaeten/informatik.html).
 * [Prof. Christian Ikenmeyer](http://pcwww.liv.ac.uk/~iken/) at [Department of Computer Science,  University of Liverpool](https://www.liverpool.ac.uk/computer-science/).
 
