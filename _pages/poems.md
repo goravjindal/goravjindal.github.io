@@ -1,8 +1,10 @@
 ---
+<!---
 layout: page
-<!--- permalink: /poems/-->
+permalink: /poems
 title: Poems
 type: "docs"
+-->
 ---
 
 
