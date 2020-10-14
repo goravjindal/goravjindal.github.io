@@ -8,12 +8,14 @@ profile:
   align: right
   image: portrait.jpg
   address: >
-    <p>MA 302</p>
-    <p>Algorithmische Algebra</p>
+    <p>Technische Universität Berlin</p>
     <p>Institut für Mathematik</p>
-    <p>TU Berlin</p>
+    <p>Sekretariat MA 3-2</p>
     <p>Straße des 17. Juni 136</p>
     <p>10623 Berlin, Germany</p>
+
+
+
 
 news: true
 social: true
