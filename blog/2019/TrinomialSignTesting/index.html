@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Gorav Jindal</title>
+  <title>Gorav Jindal | Trinomial Sign Checking</title>
   <meta name="description" content="Gorav Jindal's personal and academic webpage.
 ">
 
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/blog/">
+  <link rel="canonical" href="/blog/2019/TrinomialSignTesting/">
 </head>
 
 
@@ -92,24 +92,219 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="header-bar">
-  <h1>Gorav Jindal's Blog</h1>
-  <h2>Random Thoughts</h2>
-</div>
+        <div class="post">
 
+  <header class="post-header">
+    <h1 class="post-title">Trinomial Sign Checking</h1>
+    <p class="post-meta">September 8, 2019</p>
+  </header>
 
-<ul class="post-list">
-  
-    <li>
-      <h2><a class="post-title" href="/blog/2019/TrinomialSignTesting/">Trinomial Sign Checking</a></h2>
-      <p class="post-meta">September 8, 2019 — 00:00</p>
-      <p></p>
-    </li>
-  
+  <article class="post-content">
+    <p>A special case of computing the sign of a trinomial at an integer
+rational number is solved.</p>
+
+<h3 id="preliminaries">Preliminaries</h3>
+<p>}</p>
+
+<h4 id="sparse-polynomial">Sparse polynomial</h4>
+
+<h4 id="definition-1">Definition 1</h4>
+
+<blockquote>
+  <p>An integer polynomial $f(x)\in\Z[x]$ is said to be an $(n,k,\tau)$-nomial
+if it can be written as in \ref{eq:nktau-nom} below.
+\begin{equation}
+f(x)=\sum_{i=1}^{k}f_{i}x^{e_{i}}.\label{eq:nktau-nom}
+\end{equation}</p>
+
+  <p>Here $0\leq e_{1}&lt;e_{2}&lt;\dots&lt;e_{k}\leq n$ and $\abs{f_{i}}\leq2^{\tau}$.</p>
+</blockquote>
+
+<p>Notice that an integer $(n,k,\tau)$-nomial can be represented using
+$k\cdot(\log n+\tau+3)$ bits. So we say that $k\cdot(\log n+\tau+3)$
+is the input size.</p>
+
+<h4 id="sign-checking">Sign Checking</h4>
+
+<h4 id="problem-1">Problem 1</h4>
+
+<blockquote>
+  <p><a name="probsignchecksparse">(prob 2)</a>Given an $(n,k,\tau)$-nomial $f$ and
+a rational number $\frac{p}{q}$ with $\logb{p,q}\leq s$, determine
+the sign of $f(\frac{p}{q})$.</p>
+</blockquote>
+
+<p>In <a href="#probsignchecksparse">prob 2</a>, the input size can be assumed to be
+$O(k\cdot(\log n+\tau)+s)$.</p>
+
+<h3 id="trinomials">Trinomials</h3>
+
+<p>Here, we are interested in <a href="#probsignchecksparse">prob 2</a> in the case
+when $k=3$. We call $(n,3,\tau)$-nomial be be trinomials. First
+we recall the following <a href="#propbinomiallarge">prop 3</a> from <a class="citation" href="#KOIRAN2019">(Koiran 2019)</a>.</p>
+<h4 id="proposition-1-proposition-4-in-koiran-2019">Proposition 1 (Proposition 4 in <a class="citation" href="#KOIRAN2019">(Koiran 2019)</a>)</h4>
+
+<blockquote>
+  <p><a name="propbinomiallarge">(prop 3)</a>Let $g(x)=a_{1}x^{\beta}+a_{2}$ where
+$a_{1},a_{2}$ are two nonzero integers and $\beta$ is a positive
+rational number. Write $\beta=\frac{\beta_{1}}{\beta_{2}}$, where
+$\beta_{1},\beta_{2}$ are positive integers. We evaluate the binomial
+$g$ at a rational point $\frac{p}{q}$ where $p$, $q$ are positive
+integers.</p>
+
+  <p>Assume that $\logb{p,q,a_{1},a_{2}}\leq s$ and $\logb{\beta_{1},\beta_{2}}\leq t$
+where $s,t\geq1$ . If $g(\frac{p}{q})\neq0$ then $\abs{g(\frac{p}{q})}\geq2^{-C_{1}ts^{2}}$
+for some constant $C_{1}$. Maybe $C_{1}\leq2^{68}$.</p>
+</blockquote>
+
+<h4 id="lemma-1-final-remarks-in-koiran-2019">Lemma 1 (Final remarks in <a class="citation" href="#KOIRAN2019">(Koiran 2019)</a>)</h4>
+
+<blockquote>
+  <p><a name="lemsignevalbiomial">(lem 4)</a>Let $g(x)=a_{1}x^{\beta}+a_{2}$ where
+$a_{1},a_{2}$ are two nonzero integers and $\beta$ is a positive
+integer. We can compute the sign of $g$ at a rational point $\frac{p}{q}$
+where $p$, $q$ are positive integers, in polynomial time.</p>
+</blockquote>
+
+<p>First we make an easy observation that solving <a href="#probsignchecksparse">prob 2</a>
+for the case $\frac{p}{q}&gt;0$ suffices, because otherwise we can compute
+the sign of $f(-x)$ at $-\frac{p}{q}$. Note that $f(-x)$ is also
+$(n,k,\tau)$-nomial if $f(x)$ is. Now we can also assume that $\frac{p}{q}&gt;1$.
+This is because $\sgn(f(\frac{p}{q}))=\sgn(g(\frac{q}{p}))$, where
+$g(x)=x^{n}f(\frac{1}{x})$. Note that $g(x)$ is also $(n,k,\tau)$-nomial
+if $f(x)$ is. By using these observations, we obtain the following
+easy <a href="#lemsignchecking">lem 5</a>.</p>
+<h4 id="lemma-2">Lemma 2</h4>
+
+<blockquote>
+  <p><a name="lemsignchecking">(lem 5)</a>Let $\frac{p}{q}=1+\epsilon$ (with $\epsilon\leq1$)
+and $f$ be an $(n,3,\tau)$-nomial. Assume that $\logb{p,q}\leq\tau$.
+We can compute $\sgn(f(\frac{p}{q}))$ in randomized $\poly\left(\frac{1}{\epsilon},\tau,\log n\right)$
+time.</p>
+</blockquote>
+
+<h4 id="proof">Proof</h4>
+
+<p>Suppose $f=ax^{n}+bx^{m}+c$ with $n&gt;m$. Write $f$ as $f=x^{m}g+c$
+with $g=ax^{n-m}+b$. First we check if $g(\frac{p}{q})=0$ (can be
+done in randomized polynomial time). If $g(\frac{p}{q})=0$ then $\sgn(f(\frac{p}{q}))=\sgn(c)$,
+therefore $\sgn(f(\frac{p}{q}))$ an be easily computed. So we can
+assume that $g(\frac{p}{q})\neq0$. By using <a href="#propbinomiallarge">prop 3</a>,we
+obtain that</p>
+
+<p>\begin{equation}
+\abs{g(\frac{p}{q})}\geq2^{-C_{1}\log n\cdot\tau^{2}}.
+\end{equation}</p>
+
+<p>Now we have the following cases.</p>
+
+<ul>
+  <li>$m$ is large. More specifically, $m&gt;\frac{C_{1}\log n\cdot\tau^{2}+2\tau}{\log(1+\epsilon)}$.
+In this case, we have: $\abs{(\frac{p}{q})^{m}g}&gt;2^{m\log(1+\epsilon)-C_{1}\log n\cdot\tau^{2}}&gt;2^{2\tau}$.
+Therefore $\sgn(f(\frac{p}{q}))$ is same as that of $\sgn(g(\frac{p}{q}))$,
+which can be computed in polynomial time (by using <a href="#lemsignevalbiomial">lem 4</a>).</li>
+  <li>$m$ is small. More specifically, $m\leq\frac{C_{1}\log n\cdot\tau^{2}+2\tau}{\log(1+\epsilon)}$.
+Now we have two sub-cases.
+    <ul>
+      <li>$n$ is large compared to $m$. More specifically, $n&gt;\frac{2\tau+\log(1+(1+\epsilon)^{m})}{\log(1+\epsilon)}$.
+In this case, leading monomial $ax^{n}$ determines the sign of $f$.
+Therefore $\sgn(f(\frac{p}{q}))=\sgn(a)$. Hence sign can be computed
+easily.</li>
+      <li>$n$ is comparable to $m$. More specifically, $n\leq\frac{2\tau+\log(1+(1+\epsilon)^{m})}{\log(1+\epsilon)}$.
+In this case, $n=O(2\tau+m)$. We also know that $m\leq\frac{C_{1}\log n\cdot\tau^{2}+2\tau}{\log(1+\epsilon)}\leq(C_{1}\log n\cdot\tau^{2}+2\tau)\cdot(1+\frac{1}{\epsilon})$.
+Thus both $m,n$ are $O((C_{1}\log n\cdot\tau^{2}+2\tau)\cdot(1+\frac{1}{\epsilon}))$.
+This implies that degree of $f$ is ``low’’ (logarithmic). Hence
+we can exactly evaluate $f$ at $\frac{p}{q}$ to compute $\sgn(f(\frac{p}{q}))$,
+in polynomial time.</li>
+    </ul>
+  </li>
 </ul>
 
+<h4 id="remark-1">Remark 1</h4>
 
+<blockquote>
+  <p>If $\frac{p}{q}=1+\epsilon$ with $\epsilon&gt;1$ in <a href="#lemsignchecking">lem 5</a>,
+then our task becomes even easier.</p>
+</blockquote>
 
+<h4 id="corollary-1">Corollary 1</h4>
+
+<blockquote>
+  <p>Let $f$ be an $(n,3,\tau)$-nomial and $\frac{p}{q}$ be a rational
+point with $\logb{p,q}\leq\tau$. Let $\epsilon=\max\left(\abs{\frac{p}{q}}-1,\abs{\frac{q}{p}}-1\right)$.
+We can compute $\sgn(f(\frac{p}{q}))$ in randomized $\poly\left(\frac{1}{\epsilon},\tau,\log n\right)$
+time.</p>
+</blockquote>
+
+<h3 id="references">References</h3>
+<ol class="bibliography"><li>
+
+<div id="KOIRAN2019">
+    <span class="title">Root separation for trinomials</span>
+    <span class="author">
+      
+        
+          
+            Koiran, Pascal
+          
+        
+      
+    </span>
+
+    <span class="periodical">
+    
+      <em>Journal of Symbolic Computation</em>
+    
+    
+      2019
+    
+    </span>
+
+  <span class="links">
+  
+    [<a class="abstract">Abstract</a>]
+  
+  
+  
+  
+  
+	 
+	 
+  
+  
+  
+  
+    [<a href="http://www.sciencedirect.com/science/article/pii/S074771711930015X" target="_blank"><i class="fas fa-external-link-alt"></i>URL</a>]
+  
+  </span>
+
+  <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>We give a separation bound for the complex roots of a trinomial f∈Z[X]. The logarithm of the inverse of our separation bound is polynomial in the size of the sparse encoding of f; in particular, it is polynomial in log⁡(deg⁡f). It is known that no such bound is possible for 4-nomials (polynomials with 4 monomials). For trinomials, the classical results (which are based on the degree of f rather than the number of monomials) give separation bounds that are exponentially worse. As an algorithmic application, we show that the number of real roots of a trinomial f can be computed in time polynomial in the size of the sparse encoding of f. The same problem is open for 4-nomials.</p>
+  </span>
+  
+</div>
+</li></ol>
+
+  </article>
+
+  
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      var disqus_shortname  = 'https-goravjindal-github-io';
+      var disqus_identifier = '/blog/2019/TrinomialSignTesting';
+      var disqus_title      = "Trinomial Sign Checking";
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  
+
+</div>
 
       </div>
     </div>
