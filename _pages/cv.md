@@ -28,7 +28,9 @@ Education
 
 Work experience
 ======
-* November 2019-present:  Postdoctoral researcher.
+* October 2020-present:  Postdoctoral researcher.
+  * Institut für Mathematik, TU Berlin, Germany.
+* November 2019-October 2020:  Postdoctoral researcher.
   * Department of Computer Science, Aalto University, Espoo ,Finland.
 * September 2018-November 2019:  Visiting doctoral candidate.
   * Department of Computer Science, Aalto University, Espoo ,Finland.
