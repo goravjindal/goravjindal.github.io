@@ -1,115 +1,486 @@
----
----
+ Encoding: UTF-8
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+ @article{DuttaGIJL25,
+  author       = {Pranjal Dutta and
+                  Fulvio Gesmundo and
+                  Christian Ikenmeyer and
+                  Gorav Jindal and
+                  Vladimir Lysikov},
+  title        = {Geometric complexity theory for product-plus-power},
+  journal      = {J. Symb. Comput.},
+  volume       = {132},
+  pages        = {102458},
+  year         = {2025},
+  abbr         = {JSC},
+  pdf          = {gctppp.pdf},
+  url          = {https://doi.org/10.1016/j.jsc.2025.102458},
+  doi          = {10.1016/J.JSC.2025.102458},
+  timestamp    = {Fri, 04 Jul 2025 22:14:11 +0200},
+  biburl       = {https://dblp.org/rec/journals/jsc/DuttaGIJL26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@InProceedings{blaser2024posslp,
+  author =	{Bl\"{a}ser, Markus and D\"{o}rfler, Julian and Jindal, Gorav},
+  title =	{{PosSLP and Sum of Squares}},
+  booktitle =	{44th IARCS Annual Conference on Foundations of Software Technology and Theoretical Computer Science (FSTTCS 2024)},
+  pages =	{13:1--13:18},
+  series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+  ISBN =	{978-3-95977-355-3},
+  ISSN =	{1868-8969},
+  year =	{2024},
+  volume =	{323},
+  video={https://youtu.be/fEzHeQ5R8c4},
+  slides={FSTTCS24GoravSlides.pdf},
+  abbr={FSTTCS},
+  conf={FSTTCS},
+  pdf={SoSposslp2024.pdf},
+  editor =	{Barman, Siddharth and Lasota, S{\l}awomir},
+  publisher =	{Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
+  address =	{Dagstuhl, Germany},
+  URL =		{https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.FSTTCS.2024.13},
+  URN =		{urn:nbn:de:0030-drops-222028},
+  doi =		{10.4230/LIPIcs.FSTTCS.2024.13},
+  abstract = {The problem PosSLP is the problem of determining whether a given straight-line program (SLP) computes a positive integer. PosSLP was introduced by Allender et al. to study the complexity of numerical analysis (Allender et al., 2009). PosSLP can also be reformulated as the problem of deciding whether the integer computed by a given SLP can be expressed as the sum of squares of four integers, based on the well-known result by Lagrange in 1770, which demonstrated that every natural number can be represented as the sum of four non-negative integer squares.
+In this paper, we explore several natural extensions of this problem by investigating whether the positive integer computed by a given SLP can be written as the sum of squares of two or three integers. We delve into the complexity of these variations and demonstrate relations between the complexity of the original PosSLP problem and the complexity of these related problems. Additionally, we introduce a new intriguing problem called Div2SLP and illustrate how Div2SLP is connected to DegSLP and the problem of whether an SLP computes an integer expressible as the sum of three squares.
+By comprehending the connections between these problems, our results offer a deeper understanding of decision problems associated with SLPs and open avenues for further exciting research.},
+  annote =	{Keywords: PosSLP, Straight-line program, Polynomial identity testing, Sum of squares}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@InProceedings{dutta2022debordering,
+  author =	{Dutta, Pranjal and Gesmundo, Fulvio and Ikenmeyer, Christian and Jindal, Gorav and Lysikov, Vladimir},
+  title =	{{Fixed-Parameter Debordering of Waring Rank}},
+  booktitle =	{41st International Symposium on Theoretical Aspects of Computer Science (STACS 2024)},
+  pages =	{30:1--30:15},
+  series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+  ISBN =	{978-3-95977-311-9},
+  ISSN =	{1868-8969},
+  year =	{2024},
+  volume =	{289},
+  abbr={STACS},
+  conf={STACS},
+  pdf={stacs24-fptborderwr.pdf},
+  editor =	{Beyersdorff, Olaf and Kant\'{e}, Mamadou Moustapha and Kupferman, Orna and Lokshtanov, Daniel},
+  publisher =	{Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
+  address =	{Dagstuhl, Germany},
+  URL =		{https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.STACS.2024.30},
+  URN =		{urn:nbn:de:0030-drops-197403},
+  doi =		{10.4230/LIPIcs.STACS.2024.30},
+  annote =	{Keywords: border complexity, Waring rank, debordering, apolarity},
+  abstract ={Border complexity measures are defined via limits (or topological closures), so that any function which can approximated arbitrarily closely by low complexity functions itself has low border complexity. Debordering is the task of proving an upper bound on some non-border complexity measure in terms of a border complexity measure, thus getting rid of limits. Debordering is at the heart of understanding the difference between Valiant’s determinant vs permanent conjecture, and Mulmuley and Sohoni’s variation which uses border determinantal complexity. The debordering of matrix multiplication tensors by Bini played a pivotal role in the development of efficient matrix multiplication algorithms. Consequently, debordering finds applications in both establishing computational complexity lower bounds and facilitating algorithm design. Currently, very few debordering results are known. In this work, we study the question of debordering the border Waring rank of polynomials. Waring and border Waring rank are very well studied measures in the context of invariant theory, algebraic geometry, and matrix multiplication algorithms. For the first time, we obtain a Waring rank upper bound that is exponential in the border Waring rank and only linear in the degree. All previous known results were exponential in the degree. For polynomials with constant border Waring rank, our results imply an upper bound on the Waring rank linear in degree, which previously was only known for polynomials with border Waring rank at most 5.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@InProceedings{dutta2024homogeneous,
+  author =	{Dutta, Pranjal and Gesmundo, Fulvio and Ikenmeyer, Christian and Jindal, Gorav and Lysikov, Vladimir},
+  title =	{{Homogeneous Algebraic Complexity Theory and Algebraic Formulas}},
+  booktitle =	{15th Innovations in Theoretical Computer Science Conference (ITCS 2024)},
+  pages =	{43:1--43:23},
+  series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+  ISBN =	{978-3-95977-309-6},
+  ISSN =	{1868-8969},
+  year =	{2024},
+  volume =	{287},
+  abbr={ITCS},
+  video={https://youtu.be/S-4YK2hE08g},
+  pdf={itcs24-homogeneous.pdf},
+  editor =	{Guruswami, Venkatesan},
+  publisher =	{Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
+  address =	{Dagstuhl, Germany},
+  URL =		{https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2024.43},
+  URN =		{urn:nbn:de:0030-drops-195713},
+  doi =		{10.4230/LIPIcs.ITCS.2024.43},
+  abstract = {We study algebraic complexity classes and their complete polynomials under homogeneous linear projections, not just under the usual affine linear projections that were originally introduced by Valiant in 1979. These reductions are weaker yet more natural from a geometric complexity theory (GCT) standpoint, because the corresponding orbit closure formulations do not require the padding of polynomials. We give the first complete polynomials for VF, the class of sequences of polynomials that admit small algebraic formulas, under homogeneous linear projections: The sum of the entries of the non-commutative elementary symmetric polynomial in 3 by 3 matrices of homogeneous linear forms. Even simpler variants of the elementary symmetric polynomial are hard for the topological closure of a large subclass of VF: the sum of the entries of the non-commutative elementary symmetric polynomial in 2 by 2 matrices of homogeneous linear forms, and homogeneous variants of the continuant polynomial (Bringmann, Ikenmeyer, Zuiddam, JACM '18). This requires a careful study of circuits with arity-3 product gates. },
+  annote =	{Keywords: Homogeneous polynomials, Waring rank, Arithmetic formulas, Border complexity, Geometric Complexity theory, Symmetric polynomials}
+}
+
+@inproceedings{burgisser2024hardness,
+author = {Peter Bürgisser and Gorav Jindal},
+title = {On the Hardness of PosSLP},
+booktitle = {Proceedings of the 2024 Annual ACM-SIAM Symposium on Discrete Algorithms (SODA)},
+year={2024},
+chapter = {},
+      abbr={SODA},
+      keywords = {sel},
+  slides={SODA24GoravSlides.pdf},
+      pdf={posslpsoda2024.pdf},
+pages = {1872-1886},
+doi = {10.1137/1.9781611977912.75},
+URL = {https://epubs.siam.org/doi/abs/10.1137/1.9781611977912.75},
+eprint = {https://epubs.siam.org/doi/pdf/10.1137/1.9781611977912.75},
+    abstract = { Abstract The problem PosSLP involves determining whether an integer computed by a given straight-line program is positive. This problem has attracted considerable attention within the field of computational complexity as it provides a complete characterization of the complexity associated with numerical computation. However, non-trivial lower bounds for PosSLP remain unknown. In this paper, we demonstrate that PosSLP ∈ BPP would imply that NP ⊆ BPP, under the assumption of a conjecture concerning the complexity of the radical of a polynomial proposed by Dutta, Saxena, and Sinhababu (STOC’2018). Our proof builds upon the established NP-hardness of determining if a univariate polynomial computed by an SLP has a real root, as demonstrated by Perrucci and Sabia (JDA’2005). }
+}
+
+
+
+@misc{dutta2022debordering,
+      title={De-bordering and Geometric Complexity Theory for Waring rank and related models}, 
+      author={Pranjal Dutta and Fulvio Gesmundo and Christian Ikenmeyer and Gorav Jindal and Vladimir Lysikov},
+      year={2022},
+      eprint={2211.07055},
+      arxiv={2211.07055},
+      abbr={arXiv},
+      archivePrefix={arXiv},
+      abstract={De-bordering is the task of proving that a border complexity measure is bounded from
+below, by a non-border complexity measure. This task is at the heart of understanding the
+difference between Valiant’s determinant vs permanent conjecture, and Mulmuley and Sohoni’s
+Geometric Complexity Theory (GCT) approach to settle the P 6= NP conjecture. Currently, very
+few de-bordering results are known.
+In this work, we study the question of de-bordering the border Waring rank of polynomials.
+Waring and border Waring rank are very well studied measures, in the context of invariant
+theory, algebraic geometry and matrix multiplication algorithms. For the first time, we obtain
+a Waring rank upper bound that is exponential in the border Waring rank and only linear in the
+degree. All previous results were known to be exponential in the degree.
+According to Kumar’s recent surprising result (ToCT’20), a small border Waring rank
+implies that the polynomial can be approximated as a sum of a constant and a small product
+of linear polynomials. We prove the converse of Kumar’s result, and in this way we de-border
+Kumar’s complexity, and obtain a new formulation of border Waring rank, up to a factor of the
+degree. We phrase this new formulation as the orbit closure problem of the product-plus-power
+polynomial, and we successfully de-border this orbit closure. We fully implement the GCT
+approach against the power sum, and we generalize the ideas of Ikenmeyer-Kandasamy
+(STOC’20) to this new orbit closure. In this way, we obtain new multiplicity obstructions that
+are constructed from just the symmetries of the points and representation theoretic branching
+rules, rather than explicit multilinear computations.
+Furthermore, we realize that the generalization of our converse of Kumar’s theorem to
+square matrices gives a homogeneous formulation of Ben-Or and Cleve (SICOMP’92). This
+results for the first time in a VF-complete family under homogeneous projections. We study
+this approach further and obtain that a homogeneous variant of the continuant polynomial,
+which was studied by Bringmann, Ikenmeyer, Zuiddam (JACM’18), is VQP-complete under
+homogeneous border qp-projections. Such results are required to set up the GCT approach in
+a way that avoids the no-go theorems of Bürgisser, Ikenmeyer, Panova (JAMS’19)},
+      primaryClass={cs.CC}
+}
+
+@inproceedings{jindalgaillard2023,
+author = {Gaillard, Louis and Jindal, Gorav},
+title = {On the Order of Power Series and the Sum of Square Roots Problem},
+year = {2023},
+isbn = {9798400700392},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3597066.3597079},
+doi = {10.1145/3597066.3597079},
+abstract = {This paper focuses on the study of the order of power series that are linear combinations of a given finite set of power series. The order of a formal power series, known as , is defined as the minimum exponent of x that has a non-zero coefficient in f(x). Our first result is that the order of the Wronskian of these power series is equivalent up to a polynomial factor, to the maximum order which occurs in the linear combination of these power series. This implies that the Wronskian approach used in (Kayal and Saha, TOCT’2012) to upper bound the order of sum of square roots is optimal up to a polynomial blowup. We also demonstrate similar upper bounds, similar to those of (Kayal and Saha, TOCT’2012), for the order of power series in a variety of other scenarios. We also solve a special case of the inequality testing problem outlined in (Etessami et al., TOCT’2014). In the second part of the paper, we study the equality variant of the sum of square roots problem, which is decidable in polynomial time due to (Bl\"{o}mer, FOCS’1991). We investigate a natural generalization of this problem when the input integers are given as straight line programs. Under the assumption of the Generalized Riemann Hypothesis (GRH), we show that this problem can be reduced to the so-called “one dimensional” variant. We identify the key mathematical challenges for solving this “one dimensional” variant.},
+booktitle = {Proceedings of the 2023 International Symposium on Symbolic and Algebraic Computation},
+pages = {354–362},
+numpages = {9},
+keywords = {Straight line Programs., Sum of square roots, Wronskian, Differential equations, Formal power series},
+location = {Troms\o{}, Norway},
+pdf={gaillard2023order.pdf},
+  slides={ISSAC_gaillard_Slides.pdf},
+abbr={ISSAC},
+series = {ISSAC '23}
+}
+
+@InProceedings{djpa2021,
+  author =	{Dutta, Pranjal and Jindal, Gorav and Pandey, Anurag and Sinhababu, Amit},
+  title =	{{Arithmetic Circuit Complexity of Division and Truncation}},
+  booktitle =	{36th Computational Complexity Conference (CCC 2021)},
+  pages =	{25:1--25:36},
+  series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+  ISBN =	{978-3-95977-193-1},
+  ISSN =	{1868-8969},
+  year =	{2021},
+  abbr={CCC},
+  abstract = {Given polynomials \(f,g,h \in 𝔽[x_1,\ldots,x_n]\) such that \(f = g/h\), where both \(g\) and \( h \)    are computable by arithmetic circuits of size \(s\), we show that \(f \)  can be computed by a circuit of size \(poly(s,\deg(h))\). This solves a special case of division elimination for high-degree circuits (Kaltofen'87 & WACT'16). The result is an exponential improvement over Strassen’s classic result (Strassen'73) when \(\deg(h)\) is \(poly(s)\) and \(\deg(f)\) is \(\exp(s)\), since the latter gives an upper bound of \(poly(s, \deg(f))\).
+Further, we show that any univariate polynomial family \((f_d)_d\), defined by the initial segment of the power series expansion of rational function \(g_d(x)/h_d(x)\) up to degree \(d\) (i.e. \(f_d = g_d/h_d \bmod (x^{d+1})\)), where circuit size of \(g\) is \(s_d\) and degree of \(g_d\) is at most \(d\), can be computed by a circuit of size \(poly(s_d,\deg(h_d),\log(d))\). We also show a hardness result when the degrees of the rational functions are high (i.e. \(\Omega (d)\)), assuming hardness of the integer factorization problem.
+
+Finally, we extend this conditional hardness to simple algebraic functions as well, and show that for every prime \(p\), there is an integral algebraic power series with its minimal polynomial satisfying a degree p polynomial equation, such that its initial segment is hard to compute unless integer factoring is easy, or a multiple of \(n!\) is easy to compute. Both, integer factoring and computation of multiple of \(n!\), are believed to be notoriously hard. In contrast, we show examples of transcendental power series whose initial segments are easy to compute.},
+  volume =	{200},
+  editor =	{Kabanets, Valentine},
+  publisher =	{Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
+  address =	{Dagstuhl, Germany},
+  URL =		{https://drops.dagstuhl.de/opus/volltexte/2021/14299},
+  URN =		{urn:nbn:de:0030-drops-142990},
+  doi =		{10.4230/LIPIcs.CCC.2021.25},
+  annote =	{Keywords: Arithmetic Circuits, Division, Truncation, Division elimination, Rational function, Algebraic power series, Transcendental power series, Integer factorization},
   selected={true},
-  inspirehep_id = {3255}
+  pdf={divisionandTruncation2021.pdf},
+  slides={goravccc2021.pdf},
+  video={https://www.youtube.com/watch?v=ZQnp_3olvHQ}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@misc{jindal2020zeros,
+author = {Jindal, Gorav and Pandey, Anurag and Shukla, Himanshu and Zisopoulos, Charilaos},
+title = {How Many Zeros of a Random Sparse Polynomial Are Real?},
+year = {2020},
+isbn = {9781450371001},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3373207.3404031},
+doi = {10.1145/3373207.3404031},
+abstract = {We investigate the number of real zeros of a univariate k-sparse polynomial f over the reals, when the coefficients of f come from independent standard normal distributions. Recently B\"{u}rgisser, Erg\"{u}r and Tonelli-Cueto showed that the expected number of real zeros of f in such cases is bounded by [EQUATION]. In this work, we improve the bound to [EQUATION] and also show that this bound is tight by constructing a family of sparse support whose expected number of real zeros is lower bounded by [EQUATION]. Our main technique is an alternative formulation of the Kac integral by Edelman-Kostlan which allows us to bound the expected number of zeros of f in terms of the expected number of zeros of polynomials of lower sparsity. Using our technique, we also recover the O (log n) bound on the expected number of real zeros of a dense polynomial of degree n with coefficients coming from independent standard normal distributions.},
+booktitle = {Proceedings of the 45th International Symposium on Symbolic and Algebraic Computation},
+pages = {273–280},
+numpages = {8},
+  selected={true},
+  abbr={ISSAC},
+keywords = {real tau conjecture, random polynomials, sparse polynomials},
+location = {Kalamata, Greece},
+series = {ISSAC '20},
+pdf={randomrootssparsepoly20.pdf},
+slides={ISSAC2020Talk.pdf}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+  
+
+  
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{jsarxiv12,
+  title={Subtraction makes computing integers faster},
+  author={Jindal, Gorav and Saranurak, Thatchaphol },
+  year={2012},
+  abstract={
+    We show some facts regarding the question whether, for any number n, the length of the shortest Addition Multiplications Chain (AMC) computing n is polynomial in the length of the shortest division-free Straight Line Program (SLP) that computes n.
+    If the answer to this question is "yes", then we can show a stronger upper bound for PosSLP, the important problem which essentially captures the notion of efficient computation over the reals. If the answer is "no", then this would demonstrate how subtraction helps generating integers super-polynomially faster, given that addition and multiplication can be done in unit time.
+    In this paper, we show that, for almost all numbers, AMCs and SLPs need same asymptotic length for computation. However, for one specific form of numbers, SLPs are strictly more powerful than AMCs by at least one step of computation.},
+      abbr={arXiv},
+      arxiv={1212.2549}, 
+
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@inproceedings{bjissac14,
+ author = {Bl\"{a}ser, Markus and Jindal, Gorav},
+ title = {A New Deterministic Algorithm for Sparse Multivariate Polynomial Interpolation},
+ booktitle = {Proceedings of the 39th International Symposium on Symbolic and Algebraic Computation},
+      abbr={ISSAC},
+ series = {ISSAC '14},
+ year = {2014},
+ isbn = {978-1-4503-2501-1},
+ location = {Kobe, Japan},
+ pages = {51--58},
+ numpages = {8},
+ url = {http://doi.acm.org/10.1145/2608628.2608648},
+ doi = {10.1145/2608628.2608648},
+ acmid = {2608648},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {arithmetic circuits, black box interpolation, interpolation, polynomial interpolation},
+ abstract={We present a deterministic algorithm to interpolate an m-sparse n-variate polynomial which uses poly(n, m, log(H), log(d)) bit operations. Our algorithm works over the integers. Here H is a bound on the magnitude of the coefficient values of the given polynomial. The degree of given polynomial is bounded by d and m is upper bound on number of monomials. This running time is polynomial in the output size. Our algorithm only requires modular black box access to the given polynomial, as introduced in [12]. As an easy consequence, we obtain an algorithm to interpolate polynomials represented by arithmetic circuits.},
+ pdf={bjissac14.pdf}
+} 
+
+@InProceedings{bjpccc2017,
+  author =	{Markus Bl\"{a}ser and Gorav Jindal and Anurag Pandey},
+  title =	{{Greedy Strikes Again: A Deterministic PTAS for Commutative Rank of Matrix Spaces}},
+  booktitle =	{32nd Computational Complexity Conference (CCC 2017)},
+  pages =	{33:1--33:16},
+  series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+  ISBN =	{978-3-95977-040-8},
+  ISSN =	{1868-8969},
+  year =	{2017},
+  volume =	{79},
+  selected={true},
+      abbr={CCC},
+  editor =	{Ryan O'Donnell},
+  publisher =	{Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
+  address =	{Dagstuhl, Germany},
+  URL =		{http://drops.dagstuhl.de/opus/volltexte/2017/7519},
+  URN =		{urn:nbn:de:0030-drops-75194},
+  doi =		{10.4230/LIPIcs.CCC.2017.33},
+  pdf={bjpccc2017.pdf},
+  slides={CCC2017Talk.pdf},
+  video={https://youtu.be/T4ui-gPPa2I},
+  annote =	{Keywords: Commutative Rank, Matrix Spaces, PTAS, Wong sequences},
+  abstract={
+            We consider the problem of commutative rank computation of a given matrix space. A matrix space is a (linear) subspace of the (linear) space of n x n matrices over a given field. The problem is fundamental, as it generalizes several computational problems from algebra and combinatorics. For instance, checking if the commutative rank of the space is n, subsumes problems such as testing perfect matching in graphs and identity testing of algebraic branching programs. An efficient deterministic computation of the commutative rank is a major open problem, although there is a simple and efficient randomized algorithm for it. Recently, there has been a series of results on computing the non-commutative rank of matrix spaces in deterministic polynomial time. Since the non-commutative rank of any matrix space is at most twice the commutative rank, one immediately gets a deterministic 1/2-approximation algorithm for the computation of the commutative rank. This leads to a natural question of whether this approximation ratio can be improved. In this paper, we answer this question affirmatively. We present a deterministic Polynomial-time approximation scheme (PTAS) for computing the commutative rank of a given matrix space B. More specifically, given a matrix space and a rational number e > 0, we give an algorithm, that runs in time O(n^(4 + 3/e)) and computes a matrix A in the given matrix space B such that the rank of A is at least (1-e) times the commutative rank of B. The algorithm is the natural greedy algorithm. It always takes the first set of k matrices that will increase the rank of the matrix constructed so far until it does not find any improvement, where the size of the set k depends on e.
+            }
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@InProceedings{bjptoc2018,
+author = {Bl{\"a}ser, Markus and Jindal, Gorav and Pandey, Anurag},
+ title = {A Deterministic PTAS for the Commutative Rank of Matrix Spaces},
+ booktitle = {Theory of Computing},
+ year = {2018},
+ pages = {1--21},
+ doi = {10.4086/toc.2018.v014a003},
+ publisher = {Theory of Computing},
+ journal = {Theory of Computing},
+ volume = {14},
+      abbr={TOC},
+ number = {3},
+ pdf={bjptoc2018.pdf},
+ image={bjp-scanned-scaled.jpg},
+ video={https://youtu.be/T4ui-gPPa2I},
+ URL = {http://www.theoryofcomputing.org/articles/v014a003},
+ abstract={
+           We consider the problem of computing the commutative rank of a given matrix space B⊆Fn×n, that is, given a basis of B, find a matrix of maximum rank in B. This problem is fundamental, as it generalizes several computational problems from algebra and combinatorics. For instance, checking if the commutative rank of the space is n, subsumes problems such as testing perfect matching in graphs and identity testing of algebraic branching programs. Finding an efficient deterministic algorithm for the commutative rank is a major open problem, although there is a simple and efficient randomized algorithm for it. Recently, there has been a series of results on computing the non-commutative rank of matrix spaces in deterministic polynomial time. Since the non-commutative rank of any matrix space is at most twice the commutative rank, one immediately gets a deterministic 1/2
+
+-approximation algorithm for the commutative rank. It is a natural question whether this approximation ratio can be improved. In this paper, we answer this question affirmatively.
+
+We present a deterministic polynomial-time approximation scheme (PTAS) for computing the commutative rank of a given matrix space. More specifically, given a matrix space B⊆Fn×n
+and a rational number ϵ>0, we give an algorithm that runs in time O(n4+3/ϵ) and computes a matrix A∈B such that the rank of A is at least (1−ϵ) times the commutative rank of B. The algorithm is the natural greedy algorithm. It always takes the first set of k matrices that will increase the rank of the matrix constructed so far until it does not find any improvement, where the size k of the set depends on ϵ. }
 }
+
+@InProceedings{bbjpsoda19,
+author = {Vishwas Bhargava and Markus Bläser and Gorav Jindal and Anurag Pandey},
+title = {A Deterministic PTAS for the Algebraic Rank of Bounded Degree Polynomials},
+booktitle = {Proceedings of the Thirtieth Annual ACM-SIAM Symposium on Discrete Algorithms},
+chapter = {},
+  year =	{2019},
+pages = {647-661},
+      abbr={SODA},
+doi = {10.1137/1.9781611975482.41},
+URL = {https://epubs.siam.org/doi/abs/10.1137/1.9781611975482.41},
+pdf={bbjpsoda19.pdf},
+slides={AlgRankPTAS.pdf},
+eprint = {https://epubs.siam.org/doi/pdf/10.1137/1.9781611975482.41},
+abstract={
+          We present a deterministic polynomial time approximation scheme (PTAS) for computing the algebraic rank of a set of bounded degree polynomials. The notion of algebraic rank naturally generalizes the notion of rank in linear algebra, i.e., instead of considering only the linear dependencies, we also consider higher degree algebraic dependencies among the input polynomials.
+
+More specifically, we give an algorithm that takes as input a set of polynomials with degrees bounded by d, and a rational number ∊ > 0 and runs in time , where M(n) is the time required to compute the rank of an n × n matrix (with field entries), and finally outputs a number r, such that r is at least (1 – ∊) times the algebraic rank of f.
+
+Our key contribution is a new technique which allows us to achieve the higher degree generalization of the results by Bläser, Jindal, Pandey (CCC’17) who gave a deterministic PTAS for computing the rank of a matrix with homogeneous linear entries. It is known that a deterministic algorithm for exactly computing the rank in the linear case is already equivalent to the celebrated Polynomial Identity Testing (PIT) problem which itself would imply circuit complexity lower bounds (Kabanets, Impagliazzo, STOC’03).
+
+Such a higher degree generalization is already known to a much stronger extent in the non-commutative world, where the more general case in which the entries of the matrix are given by polysized formulas reduces to the case where the entries are given by linear polynomials using Higman's trick, and in the latter case, one can also compute the exact rank in polynomial time (Garg, Gurvits, Oliviera, Wigderson, FOCS’16, Ivanyos, Qiao, Subrahmanyam, ITCS’17). Higman's trick only preserves the co-rank, hence it cannot be used to reduce the problem of rank approximation to the case when the matrix entries are linear polynomials. Thus our work can also be seen as a step towards bridging the knowledge gap between the non-commutative world and the commutative world.
+          }
+}
+
+@InProceedings{bjitcs19,
+author =	{Markus Bl{\"a}ser and Gorav Jindal},
+  title =	{{On the Complexity of Symmetric Polynomials}},
+  booktitle =	{10th Innovations in Theoretical Computer Science  Conference (ITCS)},
+  pages =	{47:1--47:14},
+  series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+  ISBN =	{978-3-95977-095-8},
+  ISSN =	{1868-8969},
+  year =	{2019},
+  volume =	{124},
+      abbr={ITCS},
+  editor =	{Avrim Blum},
+  publisher =	{Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
+  address =	{Dagstuhl, Germany},
+  URL =		{http://drops.dagstuhl.de/opus/volltexte/2018/10140},
+  URN =		{urn:nbn:de:0030-drops-101402},
+  doi =		{10.4230/LIPIcs.ITCS.2019.47},
+  pdf={bjitcs19.pdf},
+slides={SymPolyPres.pdf},
+  annote =	{Keywords: Symmetric Polynomials, Arithmetic Circuits, Arithmetic Complexity, Power Series, Elementary Symmetric Polynomials, Newton's Iteration},
+  abstract={The fundamental theorem of symmetric polynomials states that for a symmetric polynomial f_{Sym} in C[x_1,x_2,...,x_n], there exists a unique "witness" f in C[y_1,y_2,...,y_n] such that f_{Sym}=f(e_1,e_2,...,e_n), where the e_i's are the elementary symmetric polynomials. In this paper, we study the arithmetic complexity L(f) of the witness f as a function of the arithmetic complexity L(f_{Sym}) of f_{Sym}. We show that the arithmetic complexity L(f) of f is bounded by poly(L(f_{Sym}),deg(f),n). To the best of our knowledge, prior to this work only exponential upper bounds were known for L(f). The main ingredient in our result is an algebraic analogue of Newton's iteration on power series. As a corollary of this result, we show that if VP != VNP then there exist symmetric polynomial families which have super-polynomial arithmetic complexity. Furthermore, we study the complexity of testing whether a function is symmetric. For polynomials, this question is equivalent to arithmetic circuit identity testing. In contrast to this, we show that it is hard for Boolean functions.}
+}
+
+
+@InProceedings{jkpsapprox17,
+  author =	{Gorav Jindal and Pavel Kolev and Richard Peng and Saurabh Sawlani},
+  title =	{{Density Independent Algorithms for Sparsifying k-Step Random Walks}},
+  booktitle =	{Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques (APPROX/RANDOM 2017)},
+  pages =	{14:1--14:17},
+  series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+  ISBN =	{978-3-95977-044-6},
+  ISSN =	{1868-8969},
+  year =	{2017},
+      abbr={APPROX/RANDOM},
+  volume =	{81},
+  editor =	{Klaus Jansen and Jos{\'e} D. P. Rolim and David Williamson and Santosh S. Vempala},
+  publisher =	{Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
+  address =	{Dagstuhl, Germany},
+  URL =		{http://drops.dagstuhl.de/opus/volltexte/2017/7563},
+  URN =		{urn:nbn:de:0030-drops-75638},
+  doi =		{10.4230/LIPIcs.APPROX-RANDOM.2017.14},
+  pdf={jkpsapprox17.pdf},
+  annote =	{Keywords: random walks, graph sparsification, spectral graph theory, effective resistances},
+  abstract={We give faster algorithms for producing sparse approximations of the transition matrices of k-step random walks on undirected and weighted graphs. These transition matrices also form graphs, and arise as intermediate objects in a variety of graph algorithms. Our improvements are based on a better understanding of processes that sample such walks, as well as tighter bounds on key weights underlying these sampling processes. On a graph with n vertices and m edges, our algorithm produces a graph with about nlog(n) edges that approximates the k-step random walk graph in about m + k^2 nlog^4(n) time. In order to obtain this runtime bound, we also revisit "density independent" algorithms for sparsifying graphs whose runtime overhead is expressed only in terms of the number of vertices.}
+}
+
+@inproceedings{bijvstoc18,
+ author = {Bl\"{a}ser, Markus and Ikenmeyer, Christian and Jindal, Gorav and Lysikov, Vladimir},
+ title = {Generalized Matrix Completion and Algebraic Natural Proofs},
+  selected={true},
+ booktitle = {Proceedings of the 50th Annual ACM SIGACT Symposium on Theory of Computing},
+ series = {STOC 2018},
+ year = {2018},
+ isbn = {978-1-4503-5559-9},
+ location = {Los Angeles, CA, USA},
+ pages = {1193--1206},
+ numpages = {14},
+      abbr={STOC},
+ url = {http://doi.acm.org/10.1145/3188745.3188832},
+ doi = {10.1145/3188745.3188832},
+ acmid = {3188832},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+  pdf={bijvstoc18.pdf},
+ keywords = {Algebraic natural proofs, completion rank, geometric complexity theory, matrix completion, tensor rank},
+abstract={Algebraic natural proofs were recently introduced by Forbes, Shpilka and Volk (Proc. of the 49th Annual ACM SIGACT Symposium on Theory of Computing (STOC), pages 653–664, 2017) and independently by Grochow, Kumar, Saks and Saraf (CoRR, abs/1701.01717, 2017) as an attempt to transfer Razborov and Rudich’s famous barrier result (J. Comput. Syst. Sci., 55(1): 24–35, 1997) for Boolean circuit complexity to algebraic complexity theory. Razborov and Rudich’s barrier result relies on a widely believed assumption, namely, the existence of pseudo-random generators. Unfortunately, there is no known analogous theory of pseudo-randomness in the algebraic setting. Therefore, Forbes et al. use a concept called succinct hitting sets instead. This assumption is related to polynomial identity testing, but it is currently not clear how plausible this assumption is. Forbes et al. are only able to construct succinct hitting sets against rather weak models of arithmetic circuits.
+
+Generalized matrix completion is the following problem: Given a matrix with affine linear forms as entries, find an assignment to the variables in the linear forms such that the rank of the resulting matrix is minimal. We call this rank the completion rank. Computing the completion rank is an NP-hard problem. As our first main result, we prove that it is also NP-hard to determine whether a given matrix can be approximated by matrices of completion rank ≤ b. The minimum quantity b for which this is possible is called border completion rank (similar to the border rank of tensors). Naturally, algebraic natural proofs can only prove lower bounds for such border complexity measures. Furthermore, these border complexity measures play an important role in the geometric complexity program.
+
+Using our hardness result above, we can prove the following barrier: We construct a small family of matrices with affine linear forms as entries and a bound b, such that at least one of these matrices does not have an algebraic natural proof of polynomial size against all matrices of border completion rank b, unless coNP ⊆ ∃ BPP. This is an algebraic barrier result that is based on a well-established and widely believed conjecture. The complexity class ∃ BPP is known to be a subset of the more well known complexity class in the literature. Thus ∃ BPP can be replaced by MA in the statements of all our results. With similar techniques, we can also prove that tensor rank is hard to approximate.
+
+Furthermore, we prove a similar result for the variety of matrices with permanent zero. There are no algebraic polynomial size natural proofs for the variety of matrices with permanent zero, unless P#P ⊆ ∃ BPP. On the other hand, we are able to prove that the geometric complexity theory approach initiated by Mulmuley and Sohoni (SIAM J. Comput. 31(2): 496–526, 2001) yields proofs of polynomial size for this variety, therefore overcoming the natural proofs barrier in this case.}
+}
+
+@thesis{master-thesis,
+  author       = {Gorav Jindal}, 
+  title        = {Randomness Efficient Testing of Sparse Black Box Polynomials and Related Tests},
+  school       = {Saarland University},
+  schoolurl = {https://saarland-informatics-campus.de/en/},
+      abbr={MasterThesis},
+  year         = {2013},
+  pdf      ={master-thesis.pdf},
+  slides      ={masterthesis-and-pdfqualifyingexam-gorav.pdf},
+  thesistype      ={Master's Thesis}
+}
+
+@thesis{phd-thesis-final,
+  author       = {Gorav Jindal}, 
+  title        = {On Approximate Polynomial Identity Testing and Real Root Finding},
+  school       = {Saarland University},
+  schoolurl = {https://saarland-informatics-campus.de/en/},
+      abbr={PhDThesis},
+  year         = {2019},
+  doi={10.22028/D291-29880},
+  pdf      ={phd-thesis-final.pdf},
+ url = {https://publikationen.sulb.uni-saarland.de/handle/20.500.11880/28320},
+  slides      ={DefenseTalkGoravJindal.pdf},
+  abstract = {In this thesis we study the following three topics, which share a connection through the (arithmetic) circuit complexity of polynomials.
+1. Rank of symbolic matrices.
+
+2. Computation of real roots of real sparse polynomials.
+
+3. Complexity of symmetric polynomials.
+
+We start with studying the commutative and non-commutative rank of symbolic matrices with linear forms as their entries. Here we show a deterministic polynomial time approximation scheme (PTAS) for computing the commutative rank. Prior to this work, deterministic polynomial time algorithms were known only for computing a 1/2-approximation of the commutative rank. We give two distinct proofs that our algorithm is a PTAS. We also give a min-max characterization of commutative and non-commutative ranks.
+
+Thereafter we direct our attention to computation of roots of uni-variate polynomial equations. It is known that solving a system of polynomial equations reduces to solving a uni-variate polynomial equation. We describe a polynomial time algorithm for (n,k,\tau)-nomials which computes approximations of all the real roots (even though it may also compute approximations of some complex roots). Moreover, we also show that the roots of integer trinomials are well-separated.
+
+Finally, we study the complexity of symmetric polynomials. It is known that symmetric Boolean functions are easy to compute. In contrast, we show that the assumption \VP\neq\VNP implies that there exist hard symmetric polynomials. To prove this result, we use an algebraic analogue of the classical Newton iteration.},
+  thesistype      ={PhD Thesis}
+}
+
+@thesis{bachelor-thesis,
+  author       = {Gorav Jindal}, 
+  title        = {Managing Secured Documents Over Long Periods},
+  school       = {Department of Computer Science and Engineering, IIT Delhi},
+  schoolurl = {https://www.cse.iitd.ernet.in},
+  year         = {2008},
+      abbr={BachelorThesis},
+  pdf      ={bachelor-thesis.pdf},
+  abstract = {Certificates and other legal documents play a very important role in our lives. However, currently there exists no such framework within which we can construct systems that can handle digitally secured documents over a period of say a couple of decades.This project is an attempt at analyzing the situation and then providing a suitable solution to the aforementioned problem.In this paper, we present the high level initial design with significant details of implementation of the system which can be used to address the problem. Our design and implementation is focused around creating an online degree certificate maintenance system for IIT Delhi. We will more specifically focus on on-fly generation of degree document and its verification on client side.},
+  thesistype      ={Bachelor's Thesis}
+}
+
+
+
+@inproceedings{jsissac17,
+ author = {Jindal, Gorav and Sagraloff, Michael},
+ title = {Efficiently Computing Real Roots of Sparse Polynomials},
+ booktitle = {Proceedings of the 2017 ACM on International Symposium on Symbolic and Algebraic Computation},
+ series = {ISSAC '17},
+ year = {2017},
+ isbn = {978-1-4503-5064-8},
+      abbr={ISSAC},
+ location = {Kaiserslautern, Germany},
+ pages = {229--236},
+ numpages = {8},
+ url = {http://doi.acm.org/10.1145/3087604.3087652},
+ doi = {10.1145/3087604.3087652},
+ acmid = {3087652},
+ publisher = {ACM},
+ pdf={jsissac17.pdf},
+ address = {New York, NY, USA},
+ keywords = {bit complexity, numerical algorithms, real roots, root approximation, root isolation, root refinement, sparse polynomials},
+ abstract={We propose an efficient algorithm to compute the real roots of a sparse polynomial f∈R[x] having k non-zero real-valued coefficients. It is assumed that arbitrarily good approximations of the non-zero coefficients are given by means of a coefficient oracle. For a given positive integer L, our algorithm returns disjoint disks Δ1,...,Δs⊂C, with s<2k, centered at the real axis and of radius less than 2-L together with positive integers μ1,...,μs such that each disk Δi contains exactly μi roots of f counted with multiplicity. In addition, it is ensured that each real root of f is contained in one of the disks. If f has only simple real roots, our algorithm can also be used to isolate all real roots. The bit complexity of our algorithm is polynomial in k and log n, and near-linear in L and τ, where 2-τ and 2τ constitute lower and upper bounds on the absolute values of the non-zero coefficients of f, and n is the degree of f. For root isolation, the bit complexity is polynomial in k and log n, and near-linear in τ and logσ-1, where σ denotes the separation of the real roots.}
+
+}
+

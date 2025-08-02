@@ -1,34 +1,86 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"kolev":
+  - firstname: ["Pavel"]
+    url: https://pavelkolev.github.io/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"saranurak":
+  - firstname: ["Thatchaphol"]
+    url: https://sites.google.com/site/thsaranurak/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"gesmundo":
+  - firstname: ["Fulvio"]
+    url: https://fulges.github.io/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"bläser":
+  - firstname: ["Markus"]
+    url: https://cc.cs.uni-saarland.de/mblaeser/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"bürgisser":
+  - firstname: ["Peter"]
+    url: https://www.tu.berlin/act/team/prof-dr-peter-buergisser
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"pandey":
+  - firstname: ["Anurag"]
+    url: http://people.mpi-inf.mpg.de/~apandey/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"jindal":
+  - firstname: ["Gorav"]
+    url: https://goravjindal.github.io/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"peng":
+  - firstname: ["Richard"]
+    url: https://scholar.google.de/citations?user=loh7ivYAAAAJ&hl=en
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"sawlani":
+  - firstname: ["Saurabh"]
+    url: https://sawlani.github.io/
+
+"sagraloff":
+  - firstname: ["Michael"]
+    url: https://scholar.google.de/citations?user=EImZFU4AAAAJ&hl=en
+
+"bhargava":
+  - firstname: ["Vishwas"]
+    url: https://sites.google.com/view/vishwas
+
+"ikenmeyer":
+  - firstname: ["Christian"]
+    url: https://www.dcs.warwick.ac.uk/~u2270030/
+
+"lysikov":
+  - firstname: ["Vladimir"]
+    url: https://qi.rub.de/lysikov
+
+"zisopoulos":
+  - firstname: ["Charilaos"]
+    url: https://www-cc.cs.uni-saarland.de/
+
+"dörfler":
+  - firstname: ["Julian"]
+    url: https://www-cc.cs.uni-saarland.de/
+
+"ouaknine":
+  - firstname: ["Joël"]
+    url: https://people.mpi-sws.org/~joel/
+
+"dutta":
+  - firstname: ["Pranjal"]
+    url:  https://sites.google.com/view/pduttashomepage
+
+"sinhababu":
+  - firstname: ["Amit"]
+    url: https://www.cmi.ac.in/people/fac-profile.php?id=amitks
+
+"shukla":
+  - firstname: ["Himanshu"]
+    url: http://home.iitk.ac.in/~hishukla/
+
+"gaillard":
+  - firstname: ["Louis"]
+    url: http://www.ens-lyon.fr/lecole/nous-connaitre/annuaire/louis-gaillard
+
+[ccc2017]: https://computationalcomplexity.org/Archive/2017/program.php
+[approx17]: http://cui.unige.ch/tcs/random-approx/2017/
+[pavelkolev]: http://people.mpi-inf.mpg.de/~pkolev/
+[stoc18]: http://acm-stoc.org/stoc2018/
+[soda19]: https://www.siam.org/Conferences/CM/Conference/soda19
+[itcs19]: http://cseweb.ucsd.edu/~slovett/conferences/itcs2019/
