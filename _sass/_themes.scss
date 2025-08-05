@@ -159,3 +159,17 @@ html[data-theme-setting="light"] {
     display: block;
   }
 }
+
+
+blockquote.theorem {
+  background-color: #f7f7f7; // A light gray background
+  border-left: 5px solid #2a8dff; // A colored left border
+  margin: 1.5em 0; // Spacing around the block
+  padding: 1em 1.5em; // Padding inside the block
+  font-style: italic; // Italicize the text
+}
+
+blockquote.theorem strong {
+  font-style: normal; // Make the "Theorem" heading normal font style
+}
+
