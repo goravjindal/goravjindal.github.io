@@ -42,6 +42,14 @@
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
+  --theorem-color: #003366;
+  --lemma-color: #006400;
+  --corollary-color: #800000;
+  --definition-color: #8B4513;
+  --example-color: #FF8C00;
+  --proof-color: #2F4F4F;
+
+  --math-bg-color: #f9f9f9;
 
   #light-toggle-system {
     padding-left: 10px;
@@ -161,15 +169,56 @@ html[data-theme-setting="light"] {
 }
 
 
-blockquote.theorem {
-  background-color: #f7f7f7; // A light gray background
-  border-left: 5px solid #2a8dff; // A colored left border
-  margin: 1.5em 0; // Spacing around the block
-  padding: 1em 1.5em; // Padding inside the block
-  font-style: italic; // Italicize the text
+/* Base math environment */
+.math-block {
+  padding: 0.5em 0.75em;    /* corrected typo */
+  margin: 0.3em 0.3em;
+  border: 4px solid;      /* full box border */
+  border-radius: 8px;
+  scroll-margin-top: 73px;
+  font-style: italic;
 }
 
-blockquote.theorem strong {
-  font-style: normal; // Make the "Theorem" heading normal font style
+.proof::before {
+  content: "Proof. ";
+  font-weight: bold;
 }
 
+/* THEOREM */
+.theorem {
+  @extend .math-block;
+  border-color: var(--theorem-color);
+}
+
+/* LEMMA */
+.lemma {
+  @extend .math-block;
+  border-color: var(--lemma-color);
+}
+
+/* COROLLARY */
+.corollary {
+  @extend .math-block;
+  border-color: var(--corollary-color);
+}
+
+/* DEFINITION */
+.definition {
+  @extend .math-block;
+  border-color: var(--definition-color);
+  font-style: normal;
+}
+
+/* EXAMPLE */
+.example {
+  @extend .math-block;
+  border-color: var(--example-color);
+  font-style: normal;
+}
+
+/* PROOF */
+.proof {
+  @extend .math-block;
+  border-color: var(--proof-color);
+  font-style: normal;
+}
