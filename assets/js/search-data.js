@@ -41,7 +41,7 @@ ninja.data = [{
         
           title: "Transformation of Roots",
         
-        description: "Airthmetic circuits for Root transformed polynomials",
+        description: "Arithmetic circuits for Root transformed polynomials",
         section: "Posts",
         handler: () => {
           
