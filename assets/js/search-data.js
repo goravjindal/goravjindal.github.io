@@ -37,15 +37,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-a-post-with-math",
+        },{id: "post-transformation-of-roots",
         
-          title: "a post with math",
+          title: "Transformation of Roots",
         
-        description: "an example of a blog post with some math",
+        description: "Airthmetic circuits for Root transformed polynomials",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2015/math/";
+            window.location.href = "/blog/2025/08/transform-roots-act/";
           
         },
       },{id: "books-the-godfather",
