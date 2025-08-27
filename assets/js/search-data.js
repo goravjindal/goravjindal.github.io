@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-transformation-of-roots",
+        },{id: "post-transform-roots-act",
+        
+          title: "Transform Roots Act",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/08/transform-roots-act/";
+          
+        },
+      },{id: "post-transformation-of-roots",
         
           title: "Transformation of Roots",
         
