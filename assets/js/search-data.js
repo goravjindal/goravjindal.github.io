@@ -37,20 +37,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-transform-roots-act",
+        },{id: "post-transformation",
         
-          title: "Transform Roots Act",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/08/transform-roots-act/";
-          
-        },
-      },{id: "post-transformation-of-roots",
-        
-          title: "Transformation of Roots",
+          title: "Transformation",
         
         description: "Arithmetic circuits for Root transformed polynomials",
         section: "Posts",
