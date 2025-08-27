@@ -37,9 +37,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-transformation",
+        },{id: "post-transformation-of-roots",
         
-          title: "Transformation",
+          title: "Transformation of Roots",
         
         description: "Arithmetic circuits for Root transformed polynomials",
         section: "Posts",
