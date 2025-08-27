@@ -45,6 +45,7 @@
   --theorem-color: #003366;
   --lemma-color: #006400;
   --corollary-color: #800000;
+  --exercise-color: #FFFF00;
   --definition-color: #8B4513;
   --example-color: #FF8C00;
   --proof-color: #2F4F4F;
@@ -207,6 +208,13 @@ html[data-theme-setting="light"] {
 .example {
   @extend .math-block;
   border-color: var(--example-color);
+  font-style: normal;
+}
+
+/* EXERCISE */
+.exercise {
+  @extend .math-block;
+  border-color: var(--exercise-color);
   font-style: normal;
 }
 
