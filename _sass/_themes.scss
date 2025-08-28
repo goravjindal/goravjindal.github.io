@@ -169,58 +169,24 @@ html[data-theme-setting="light"] {
   }
 }
 
+a[id] {
+    scroll-margin-top: 70px; /* navbar height */
+}
 
-/* Base math environment */
-.math-block {
-  padding: 0.5em 0.75em;    /* corrected typo */
-  margin: 0.3em 0.3em;
-  border: 4px solid;      /* full box border */
+.newtheorem {
+  padding: 0.3em 0.3em;  
+  margin: 0.6em 0.0em;
+  border: 4px solid;      
   border-radius: 8px;
-  scroll-margin-top: 60px;
 }
 
-/* THEOREM */
-.theorem {
-  @extend .math-block;
-  border-color: var(--theorem-color);
-}
-
-/* LEMMA */
-.lemma {
-  @extend .math-block;
-  border-color: var(--lemma-color);
-}
-
-/* COROLLARY */
-.corollary {
-  @extend .math-block;
-  border-color: var(--corollary-color);
-}
-
-/* DEFINITION */
-.definition {
-  @extend .math-block;
-  border-color: var(--definition-color);
-  font-style: normal;
-}
-
-/* EXAMPLE */
-.example {
-  @extend .math-block;
-  border-color: var(--example-color);
-  font-style: normal;
-}
-
-/* EXERCISE */
-.exercise {
-  @extend .math-block;
-  border-color: var(--exercise-color);
-  font-style: normal;
-}
-
-/* PROOF */
 .proof {
-  @extend .math-block;
-  border-color: var(--proof-color);
-  font-style: normal;
+  padding: 0.5em 0.3em;  
+  margin: 0.4em 0.0em;
+  border: 3px solid;      
+  border-radius: 6px;
+}
+
+.newtheorem .head {
+  font-weight: bold;
 }
