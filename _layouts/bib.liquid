@@ -67,6 +67,7 @@
             {% assign author_is_self = true %}
           {% endif %}
         {%- endif -%}
+
         {% assign coauthor_url = null %}
         {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
         {% if site.data.coauthors[clean_last_name] %}
@@ -84,20 +85,21 @@
           {%- endif %}
           {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
         {% endif %}
+          {%- assign author_last_display = author_last_html | split: '_' | first -%}
         {%- if author_is_self -%}
           <em>
             {{- author.first }}
-            {{ author_last_html -}}
+            {{ author_last_display -}}
           </em>
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
               {{- author.first }}
-              {{ author_last_html -}}
+              {{ author_last_display -}}
             </a>
           {%- else -%}
             {{- author.first }}
-            {{ author_last_html -}}
+            {{ author_last_display -}}
           {% endif %}
         {%- endif -%}
       {% endfor %}

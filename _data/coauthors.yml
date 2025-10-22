@@ -18,6 +18,10 @@
   - firstname: ["Peter"]
     url: https://www.tu.berlin/act/team/prof-dr-peter-buergisser
 
+"dutta_2":
+  - firstname: ["Sagnik"]
+    url: https://www.mpi-inf.mpg.de/departments/algorithms-complexity/people/current-members/sagnik-dutta 
+
 "pandey":
   - firstname: ["Anurag"]
     url: http://people.mpi-inf.mpg.de/~apandey/
@@ -62,7 +66,7 @@
   - firstname: ["Joël"]
     url: https://people.mpi-sws.org/~joel/
 
-"dutta":
+"dutta_1":
   - firstname: ["Pranjal"]
     url:  https://sites.google.com/view/pduttashomepage
 
