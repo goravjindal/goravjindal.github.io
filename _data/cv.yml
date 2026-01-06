@@ -2,96 +2,128 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Dr. Gorav Jindal
+    - name: Current Position
+      value: Postdoctoral Researcher
+    - name: Email
+      value: gorav.jindal@gmail.com
+    - name: Phone
+      value: +49 15780883476
+    - name: Location
+      value: Regensburg, Bayern, Germany
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+- title: Research Summary
+  type: text
+  contents: >
+    My broad research interests lie within theoretical computer science and complexity theory,
+    with a focus on algebraic complexity theory and computer algebra. I explore various algebraic
+    models of computation and have recently begun investigating the theoretical foundations of
+    linear dynamical systems.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Postdoctoral Researcher
+      institution: University of Regensburg
+      year: 2025 - now
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Samuel Eilenberg Assistant Professor
+      institution: Institute of Informatics, University of Warsaw
+      year: 2025 - 2025
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    - title: Postdoctoral Researcher
+      institution: Max Planck Institute for Software Systems
+      year: 2022 - 2025
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Postdoctoral Researcher
+      institution: Institut für Mathematik, Technische Universität Berlin
+      year: 2020 - 2022
 
-- title: Open Source Projects
+    - title: Postdoctoral Researcher
+      institution: Department of Computer Science, Aalto University
+      year: 2019 - 2020
+
+    - title: Visiting Doctoral Candidate
+      institution: Department of Computer Science, Aalto University
+      year: 2018 - 2019
+
+    - title: Doctoral Candidate
+      institution: Max Planck Institute for Informatics
+      year: 2013 - 2018
+
+    - title: Teaching Assistant
+      institution: Saarland University
+      year: 2012 - 2013
+
+    - title: Hilfswissenschaftler
+      institution: Saarland University
+      year: 2012 - 2012
+
+    - title: Senior Software Developer
+      institution: Mentor Graphics (now Siemens EDA), India
+      year: 2008 - 2011
+
+- title: Education
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: PhD in Mathematics and Computer Science
+      institution: Saarland University, Germany
+      year: 2013 - 2019
+      description: Magna Cum Laude
+
+    - title: MSc in Computer Science
+      institution: Saarland University, Germany
+      year: 2011 - 2013
+      description: Grade 1.0/1.0
+
+    - title: BTech in Computer Science and Engineering
+      institution: Indian Institute of Technology Delhi, India
+      year: 2004 - 2008
+      description: Grade 7.044/10
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2014
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Günter-Hotz-Medaille — Awarded to the top 1–3 graduates of Saarland University
+    - year: 2004
       items:
-        - Max Planck Medal
+        - IITJEE — All India Rank 159 out of 175,000 students
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Skills
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Programming:</u> Python, Bash, C++, LaTeX
+    - <u>Applications:</u> Gvim, Git, Microsoft Office
+    - <u>Operating Systems:</u> Unix, Linux, Windows
+
+- title: Languages
+  type: list
+  contents:
+    - Hindi — Native speaker
+    - Punjabi — Native speaker
+    - English — Proficient
+    - German — B1 level
+
+- title: Academic Profile Links
+  type: list
+  contents:
+    - <a href="https://scholar.google.com/citations?user=VZnSCWMAAAAJ">Google Scholar</a>
+    - <a href="https://orcid.org/0000-0002-9749-5032">ORCID</a>
+    - <a href="https://dblp.org/pid/123/4675.html">DBLP</a>
+
+- title: Selected Talks & Visits
+  type: list
+  contents:
+    - Selected invited talks include AGATES 2022, CCC 2021, SODA 2019, WACT (2017–2019).
+    - Research visits include IIAS Winter School, IAS Princeton, WACT (2016–2019), HLF 2013 & 2017, ISSAC 2014.
+
+- title: References
+  type: list
+  contents:
+    - Markus Bläser — Saarland University —  mblaeser@cs.uni-saarland.de
+    - Joël Ouaknine — MPI-SWS — joel@mpi-sws.org
+    - Peter Bürgisser — Technische Universität Berlin - pbuerg@math.tu-berlin.de
+    - Parinya Chalermsook — University of Sheffield —  p.chalermsook@sheffield.ac.uk
+    - Christian Ikenmeyer — University of Warwick — christian.ikenmeyer@warwick.ac.uk
