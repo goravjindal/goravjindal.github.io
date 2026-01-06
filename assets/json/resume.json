@@ -1,16 +1,16 @@
 {
   "basics": {
     "name": "Dr. Gorav Jindal",
-    "label": "Assistant Professor in Computer Science",
+    "label": "Postdoctoral Researcher",
     "email": "gorav.jindal@gmail.com",
     "phone": "+49 15780883476",
     "summary": "My broad research interests lie within theoretical computer science and complexity theory, with a focus on algebraic complexity theory and computer algebra. I explore various algebraic models of computation and have recently begun investigating the theoretical foundations of linear dynamical systems.",
     "location": {
-      "address": "Wydział Matematyki, Informatyki i Mechaniki, Uniwersytet Warszawski, ul. Stefana Banacha 2",
-      "postalCode": "02-097",
-      "city": "Warsaw",
-      "countryCode": "PL",
-      "region": "Masovian Voivodeship"
+      "address": "Chair of Algorithms and Complexity Theory", 
+      "postalCode": "93053",
+      "city": "Regensburg",
+      "countryCode": "DE",
+      "region": "Bayern"
     },
     "profiles": [
       {
@@ -32,10 +32,16 @@
   },
   "work": [
     {
+      "name": "University of Regensburg",
+      "position": "Postdoctoral Researcher",
+      "startDate": "2025-12",
+    },
+    {
       "name": "Institute of Informatics, University of Warsaw",
       "position": "Samuel Eilenberg Assistant Professor",
       "url": "https://www.mimuw.edu.pl/",
       "startDate": "2025-02"
+      "endDate": "2025-11"
     },
     {
       "name": "Max Planck Institute for Software Systems",
