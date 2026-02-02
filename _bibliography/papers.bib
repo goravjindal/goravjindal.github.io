@@ -1,18 +1,19 @@
  Encoding: UTF-8
 @inproceedings{BlaserDutta_1Jindal2026,
-  author    = {Bläser, Markus and Dutta_2, Sagnik and Jindal, Gorav},
-  title     = {Problems from Optimization and Computational Algebra Equivalent to Hilbert's Nullstellensatz},
-  booktitle = {Proceedings of the {ACM-SIAM} Symposium on Discrete Algorithms (SODA)},
-  year      = {2026},
-  pages     = {},
   abbr         = {SODA},
   pdf       = {soda26-hn.pdf},
-  note      = {To appear},
-  abstract  = {Efficient algorithms for many problems in optimization and computational algebra often arise from casting them as systems of polynomial equations. Blum, Shub, and Smale formalized this as Hilbert's Nullstellensatz Problem $HN_R$: given multivariate polynomials over a ring $R$, decide whether they have a common solution in $R$. We can also view $HN_R$ as a complexity class by taking the downward closure of the problem $HN_R$ under polynomial-time many-one reductions. In this work, we show that many important problems from optimization and algebra are complete or hard for this class.
-
-We first consider the Affine Polynomial Projection Problem: given polynomials $f,g$, does an affine projection of the variables transform $f$ into $g$? We show that this problem is at least as hard as $HN_F$ for any field $F$. Then we consider the Sparse Shift Problem: given a polynomial, can its number of monomials be reduced by an affine shift of the variables? Prior $HN_R$-hardness for this problem was known for non-field integral domains $R$, which we extend to fields.
-
-For the special case of the real field, HN captures the existential theory of the reals and its complement captures the universal theory of the reals. We prove that the problems of deciding real stability, convexity, and hyperbolicity of a given polynomial are all complete for the universal theory of the reals, thereby pinning down their exact complexity.}
+  author = {Markus Bläser and Sagnik Dutta_2 and Gorav Jindal},
+title = {Problems from Optimization and Computational Algebra Equivalent to Hilbert’s Nullstellensatz},
+booktitle = {Proceedings of the 2026 Annual ACM-SIAM Symposium on Discrete Algorithms (SODA)},
+chapter = {},
+  year         = {2026},
+  arxiv = {2510.19704},
+pages = {6308-6331},
+doi = {10.1137/1.9781611978971.227},
+slides = {soda26_presentation.pdf},
+URL = {https://epubs.siam.org/doi/abs/10.1137/1.9781611978971.227},
+eprint = {https://epubs.siam.org/doi/pdf/10.1137/1.9781611978971.227},
+    abstract = { Abstract Solving polynomial systems is a powerful tool for designing algorithms in optimization and computational algebra. Formally, this problem is called Hilbert’s Nullstellensatz problem \(\textsf{HN}\_R\): given multivariate polynomials over some ring \(R\), it asks whether they have a common solution in \(R\). For every ring \(R\), we can also view \(\textsf{HN}\_R\) as a parameterized complexity class by taking the downward closure of \(\textsf{HN}\_R\) under polynomial-time many-one reductions. In this work, we show that for many important problems from optimization and algebra, formulating them as systems of polynomial equations is optimal, since we can reduce Hilbert’s Nullstellensatz to them. We first consider the Affine Polynomial Projection Problem, which, given two polynomials, asks whether one of them can be transformed into the other by an affine projection of the variables. Kayal (STOC 2012) proved that this problem is \(\textsf{NP}\)-hard. Here, we improve this lower bound by showing that it is as hard as \(\textsf{HN}\_F\) for any field \(F\). The second problem is the Sparse Shift Problem, which asks whether for a given polynomial, there is an affine shift that reduces the number of monomials. For integral domains \(R\) that are not fields, Chillara, Grichener, and Shpilka (STACS 2023) showed that this problem is \(\textsf{HN}\_R\)-hard. We extend their result to fields: over infinite fields \(F\), where \(\textsf{HN}\_F\) is complete for \(\textsf{NP}\_F\) (in the BSS model), we show that the Sparse Shift Problem is equivalent to \(\textsf{HN}\_F\). Next, we turn to the important case of Hilbert’s Nullstellensatz over the real numbers. Real-stable polynomials have been a successful tool in mathematics and computer science in recent years, from solving the Kadison-Singer problem to improving the approximation performance of the metric TSP. We prove that testing whether a given polynomial is real stable is equivalent to the complement of \(\textsf{HN}\_{\mathbb{R}}\), or equivalently, to the universal theory of the reals \(\forall\mathbb{R}\). We show that the same is true for testing convexity and testing hyperbolicity, as well as for testing whether a biquadratic form is nonnegative, completely settling the complexity of all of these problems. }
 }
 
 
