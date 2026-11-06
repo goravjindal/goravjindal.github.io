@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="wrap page{% if page.wide %} page--wide{% endif %}">
+<div class="wrap page{% if page.wide %} page--wide{% endif %}{% if page.page_class %} {{ page.page_class }}{% endif %}">
   <header class="page-header">
     {% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}
     <h1>{{ page.title }}</h1>

@@ -5,6 +5,7 @@ permalink: /teaching/
 description: Courses I have taught, tutored, or assisted with.
 wide: true
 math: true
+page_class: teaching-page
 ---
 
 <div class="course-list">
