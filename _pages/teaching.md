@@ -302,7 +302,6 @@ math: true
               <li>Optimization methods and techniques for hard problems.</li>
               <li>Geometric algorithms: triangulation, convex hull, and sweep.</li>
             </ul>
-            <p>Assessment: midterm exam (40%) and final exam (60%), with homework requirements for admission.</p>
           </div>
         </details>
         <details class="course-duties">
@@ -311,6 +310,8 @@ math: true
             <li>Held exercise sessions.</li>
             <li>Clarified students’ doubts.</li>
             <li>Explained solutions to the exercise sheets.</li>
+            <li>Graded exercise sheets.</li>
+            <li>Graded the final exam.</li>
           </ul>
         </details>
       </div>
