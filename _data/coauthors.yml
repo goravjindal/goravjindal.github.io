@@ -1,0 +1,90 @@
+"kolev":
+  - firstname: ["Pavel"]
+    url: https://pavelkolev.github.io/
+
+"saranurak":
+  - firstname: ["Thatchaphol"]
+    url: https://sites.google.com/site/thsaranurak/
+
+"gesmundo":
+  - firstname: ["Fulvio"]
+    url: https://fulges.github.io/
+
+"blaser":
+  - firstname: ["Markus"]
+    url: https://cc.cs.uni-saarland.de/mblaeser/
+
+"burgisser":
+  - firstname: ["Peter"]
+    url: https://www.tu.berlin/act/team/prof-dr-peter-buergisser
+
+"dutta_2":
+  - firstname: ["Sagnik"]
+    url: https://www.mpi-inf.mpg.de/departments/algorithms-complexity/people/current-members/sagnik-dutta 
+
+"pandey":
+  - firstname: ["Anurag"]
+    url: http://people.mpi-inf.mpg.de/~apandey/
+
+"jindal":
+  - firstname: ["Gorav"]
+    url: https://goravjindal.github.io/
+
+"peng":
+  - firstname: ["Richard"]
+    url: https://scholar.google.de/citations?user=loh7ivYAAAAJ&hl=en
+
+"sawlani":
+  - firstname: ["Saurabh"]
+    url: https://sawlani.github.io/
+
+"sagraloff":
+  - firstname: ["Michael"]
+    url: https://scholar.google.de/citations?user=EImZFU4AAAAJ&hl=en
+
+"bhargava":
+  - firstname: ["Vishwas"]
+    url: https://sites.google.com/view/vishwas
+
+"ikenmeyer":
+  - firstname: ["Christian"]
+    url: https://www.dcs.warwick.ac.uk/~u2270030/
+
+"lysikov":
+  - firstname: ["Vladimir"]
+    url: https://qi.rub.de/lysikov
+
+"zisopoulos":
+  - firstname: ["Charilaos"]
+    url: https://www-cc.cs.uni-saarland.de/
+
+"dorfler":
+  - firstname: ["Julian"]
+    url: https://www-cc.cs.uni-saarland.de/
+
+"ouaknine":
+  - firstname: ["Joël"]
+    url: https://people.mpi-sws.org/~joel/
+
+"dutta_1":
+  - firstname: ["Pranjal"]
+    url:  https://sites.google.com/view/pduttashomepage
+
+"sinhababu":
+  - firstname: ["Amit"]
+    url: https://www.cmi.ac.in/people/fac-profile.php?id=amitks
+
+"shukla":
+  - firstname: ["Himanshu"]
+    url: http://home.iitk.ac.in/~hishukla/
+
+"gaillard":
+  - firstname: ["Louis"]
+    url: http://www.ens-lyon.fr/lecole/nous-connaitre/annuaire/louis-gaillard
+
+[ccc2017]: https://computationalcomplexity.org/Archive/2017/program.php
+[approx17]: http://cui.unige.ch/tcs/random-approx/2017/
+[pavelkolev]: http://people.mpi-inf.mpg.de/~pkolev/
+[stoc18]: http://acm-stoc.org/stoc2018/
+[soda19]: https://www.siam.org/Conferences/CM/Conference/soda19
+[itcs19]: http://cseweb.ucsd.edu/~slovett/conferences/itcs2019/

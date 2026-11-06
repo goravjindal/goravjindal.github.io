@@ -452,8 +452,8 @@ hr {
 }
 
 .pub-list h2 {
-  margin: 2.5rem 0 0;
-  padding-bottom: 0.45rem;
+  margin: 1.25rem 0 0;
+  padding-bottom: 0.35rem;
   border-bottom: 1px solid var(--rule);
   color: var(--text-muted);
   font-family: var(--font-mono);
@@ -467,14 +467,14 @@ hr {
 }
 
 .pub {
-  padding: 1.6rem 0;
+  padding: 0.8rem 0;
   border-top: 1px solid var(--rule);
 }
 
 .pub--compact {
   display: grid;
   grid-template-columns: 4.5rem minmax(0, 1fr);
-  gap: 1.5rem;
+  gap: 1.25rem;
 }
 
 .pub-main {
@@ -492,16 +492,16 @@ hr {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  margin-bottom: 0.45rem;
+  margin-bottom: 0.3rem;
 }
 
 .pub-venue {
   display: inline-block;
-  padding: 0.15rem 0.5rem;
+  padding: 0.12rem 0.45rem;
   border-radius: 5px;
   background: var(--accent-soft);
   color: var(--accent);
-  font-size: 0.7rem;
+  font-size: 0.68rem;
   font-weight: 600;
   letter-spacing: 0.03em;
 }
@@ -515,16 +515,16 @@ hr {
 }
 
 .pub-title {
-  margin: 0 0 0.35rem;
-  font-size: 1.22rem;
+  margin: 0 0 0.25rem;
+  font-size: 1.12rem;
   line-height: 1.3;
   letter-spacing: -0.015em;
 }
 
 .pub-authors {
-  margin: 0 0 0.25rem;
+  margin: 0 0 0.15rem;
   color: var(--text-soft);
-  font-size: 0.9rem;
+  font-size: 0.86rem;
 }
 
 .pub-authors strong {
@@ -533,23 +533,23 @@ hr {
 }
 
 .pub-venue-full {
-  margin: 0 0 0.7rem;
+  margin: 0 0 0.45rem;
   color: var(--text-muted);
-  font-size: 0.88rem;
+  font-size: 0.84rem;
 }
 
 .pub-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem;
+  gap: 0.35rem;
 }
 
 .pub-links a {
-  padding: 0.25rem 0.55rem;
+  padding: 0.2rem 0.5rem;
   border: 1px solid var(--rule-strong);
   border-radius: 5px;
   color: var(--text-soft);
-  font-size: 0.74rem;
+  font-size: 0.72rem;
   font-weight: 600;
   letter-spacing: 0.02em;
 }
@@ -560,17 +560,29 @@ hr {
   text-decoration: none;
 }
 
+.pub-toggles {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.25rem 1rem;
+  margin-top: 0.35rem;
+}
+
+.pub-toggles details[open] {
+  flex-basis: 100%;
+}
+
 .pub-abstract,
 .pub-bibtex {
-  margin-top: 0.7rem;
-  font-size: 0.9rem;
+  margin-top: 0;
+  font-size: 0.88rem;
 }
 
 .pub-abstract summary,
 .pub-bibtex summary {
   width: fit-content;
   color: var(--text-muted);
-  font-size: 0.78rem;
+  font-size: 0.74rem;
   font-weight: 600;
   letter-spacing: 0.02em;
   cursor: pointer;
@@ -578,7 +590,7 @@ hr {
 
 .pub-abstract[open] summary,
 .pub-bibtex[open] summary {
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.45rem;
 }
 
 .pub-abstract div {
@@ -591,12 +603,12 @@ hr {
 .pub-bibtex pre {
   overflow-x: auto;
   margin: 0;
-  padding: 0.9rem 1rem;
+  padding: 0.7rem 0.8rem;
   border: 1px solid var(--rule);
   border-radius: var(--radius-sm);
   background: var(--bg-elevated);
-  font-size: 0.78rem;
-  line-height: 1.55;
+  font-size: 0.74rem;
+  line-height: 1.5;
 }
 
 .pub-bibtex code {

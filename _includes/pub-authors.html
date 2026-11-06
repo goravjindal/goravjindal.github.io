@@ -1,0 +1,30 @@
+{%- if entry.author_array -%}
+  {%- for author in entry.author_array -%}
+    {%- assign author_last_raw = author.last | strip -%}
+    {%- assign author_last = author_last_raw | split: '_' | first -%}
+    {%- assign author_first = author.first | split: '_' | first | strip -%}
+    {%- assign author_first_clean = author_first | smart_latex -%}
+    {%- assign coauthor_key = author_last_raw | smart_latex | downcase | remove_accents -%}
+    {%- assign coauthor_url = null -%}
+
+    {%- if site.data.coauthors[coauthor_key] -%}
+      {%- for coauthor in site.data.coauthors[coauthor_key] -%}
+        {%- if coauthor.firstname contains author_first_clean -%}
+          {%- assign coauthor_url = coauthor.url -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+
+    {%- if author_last == 'Jindal' and author_first contains 'Gorav' -%}
+      <strong>{{ author_first | smart_latex }} {{ author_last | smart_latex }}</strong>
+    {%- elsif coauthor_url -%}
+      <a href="{{ coauthor_url | strip }}" rel="noopener">{{ author_first | smart_latex }} {{ author_last | smart_latex }}</a>
+    {%- else -%}
+      {{ author_first | smart_latex }} {{ author_last | smart_latex }}
+    {%- endif -%}
+    {%- unless forloop.last %}, {% endunless -%}
+  {%- endfor -%}
+{%- else -%}
+  {{ entry.author | smart_latex }}
+{%- endif -%}
