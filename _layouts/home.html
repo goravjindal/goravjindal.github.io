@@ -14,17 +14,6 @@ layout: default
         {{ content }}
       </div>
 
-      <div class="interests" aria-label="Research interests">
-        {% for interest in page.interests %}
-          <span>{{ interest }}</span>
-        {% endfor %}
-      </div>
-
-      <div class="hero-links">
-        <a class="is-primary" href="{{ '/publications/' | relative_url }}">Publications</a>
-        <a href="{{ '/cv/' | relative_url }}">CV</a>
-        {% include social-links.html %}
-      </div>
     </div>
 
     {% if page.image %}

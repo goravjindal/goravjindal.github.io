@@ -7,11 +7,6 @@ description: >-
   Theory group at the University of Regensburg, working on algebraic complexity
   theory, computational complexity, and formal power series.
 image: prof_pic.jpg
-interests:
-  - Algebraic complexity theory
-  - Computational complexity
-  - Automata & formal power series
-  - Linear dynamical systems
 ---
 
 I am a postdoctoral researcher in the [Algorithms and Complexity Theory group](https://www.uni-regensburg.de/en/informatics-data-science/faculty/facilities/algorithms-and-complexity-theory) at the [University of Regensburg](https://www.uni-regensburg.de/), working with [Radu Curticapean](https://www.uni-regensburg.de/en/informatics-data-science/faculty/facilities/algorithms-and-complexity-theory/team/radu-curticapean).
