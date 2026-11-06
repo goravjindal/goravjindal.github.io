@@ -229,7 +229,6 @@ math: true
             </p>
             <p><strong>Topics:</strong></p>
             <ul>
-              <li>Landsberg–Ottaviani equations</li>
               <li>Determinantal complexity</li>
               <li>GCT and symmetries</li>
               <li>Tensor rank and matrix multiplication</li>
@@ -251,7 +250,6 @@ math: true
           </ul>
         </details>
         <a class="course-link" href="https://www.dcs.warwick.ac.uk/~u2270030/teaching_sb/winter1718/gct2/index.html" target="_blank" rel="noopener">Course page →</a>
-        <a class="course-link" href="https://www.dcs.warwick.ac.uk/~u2270030/teaching_sb/winter1718/gct2/landsberg-ottaviani.pdf" target="_blank" rel="noopener">Landsberg–Ottaviani notes →</a>
         <a class="course-link" href="https://www.dcs.warwick.ac.uk/~u2270030/teaching_sb/winter1718/gct2/symmetries.pdf" target="_blank" rel="noopener">Symmetries notes →</a>
         <a class="course-link" href="https://www.dcs.warwick.ac.uk/~u2270030/teaching_sb/winter1718/gct2/determinantal-compl.pdf" target="_blank" rel="noopener">Determinantal complexity notes →</a>
       </div>
