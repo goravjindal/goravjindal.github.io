@@ -175,7 +175,7 @@ page_class: teaching-page
     <div class="course-term">01/2020–04/2020</div>
     <div>
       <h2>Computational Complexity Theory</h2>
-      <p class="course-meta">Aalto University · Teaching assistant · Main instructor: {% include person-link.html key="orponen" name="Prof. Pekka Orponen" %}</p>
+      <p class="course-meta">Aalto University · Teaching assistant · Main instructor: {% include person-link.html key="orponen" name="Pekka Orponen" %}</p>
       <div class="course-actions">
         <details class="course-description">
           <summary>Description</summary>
@@ -214,7 +214,7 @@ page_class: teaching-page
     <div class="course-term">01/2019–04/2019</div>
     <div>
       <h2>Computational Complexity Theory</h2>
-      <p class="course-meta">Aalto University · Teaching assistant · Main instructor: {% include person-link.html key="orponen" name="Prof. Pekka Orponen" %}</p>
+      <p class="course-meta">Aalto University · Teaching assistant · Main instructor: {% include person-link.html key="orponen" name="Pekka Orponen" %}</p>
       <div class="course-actions">
         <details class="course-description">
           <summary>Description</summary>
@@ -253,7 +253,7 @@ page_class: teaching-page
     <div class="course-term">WS 2017–2018</div>
     <div>
       <h2>Geometric Complexity Theory 2</h2>
-      <p class="course-meta">Saarland University · Teaching assistant · Main instructors: {% include person-link.html key="blaser" name="Prof. Dr. Markus Bläser" %}, {% include person-link.html key="ikenmeyer" name="Christian Ikenmeyer" %}</p>
+      <p class="course-meta">Saarland University · Teaching assistant · Main instructors: {% include person-link.html key="blaser" name="Markus Bläser" %}, {% include person-link.html key="ikenmeyer" name="Christian Ikenmeyer" %}</p>
       <div class="course-actions">
         <details class="course-description">
           <summary>Description</summary>
@@ -293,7 +293,7 @@ page_class: teaching-page
     <div class="course-term">SS 2017</div>
     <div>
       <h2>Introduction to Geometric Complexity Theory</h2>
-      <p class="course-meta">Saarland University · Teaching assistant · Main instructors: {% include person-link.html key="blaser" name="Prof. Dr. Markus Bläser" %}, {% include person-link.html key="ikenmeyer" name="Christian Ikenmeyer" %}</p>
+      <p class="course-meta">Saarland University · Teaching assistant · Main instructors: {% include person-link.html key="blaser" name="Markus Bläser" %}, {% include person-link.html key="ikenmeyer" name="Christian Ikenmeyer" %}</p>
       <div class="course-actions">
         <details class="course-description">
           <summary>Description</summary>
@@ -380,7 +380,7 @@ page_class: teaching-page
     <div class="course-term">WS 2012–2013</div>
     <div>
       <h2>Algorithms and Data Structures</h2>
-      <p class="course-meta">Saarland University · Teaching assistant · Main instructor: {% include person-link.html key="seidel" name="Prof. Dr. Raimund Seidel" %}</p>
+      <p class="course-meta">Saarland University · Teaching assistant · Main instructor: {% include person-link.html key="seidel" name="Raimund Seidel" %}</p>
       <div class="course-actions">
         <details class="course-description">
           <summary>Description</summary>
