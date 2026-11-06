@@ -1,4 +1,46 @@
  Encoding: UTF-8
+
+@unpublished{AllenderBlaserMeiburgSTOC2027,
+  abbr = {STOC},
+  author = {Eric Allender and Markus Bläser and Alex Meiburg},
+  title = {Better Upper Bounds for Square-Root-Sum and Straight-Line Program Positivity},
+  year = {2027},
+  pdf = {https://github.com/sigact-stoc/stoc2027/releases/download/papers-2/1162.pdf},
+  note = {Manuscript dated November 2, 2026; public STOC 2027 submission 1162}
+}
+
+@inproceedings{BlaserCurticapeanDuttaJindalSODA2027,
+  abbr         = {SODA},
+  author       = {Markus Bläser and Radu Curticapean and Sagnik Dutta_2 and Gorav Jindal},
+  title        = {{When Are Monomial Symmetric Polynomials Hard?}},
+  booktitle    = {Proceedings of the 2027 Annual ACM-SIAM Symposium on Discrete Algorithms (SODA)},
+  year         = {2027},
+  arxiv        = {2610.25181},
+  pdf       = {vanermondesoda2027.pdf},
+  note         = {Accepted for publication},
+  abstract     = {Symmetric polynomials play a central role in algebraic complexity theory. In this paper, we make progress toward classifying the complexity of one of the most natural families of symmetric polynomials, the monomial symmetric polynomials. For a partition \(\lambda=(\lambda_1,\ldots,\lambda_r)\) and \(n\ge r\), the monomial symmetric polynomial \(m_\lambda(x_1,\ldots,x_n)\) is defined as
+\[m_\lambda(x_1,\ldots,x_n):=\sum x_{i_1}^{\lambda_1}x_{i_2}^{\lambda_2}\cdots x_{i_r}^{\lambda_r},\]
+where the sum ranges over all distinct monomials obtained by assigning the parts of \(\lambda\) to pairwise distinct variables.
+Our main result establishes an almost-complete dichotomy for the complexity of the monomial symmetric polynomials \(m_\lambda\). Informally speaking, if a family of partitions \(\lambda=(\lambda_1,\ldots,\lambda_r)\) contains polynomially many distinct parts, then the corresponding monomial symmetric polynomials are \(\mathrm{VNP}\)-complete under \(c\)-reductions. On the other hand, if the number of distinct parts is constant, then the family admits polynomial-size circuits. Thus the only remaining gap concerns intermediate regimes where the number of distinct parts grows, but only subpolynomially.
+As part of our proof, we use combinatorial properties of matching polynomials to establish \(\mathrm{VNP}\)-hardness of the perfect matching polynomial for blow-up graphs; these are graphs with non-generic edge-weights that are obtained by ``blowing up'' a smaller graph. This blow-up step is what lets us handle arbitrary multiplicities of equal parts in \(\lambda\). We reduce these matching polynomials to monomial-symmetric polynomials by combining classical techniques from algebraic complexity theory with structural properties of Sidon sets.}
+}
+
+@inproceedings{BlaserDuttaDuttaJindalSODA2027,
+  abbr         = {SODA},
+  pdf       = {sparsesetsoda2027.pdf},
+  author       = {Markus Bläser and Pranjal Dutta_1 and Sagnik Dutta_2 and Gorav Jindal},
+  title        = {{Deterministic Shift Equivalence Testing for Sparse Polynomials}},
+  booktitle    = {Proceedings of the 2027 Annual ACM-SIAM Symposium on Discrete Algorithms (SODA)},
+  year         = {2027},
+  arxiv        = {2610.27168},
+  note         = {Accepted for publication},
+  abstract     = {We study the shift equivalence testing problem for high-degree sparse multivariate polynomials. Given sparse representations of two polynomials \(f,g\in\mathbb{Q}[x_1,\ldots,x_n]\), with exponents encoded in binary, sparsities \(s\) and \(t\), and degree at most \(d\), the task is to decide whether there is a vector \(a\in\mathbb{Q}^n\) such that
+\[f(x+a)\equiv g(x).\]
+Furthermore, one needs to output such a vector if it exists.
+Dvir, Oliveira, and Shpilka (ICALP 2014) studied shift equivalence for low-degree arithmetic circuits, and noted that for the low-degree sparse setting, their framework yields an algorithm that requires an ``almost'' quasipolynomial number of arithmetic operations. But the argument breaks down, because sparse polynomials are not closed under shifts. They left open whether shift equivalence of sparse polynomials admits an efficient deterministic algorithm.
+We answer this question positively over \(\mathbb{Q}\). If the input coefficients have bit-size at most \(\tau\), we show that a rational shift of polynomial bit-size exists whenever the polynomials are shift equivalent. Moreover, our algorithm outputs such a shift and has a running time of \(\operatorname{poly}(n,s,t,\tau,\log d)\) in the bit model. The arithmetic and structural parts of our result also hold over any field of characteristic zero or characteristic larger than \(d\).}
+}
+
 @inproceedings{BlaserDuttaJindalSODA2026,
   abbr         = {SODA},
   pdf       = {soda26-hn.pdf},
