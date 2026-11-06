@@ -1,6 +1,6 @@
 (function () {
   function closeOpenDetails(except) {
-    document.querySelectorAll(".pub-links details[open], .course-description[open]").forEach(function (details) {
+    document.querySelectorAll(".pub-links details[open], .course-description[open], .course-duties[open]").forEach(function (details) {
       if (details !== except) {
         details.removeAttribute("open");
       }

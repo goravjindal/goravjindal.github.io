@@ -858,7 +858,8 @@ hr {
   margin-top: 0.35rem;
 }
 
-.course-description summary {
+.course-description summary,
+.course-duties summary {
   display: inline-block;
   padding: 0.2rem 0.5rem;
   border: 1px solid var(--rule-strong);
@@ -871,20 +872,25 @@ hr {
   cursor: pointer;
 }
 
-.course-description summary::-webkit-details-marker {
+.course-description summary::-webkit-details-marker,
+.course-duties summary::-webkit-details-marker {
   display: none;
 }
 
-.course-description summary::marker {
+.course-description summary::marker,
+.course-duties summary::marker {
   content: "";
 }
 
-.course-description[open] summary {
+.course-description[open] summary,
+.course-duties[open] summary {
   border-color: var(--accent);
   color: var(--accent);
 }
 
-.course-description[open] > p {
+.course-description[open] > p,
+.course-duties[open] > p,
+.course-duties[open] > ul {
   position: absolute;
   top: calc(100% + 0.4rem);
   left: 0;
@@ -902,7 +908,21 @@ hr {
   color: var(--text-soft);
 }
 
-.course-description[open] > p:last-child {
+.course-duties[open] > ul {
+  padding-left: 2.1rem;
+}
+
+.course-duties li {
+  margin-bottom: 0.25rem;
+  font-size: 0.94rem;
+}
+
+.course-duties li:last-child {
+  margin-bottom: 0;
+}
+
+.course-description[open] > p:last-child,
+.course-duties[open] > ul:last-child {
   margin-bottom: 0;
 }
 
@@ -1284,7 +1304,9 @@ hr {
     font-size: 0.7rem;
   }
 
-  .course-description[open] > p {
+  .course-description[open] > p,
+  .course-duties[open] > p,
+  .course-duties[open] > ul {
     position: fixed;
     top: auto;
     right: 1rem;
