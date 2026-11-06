@@ -1501,3 +1501,26 @@ hr {
     width: calc(100% - 2rem);
   }
 }
+
+/* Footer separator follows the content width. */
+.site-footer {
+  position: relative;
+  border-top: 0;
+}
+
+.site-footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: min(var(--max), calc(100% - 3rem));
+  height: 2px;
+  background: var(--rule);
+  transform: translateX(-50%);
+}
+
+@media (max-width: 700px) {
+  .site-footer::before {
+    width: calc(100% - 2rem);
+  }
+}
