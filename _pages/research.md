@@ -20,9 +20,9 @@ My work sits in theoretical computer science, with a focus on **algebraic comple
       border complexity constrain lower-bound techniques.
     </p>
     <p class="topic-links">
-      <a href="{{ '/publications/#BlaserDutta_1Jindal2026' | relative_url }}">Hilbert's Nullstellensatz</a>
-      <a href="{{ '/publications/#bijvstoc18' | relative_url }}">Algebraic natural proofs</a>
-      <a href="{{ '/publications/#dutta2024homogeneous' | relative_url }}">Homogeneous complexity</a>
+      <a href="{{ '/publications/#BlaserDuttaJindalSODA2026' | relative_url }}">Hilbert's Nullstellensatz</a>
+      <a href="{{ '/publications/#BlaserIkenmeyerJindalLysikovSTOC2018' | relative_url }}">Algebraic natural proofs</a>
+      <a href="{{ '/publications/#DuttaGesmundoIkenmeyerJindalLysikovITCS2024' | relative_url }}">Homogeneous complexity</a>
     </p>
   </article>
 
@@ -37,9 +37,9 @@ My work sits in theoretical computer science, with a focus on **algebraic comple
       studies the hardness of PosSLP and sums of squares.
     </p>
     <p class="topic-links">
-      <a href="{{ '/publications/#blaser2024posslp' | relative_url }}">PosSLP and sums of squares</a>
-      <a href="{{ '/publications/#burgisser2024hardness' | relative_url }}">Hardness of PosSLP</a>
-      <a href="{{ '/publications/#bbjpsoda19' | relative_url }}">Algebraic rank</a>
+      <a href="{{ '/publications/#BlaserDorflerJindalFSTTCS2024' | relative_url }}">PosSLP and sums of squares</a>
+      <a href="{{ '/publications/#BurgisserJindalSODA2024' | relative_url }}">Hardness of PosSLP</a>
+      <a href="{{ '/publications/#BhargavaBlaserJindalPandeySODA2019' | relative_url }}">Algebraic rank</a>
     </p>
   </article>
 
@@ -53,9 +53,9 @@ My work sits in theoretical computer science, with a focus on **algebraic comple
       interface of automata theory, algebraic algorithms, and complexity.
     </p>
     <p class="topic-links">
-      <a href="{{ '/publications/#jindalgaillard2023' | relative_url }}">Order of power series</a>
-      <a href="{{ '/publications/#jsissac17' | relative_url }}">Real roots of sparse polynomials</a>
-      <a href="{{ '/publications/#jindal2020zeros' | relative_url }}">Real zeros of sparse polynomials</a>
+      <a href="{{ '/publications/#GaillardJindalISSAC2023' | relative_url }}">Order of power series</a>
+      <a href="{{ '/publications/#JindalSagraloffISSAC2017' | relative_url }}">Real roots of sparse polynomials</a>
+      <a href="{{ '/publications/#JindalPandeyShuklaZisopoulosISSAC2020' | relative_url }}">Real zeros of sparse polynomials</a>
     </p>
   </article>
 </div>
