@@ -17,7 +17,15 @@
         <em>{{ entry.school | smart_latex }}</em>
       {%- endif -%}
       {%- if entry.year -%}
-        {%- if entry.journal or entry.booktitle or entry.school %}, {% endif -%}{{ entry.year }}
+        {%- if entry.journal or entry.booktitle or entry.school -%}
+          , {{ entry.year }}
+        {%- elsif entry.note == blank -%}
+          {{ entry.year }}
+        {%- endif -%}
+      {%- endif -%}
+      {%- if entry.note -%}
+        {%- if entry.journal or entry.booktitle or entry.school %} · {% endif -%}
+        <span class="pub-note">{{ entry.note }}</span>
       {%- endif -%}
     </p>
 

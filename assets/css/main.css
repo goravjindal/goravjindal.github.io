@@ -1548,3 +1548,8 @@ hr {
   margin-top: 0.6rem;
   border-top: 2px solid var(--rule);
 }
+
+/* Publication status notes (preprints, accepted papers). */
+.pub-note {
+  font-style: italic;
+}
