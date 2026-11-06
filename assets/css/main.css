@@ -818,7 +818,7 @@ hr {
    ----------------------------------------------------------------------------- */
 
 .course-list {
-  max-width: 860px;
+  max-width: none;
 }
 
 .course {
@@ -981,14 +981,14 @@ hr {
 
 .cv-header {
   display: flex;
-  max-width: 900px;
+  max-width: none;
   align-items: flex-end;
   justify-content: space-between;
   gap: 1.5rem;
 }
 
 .cv {
-  max-width: 900px;
+  max-width: none;
 }
 
 .cv-section {
