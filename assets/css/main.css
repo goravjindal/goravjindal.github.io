@@ -9,8 +9,8 @@
   --text: #18181b;
   --text-soft: #52525b;
   --text-muted: #71717a;
-  --rule: #e7e4dc;
-  --rule-strong: #d6d1c6;
+  --rule: #ddd7ca;
+  --rule-strong: #cbc3b5;
   --accent: #1d4ed8;
   --accent-hover: #1e40af;
   --accent-soft: #e8efff;
@@ -34,8 +34,8 @@
   --text: #e7e9ee;
   --text-soft: #b0b6c2;
   --text-muted: #8a93a3;
-  --rule: #222a36;
-  --rule-strong: #303a49;
+  --rule: #2b3545;
+  --rule-strong: #3a475a;
   --accent: #8ab4ff;
   --accent-hover: #b6d0ff;
   --accent-soft: #152238;
@@ -1421,4 +1421,22 @@ hr {
 
 .teaching-page .course-list {
   margin-top: -2rem;
+}
+
+
+/* Slightly stronger separators across the site. */
+.site-header,
+.hero,
+.section,
+.pub-list h2,
+.pub,
+.news-list li,
+.topic-grid,
+.topic,
+.course,
+.cv-section,
+.site-footer,
+.footer-copy,
+hr {
+  border-width: 1.5px;
 }
