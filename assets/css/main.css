@@ -736,44 +736,51 @@ hr {
    ----------------------------------------------------------------------------- */
 
 .topic-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.25rem;
+  display: flex;
+  flex-direction: column;
   margin: 2rem 0 2.5rem;
+  border-top: 1px solid var(--rule);
 }
 
 .topic {
-  padding: 1.5rem;
-  border: 1px solid var(--rule);
-  border-radius: var(--radius);
-  background: var(--bg-elevated);
-  box-shadow: var(--shadow);
-}
-
-.topic:hover {
-  border-color: color-mix(in srgb, var(--accent) 45%, var(--rule));
+  display: grid;
+  grid-template-columns: 13rem minmax(0, 1fr);
+  grid-template-rows: auto auto auto;
+  gap: 0.25rem 2.5rem;
+  padding: 1.4rem 0;
+  border-bottom: 1px solid var(--rule);
 }
 
 .topic h2 {
-  margin-top: 0;
-  margin-bottom: 0.55rem;
-  font-size: 1.22rem;
-}
-
-.topic p {
-  color: var(--text-soft);
-  font-size: 0.94rem;
+  grid-column: 1;
+  grid-row: 2 / span 2;
+  align-self: start;
+  margin: 0;
+  font-size: 1.2rem;
 }
 
 .topic .eyebrow {
-  margin-bottom: 0.65rem;
+  grid-column: 1;
+  grid-row: 1;
+  margin-bottom: 0.35rem;
   font-family: var(--font-mono);
   font-size: 0.7rem;
   letter-spacing: 0.04em;
 }
 
-.topic-links {
+.topic-description {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  max-width: 72ch;
   margin: 0;
+  color: var(--text-soft);
+  font-size: 0.94rem;
+}
+
+.topic-links {
+  grid-column: 2;
+  grid-row: 3;
+  margin: 0.35rem 0 0;
   font-size: 0.8rem;
 }
 
@@ -1249,20 +1256,6 @@ hr {
   }
 }
 
-@media (max-width: 800px) {
-  .topic-grid {
-    grid-template-columns: repeat(3, minmax(260px, 1fr));
-    overflow-x: auto;
-    padding-bottom: 0.75rem;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .topic {
-    scroll-snap-align: start;
-  }
-}
-
 @media (max-width: 700px) {
   .wrap {
     width: calc(100% - 2rem);
@@ -1370,6 +1363,24 @@ hr {
 
   .footer-links {
     justify-content: flex-start;
+  }
+
+  .topic {
+    grid-template-columns: 1fr;
+    gap: 0.3rem;
+    padding: 1.1rem 0;
+  }
+
+  .topic .eyebrow,
+  .topic h2,
+  .topic-description,
+  .topic-links {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  .topic h2 {
+    font-size: 1.1rem;
   }
 }
 

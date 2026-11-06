@@ -12,7 +12,7 @@ My work sits in theoretical computer science, with a focus on **algebraic comple
   <article class="topic">
     <p class="eyebrow">01</p>
     <h2>Algebraic complexity theory</h2>
-    <p>
+    <p class="topic-description">
       I study the power and limits of algebraic models of computation: arithmetic
       circuits, polynomial identity testing, division and truncation, and the
       geometric complexity theory program. A recurring theme is what algebraic
@@ -29,7 +29,7 @@ My work sits in theoretical computer science, with a focus on **algebraic comple
   <article class="topic">
     <p class="eyebrow">02</p>
     <h2>Computational complexity</h2>
-    <p>
+    <p class="topic-description">
       I am interested in the structural complexity of algebraic and combinatorial
       problems: NP-hardness, parameterized complexity, real stability, and the
       complexity of deciding polynomial systems. Recent work connects Hilbert's
@@ -46,7 +46,7 @@ My work sits in theoretical computer science, with a focus on **algebraic comple
   <article class="topic">
     <p class="eyebrow">03</p>
     <h2>Automata and formal power series</h2>
-    <p>
+    <p class="topic-description">
       I study computational questions about formal power series and their
       rationality, including the order of power series, Wronskian-based bounds,
       and the sum-of-square-roots problem. This line of work sits at the
