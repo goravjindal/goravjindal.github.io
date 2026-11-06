@@ -810,8 +810,9 @@ hr {
 .course {
   display: grid;
   grid-template-columns: 8.5rem minmax(0, 1fr);
+  align-items: baseline;
   gap: 1.5rem;
-  padding: 1.6rem 0;
+  padding: 1.05rem 0;
   border-top: 1px solid var(--rule);
 }
 
@@ -820,19 +821,20 @@ hr {
 }
 
 .course-term {
-  padding-top: 0.2rem;
+  padding-top: 0;
   color: var(--text-muted);
   font-family: var(--font-mono);
-  font-size: 0.76rem;
+  font-size: 0.74rem;
+  white-space: nowrap;
 }
 
 .course h2 {
-  margin-bottom: 0.2rem;
-  font-size: 1.2rem;
+  margin-bottom: 0.15rem;
+  font-size: 1.12rem;
 }
 
 .course-meta {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
   color: var(--text-muted);
   font-size: 0.84rem;
 }
@@ -845,6 +847,63 @@ hr {
 .course a {
   font-size: 0.85rem;
   font-weight: 500;
+}
+
+.course-actions {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.35rem 1rem;
+  margin-top: 0.35rem;
+}
+
+.course-description summary {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 5px;
+  color: var(--text-soft);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  list-style: none;
+  cursor: pointer;
+}
+
+.course-description summary::-webkit-details-marker {
+  display: none;
+}
+
+.course-description summary::marker {
+  content: "";
+}
+
+.course-description[open] summary {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.course-description[open] > p {
+  position: absolute;
+  top: calc(100% + 0.4rem);
+  left: 0;
+  z-index: 20;
+  width: min(78ch, 100%);
+  max-height: 60vh;
+  overflow: auto;
+  margin: 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--rule);
+  border-left: 2px solid var(--accent);
+  border-radius: var(--radius-sm);
+  background: var(--bg-elevated);
+  box-shadow: var(--shadow);
+  color: var(--text-soft);
+}
+
+.course-description[open] > p:last-child {
+  margin-bottom: 0;
 }
 
 /* -----------------------------------------------------------------------------
@@ -1217,8 +1276,22 @@ hr {
   }
 
   .course {
-    grid-template-columns: 1fr;
-    gap: 0.5rem;
+    grid-template-columns: 7rem minmax(0, 1fr);
+    gap: 0.75rem;
+  }
+
+  .course-term {
+    font-size: 0.7rem;
+  }
+
+  .course-description[open] > p {
+    position: fixed;
+    top: auto;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+    width: auto;
+    max-height: 70vh;
   }
 
   .cv-header {
