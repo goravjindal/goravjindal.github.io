@@ -1468,3 +1468,36 @@ hr {
 .cv-section:last-child {
   border-bottom: 2px solid var(--rule);
 }
+
+/* Keep landing-page separators within the content width. */
+.hero,
+.section {
+  border-bottom: 0;
+}
+
+.hero::after,
+.section::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: min(var(--max), calc(100% - 3rem));
+  height: 2px;
+  background: var(--rule);
+  transform: translateX(-50%);
+}
+
+.section {
+  position: relative;
+}
+
+.section:last-of-type::after {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .hero::after,
+  .section::after {
+    width: calc(100% - 2rem);
+  }
+}
