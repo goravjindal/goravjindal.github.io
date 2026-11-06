@@ -888,6 +888,25 @@ hr {
   color: var(--accent);
 }
 
+.course-actions .course-link {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 5px;
+  color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.course-actions .course-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  text-decoration-thickness: 2px;
+}
+
 .course-description[open] > p,
 .course-duties[open] > p,
 .course-duties[open] > ul {

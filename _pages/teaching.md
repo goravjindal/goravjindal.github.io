@@ -135,7 +135,7 @@ wide: true
             <li>Held office hours and supported exam preparation.</li>
           </ul>
         </details>
-        <a href="https://www.dcs.warwick.ac.uk/~u2270030/teaching_sb/winter1718/gct2/index.html" rel="noopener">Course page →</a>
+        <a class="course-link" href="https://www.dcs.warwick.ac.uk/~u2270030/teaching_sb/winter1718/gct2/index.html" rel="noopener">Course page →</a>
       </div>
     </div>
   </article>
@@ -158,7 +158,7 @@ wide: true
             <li>Held office hours and supported exam preparation.</li>
           </ul>
         </details>
-        <a href="https://www.dcs.warwick.ac.uk/~u2270030/teaching_sb/summer18/firstintrotogct/index.html" rel="noopener">Course page →</a>
+        <a class="course-link" href="https://www.dcs.warwick.ac.uk/~u2270030/teaching_sb/summer18/firstintrotogct/index.html" rel="noopener">Course page →</a>
       </div>
     </div>
   </article>
@@ -181,7 +181,7 @@ wide: true
             <li>Held office hours.</li>
           </ul>
         </details>
-        <a href="https://www.mpi-inf.mpg.de/departments/algorithms-complexity/teaching/summer16/poly-complexity/" rel="noopener">Course page →</a>
+        <a class="course-link" href="https://www.mpi-inf.mpg.de/departments/algorithms-complexity/teaching/summer16/poly-complexity/" rel="noopener">Course page →</a>
       </div>
     </div>
   </article>
