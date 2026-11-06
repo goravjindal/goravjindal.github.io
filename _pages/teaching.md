@@ -47,10 +47,9 @@ wide: true
             <li>Designed and graded the exercise sheets.</li>
             <li>Conducted the oral exam.</li>
             <li>
-              Co-taught with the teaching team:
-              <a href="https://bhargavcs.github.io/" target="_blank" rel="noopener">Bhargav CS</a>,
-              <a href="https://goravjindal.github.io/" target="_blank" rel="noopener">Gorav Jindal</a>, and
-              <a href="https://www.uni-regensburg.de/en/informatics-data-science/faculty/facilities/algorithms-and-complexity-theory/team" target="_blank" rel="noopener">Himanshu Shukla (FIDS)</a>.
+              Co-taught with
+              <a href="https://bhargavcs.github.io/" target="_blank" rel="noopener">Bhargav CS</a> and
+              <a href="https://www.mathe2.uni-bayreuth.de/hishukla/" target="_blank" rel="noopener">Himanshu Shukla (FIDS)</a>.
             </li>
           </ul>
         </details>
