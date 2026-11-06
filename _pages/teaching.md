@@ -11,20 +11,50 @@ wide: true
     <div class="course-term">SS 2026</div>
     <div>
       <h2>Algebraic Complexity Theory</h2>
-      <p class="course-meta">Universität Regensburg · Instructor</p>
+      <p class="course-meta">Universität Regensburg · Co-instructor</p>
       <div class="course-actions">
         <details class="course-description">
           <summary>Description</summary>
-          <p>Arithmetic circuits, polynomial identity testing, and the complexity of algebraic objects.</p>
+          <div class="course-description-body">
+            <p>
+              A graduate introduction to algebraic and geometric complexity theory, following the first
+              twelve chapters of Bläser and Ikenmeyer’s
+              <em>Introduction to Geometric Complexity Theory</em>. The goal is to develop the algebraic,
+              geometric, and representation-theoretic tools needed to study the permanent-versus-determinant
+              problem and the border rank of matrix multiplication.
+            </p>
+            <p><strong>Chapters covered:</strong></p>
+            <ul>
+              <li>Boolean circuits and arithmetic circuits</li>
+              <li>Waring rank and border Waring rank</li>
+              <li>Actions, orbits, and orbit closures</li>
+              <li>First algebraic geometry</li>
+              <li>Algebraic complexity classes: VP, VNP, and orbit problems</li>
+              <li>VP and the determinant</li>
+              <li>The permanent and Valiant’s conjecture</li>
+              <li>Border complexity and group orbit closures</li>
+              <li>Representation theory</li>
+              <li>Representation theory of finite groups and Maschke’s theorem</li>
+              <li>Irreducible representations of GL<sub>n</sub>: first properties</li>
+              <li>Schur’s lemma, multiplicities, and isotypic decompositions</li>
+            </ul>
+          </div>
         </details>
         <details class="course-duties">
           <summary>Responsibilities</summary>
           <ul>
-            <li>Designed and taught the course.</li>
-            <li>Prepared lectures, exercise sheets, and assessments.</li>
-            <li>Supervised students and graded coursework.</li>
+            <li>Taught the first four chapters: Boolean and arithmetic circuits, Waring rank, orbit closures, and first algebraic geometry.</li>
+            <li>Designed and graded the exercise sheets.</li>
+            <li>Conducted the oral exam.</li>
+            <li>
+              Co-taught with the teaching team:
+              <a href="https://bhargavcs.github.io/" target="_blank" rel="noopener">Bhargav CS</a>,
+              <a href="https://goravjindal.github.io/" target="_blank" rel="noopener">Gorav Jindal</a>, and
+              <a href="https://www.uni-regensburg.de/en/informatics-data-science/faculty/facilities/algorithms-and-complexity-theory/team" target="_blank" rel="noopener">Himanshu Shukla (FIDS)</a>.
+            </li>
           </ul>
         </details>
+        <a class="course-link" href="https://theoryofcomputing.org/articles/gs010/gs010.pdf" target="_blank" rel="noopener">Course text →</a>
       </div>
     </div>
   </article>

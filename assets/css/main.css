@@ -915,6 +915,7 @@ hr {
 }
 
 .course-description[open] > p,
+.course-description[open] > .course-description-body,
 .course-duties[open] > p,
 .course-duties[open] > ul {
   position: absolute;
@@ -934,15 +935,27 @@ hr {
   color: var(--text-soft);
 }
 
-.course-duties[open] > ul {
-  padding-left: 2.1rem;
+.course-description-body p {
+  margin: 0 0 0.6rem;
 }
 
+.course-description-body p:last-child {
+  margin-bottom: 0;
+}
+
+.course-description[open] > ul,
+.course-description-body ul,
+.course-duties[open] > ul {
+  padding-left: 1.1rem;
+}
+
+.course-description li,
 .course-duties li {
   margin-bottom: 0.25rem;
   font-size: 0.94rem;
 }
 
+.course-description li:last-child,
 .course-duties li:last-child {
   margin-bottom: 0;
 }
@@ -1331,6 +1344,7 @@ hr {
   }
 
   .course-description[open] > p,
+  .course-description[open] > .course-description-body,
   .course-duties[open] > p,
   .course-duties[open] > ul {
     position: fixed;
