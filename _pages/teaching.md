@@ -292,14 +292,25 @@ math: true
       <div class="course-actions">
         <details class="course-description">
           <summary>Description</summary>
-          <p>An introductory undergraduate course covering the design, analysis, and implementation of fundamental algorithms and data structures.</p>
+          <div class="course-description-body">
+            <p>The course covers the design and analysis of efficient algorithms and data structures.</p>
+            <p><strong>Topics:</strong></p>
+            <ul>
+              <li>Data structures: rank-pairing heaps, hashing, and geometric searching.</li>
+              <li>Graph algorithms: network flow and matchings.</li>
+              <li>Analysis techniques: amortized, randomized, and worst-case analysis.</li>
+              <li>Optimization methods and techniques for hard problems.</li>
+              <li>Geometric algorithms: triangulation, convex hull, and sweep.</li>
+            </ul>
+            <p>Assessment: midterm exam (40%) and final exam (60%), with homework requirements for admission.</p>
+          </div>
         </details>
         <details class="course-duties">
           <summary>Responsibilities</summary>
           <ul>
-            <li>Ran tutorials.</li>
-            <li>Graded assignments.</li>
-            <li>Held office hours and supported exam preparation.</li>
+            <li>Held exercise sessions.</li>
+            <li>Clarified students’ doubts.</li>
+            <li>Explained solutions to the exercise sheets.</li>
           </ul>
         </details>
       </div>
