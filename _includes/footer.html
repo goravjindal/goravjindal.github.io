@@ -1,12 +1,7 @@
 <footer class="site-footer">
   <div class="wrap footer-inner">
-    <div>
-      <p class="footer-name">{{ site.author.name }}</p>
-      <p class="footer-meta">{{ site.author.position }}, {{ site.author.affiliation }} · {{ site.author.location }}</p>
-    </div>
-    <div class="footer-links">
+    <div class="footer-links" aria-label="Contact and profiles">
       {% include social-links.html %}
     </div>
-    <p class="footer-copy">© {{ site.time | date: "%Y" }} {{ site.author.name }}. Built with Jekyll and Jekyll Scholar.</p>
   </div>
 </footer>

@@ -1126,43 +1126,50 @@ hr {
 }
 
 .footer-inner {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 1.5rem 3rem;
-  align-items: start;
-}
-
-.footer-name {
-  margin: 0 0 0.15rem;
-  font-family: var(--font-serif);
-  font-size: 1.1rem;
-}
-
-.footer-meta {
-  margin: 0;
-  color: var(--text-muted);
-  font-size: 0.85rem;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem 1rem;
-  justify-content: flex-end;
-  font-size: 0.82rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 .footer-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.85rem;
+  height: 2.85rem;
+  border-radius: 8px;
   color: var(--text-soft);
+  transition: color 0.15s ease, background-color 0.15s ease;
 }
 
-.footer-copy {
-  grid-column: 1 / -1;
-  margin: 0.75rem 0 0;
-  padding-top: 1.25rem;
-  border-top: 1px solid var(--rule);
-  color: var(--text-muted);
-  font-size: 0.78rem;
+.footer-links a:hover {
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.footer-links svg {
+  width: 26px;
+  height: 26px;
+}
+
+.footer-icon-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border: 1.7px solid currentColor;
+  border-radius: 50%;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 /* -----------------------------------------------------------------------------
@@ -1365,14 +1372,6 @@ hr {
     gap: 0;
   }
 
-  .footer-inner {
-    grid-template-columns: 1fr;
-  }
-
-  .footer-links {
-    justify-content: flex-start;
-  }
-
   .topic {
     grid-template-columns: 1fr;
     gap: 0.3rem;
@@ -1419,7 +1418,6 @@ hr {
 .course,
 .cv-section,
 .site-footer,
-.footer-copy,
 hr {
   border-width: 1.5px;
 }
