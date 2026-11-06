@@ -454,7 +454,7 @@ hr {
 }
 
 .pub {
-  padding: 0.8rem 0;
+  padding: 0.65rem 0;
   border-top: 1px solid var(--rule);
 }
 
@@ -475,11 +475,18 @@ hr {
   font-size: 0.78rem;
 }
 
-.pub-venue-row {
+.pub-heading {
   display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 0.3rem;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.3rem 0.5rem;
+  margin-bottom: 0.15rem;
+}
+
+.pub-heading .pub-title {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
 }
 
 .pub-venue {
@@ -502,16 +509,16 @@ hr {
 }
 
 .pub-title {
-  margin: 0 0 0.25rem;
-  font-size: 1.12rem;
-  line-height: 1.3;
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.25;
   letter-spacing: -0.015em;
 }
 
 .pub-authors {
-  margin: 0 0 0.15rem;
+  margin: 0 0 0.1rem;
   color: var(--text-soft);
-  font-size: 0.86rem;
+  font-size: 0.82rem;
 }
 
 .pub-authors a {
@@ -531,9 +538,9 @@ hr {
 }
 
 .pub-venue-full {
-  margin: 0 0 0.45rem;
+  margin: 0 0 0.3rem;
   color: var(--text-muted);
-  font-size: 0.84rem;
+  font-size: 0.8rem;
 }
 
 .pub-links {
@@ -541,15 +548,15 @@ hr {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  gap: 0.35rem;
+  gap: 0.3rem;
 }
 
 .pub-links a {
-  padding: 0.2rem 0.5rem;
+  padding: 0.16rem 0.45rem;
   border: 1px solid var(--rule-strong);
   border-radius: 5px;
   color: var(--text-soft);
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   font-weight: 600;
   letter-spacing: 0.02em;
 }

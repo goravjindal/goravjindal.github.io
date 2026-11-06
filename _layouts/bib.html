@@ -1,11 +1,10 @@
 <article class="pub" id="{{ entry.key }}">
   <div class="pub-main">
-    <div class="pub-venue-row">
+    <div class="pub-heading">
       {% if entry.abbr %}<span class="pub-venue">{{ entry.abbr }}</span>{% endif %}
       {% if entry.selected %}<span class="pub-selected">Selected</span>{% endif %}
+      <h3 class="pub-title">{{ entry.title | smart_latex }}</h3>
     </div>
-
-    <h3 class="pub-title">{{ entry.title | smart_latex }}</h3>
 
     <p class="pub-authors">{% include pub-authors.html entry=entry %}</p>
 
