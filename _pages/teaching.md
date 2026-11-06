@@ -178,14 +178,32 @@ math: true
       <div class="course-actions">
         <details class="course-description">
           <summary>Description</summary>
-          <p>A graduate-level introduction to computational complexity theory, including complexity classes, reductions, and completeness results.</p>
+          <div class="course-description-body">
+            <p>
+              A 5-ECTS graduate introduction to computational complexity theory: models of computation,
+              time and space complexity, reductions and \(\mathsf{NP}\)-completeness, hierarchy
+              theorems, space complexity, circuit complexity, randomized computation, and interactive
+              proofs.
+            </p>
+            <p><strong>Topics:</strong></p>
+            <ul>
+              <li>Turing machines and other models of computation.</li>
+              <li>Time and space complexity classes: \(\mathsf{P}\), \(\mathsf{NP}\), \(\mathsf{L}\), \(\mathsf{NL}\), and \(\mathsf{PSPACE}\).</li>
+              <li>Reductions and \(\mathsf{NP}\)-completeness.</li>
+              <li>Hierarchy theorems and diagonalization.</li>
+              <li>Circuit complexity and randomized computation.</li>
+              <li>Interactive proofs.</li>
+            </ul>
+          </div>
         </details>
         <details class="course-duties">
           <summary>Responsibilities</summary>
           <ul>
-            <li>Ran exercise sessions and tutorials.</li>
-            <li>Prepared and graded assignments.</li>
-            <li>Held office hours and assisted with exams.</li>
+            <li>Held exercise sessions.</li>
+            <li>Clarified students’ doubts.</li>
+            <li>Explained solutions to the exercise sheets.</li>
+            <li>Graded exercise sheets.</li>
+            <li>Graded the final exam.</li>
           </ul>
         </details>
       </div>
@@ -200,14 +218,32 @@ math: true
       <div class="course-actions">
         <details class="course-description">
           <summary>Description</summary>
-          <p>A graduate-level introduction to computational complexity theory, including complexity classes, reductions, and completeness results.</p>
+          <div class="course-description-body">
+            <p>
+              A 5-ECTS graduate introduction to computational complexity theory: models of computation,
+              time and space complexity, reductions and \(\mathsf{NP}\)-completeness, hierarchy
+              theorems, space complexity, circuit complexity, randomized computation, and interactive
+              proofs.
+            </p>
+            <p><strong>Topics:</strong></p>
+            <ul>
+              <li>Turing machines and other models of computation.</li>
+              <li>Time and space complexity classes: \(\mathsf{P}\), \(\mathsf{NP}\), \(\mathsf{L}\), \(\mathsf{NL}\), and \(\mathsf{PSPACE}\).</li>
+              <li>Reductions and \(\mathsf{NP}\)-completeness.</li>
+              <li>Hierarchy theorems and diagonalization.</li>
+              <li>Circuit complexity and randomized computation.</li>
+              <li>Interactive proofs.</li>
+            </ul>
+          </div>
         </details>
         <details class="course-duties">
           <summary>Responsibilities</summary>
           <ul>
-            <li>Ran exercise sessions and tutorials.</li>
-            <li>Prepared and graded assignments.</li>
-            <li>Held office hours and assisted with exams.</li>
+            <li>Held exercise sessions.</li>
+            <li>Clarified students’ doubts.</li>
+            <li>Explained solutions to the exercise sheets.</li>
+            <li>Graded exercise sheets.</li>
+            <li>Graded the final exam.</li>
           </ul>
         </details>
       </div>
