@@ -796,6 +796,34 @@ hr {
   margin-right: 0.8rem;
 }
 
+.topic-papers {
+  grid-column: 2;
+  grid-row: 3;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.1rem 2.5rem;
+  margin: 0.65rem 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.topic-papers li {
+  break-inside: avoid;
+  margin: 0 0 0.35rem;
+}
+
+.topic-paper-venue {
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  white-space: nowrap;
+}
+
+.topic-paper-venue::before {
+  content: " · ";
+}
+
 .callout {
   max-width: var(--measure);
   padding: 1.25rem 1.5rem;
@@ -1399,9 +1427,14 @@ hr {
   .topic .eyebrow,
   .topic h2,
   .topic-description,
-  .topic-links {
+  .topic-links,
+  .topic-papers {
     grid-column: 1;
     grid-row: auto;
+  }
+
+  .topic-papers {
+    grid-template-columns: 1fr;
   }
 
   .topic h2 {
