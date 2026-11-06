@@ -115,6 +115,10 @@
   - firstname: ["Cornelius"]
     url: https://sites.google.com/view/corneliusbrand/
 
+"curticapean":
+  - firstname: ["Radu"]
+    url: https://www.uni-regensburg.de/en/informatics-data-science/faculty/facilities/algorithms-and-complexity-theory/team/radu-curticapean
+
 [approx17]: http://cui.unige.ch/tcs/random-approx/2017/
 [pavelkolev]: http://people.mpi-inf.mpg.de/~pkolev/
 [stoc18]: http://acm-stoc.org/stoc2018/
