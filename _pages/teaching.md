@@ -38,7 +38,6 @@ math: true
         <details class="course-duties">
           <summary>Responsibilities</summary>
           <ul>
-            <li>Co-instructor with Cornelius Brand.</li>
             <li>Taught the lecture and exercise classes.</li>
           </ul>
         </details>
@@ -51,7 +50,7 @@ math: true
     <div class="course-term">SS 2026</div>
     <div>
       <h2>Algebraic Complexity Theory</h2>
-      <p class="course-meta">Universität Regensburg · Co-instructor</p>
+      <p class="course-meta">Universität Regensburg · Co-instructor with {% include person-link.html key="bhargav" name="Bhargav CS" %} and {% include person-link.html key="shukla" name="Himanshu Shukla" %}</p>
       <div class="course-actions">
         <details class="course-description">
           <summary>Description</summary>
@@ -86,11 +85,6 @@ math: true
             <li>Taught the first four chapters: Boolean and arithmetic circuits, Waring rank, orbit closures, and first algebraic geometry.</li>
             <li>Designed and graded the exercise sheets.</li>
             <li>Conducted the oral exam.</li>
-            <li>
-              Co-taught with
-              {% include person-link.html key="bhargav" name="Bhargav CS" %} and
-              {% include person-link.html key="shukla" name="Himanshu Shukla" %}.
-            </li>
           </ul>
         </details>
         <a class="course-link" href="https://theoryofcomputing.org/articles/gs010/gs010.pdf" target="_blank" rel="noopener">Course text →</a>
