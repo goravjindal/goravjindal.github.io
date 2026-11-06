@@ -826,7 +826,7 @@ hr {
   grid-template-columns: 8.5rem minmax(0, 1fr);
   align-items: baseline;
   gap: 1.5rem;
-  padding: 0.45rem 0 0.75rem;
+  padding: 0.25rem 0 0.6rem;
   border-top: 1px solid var(--rule);
 }
 
@@ -1416,5 +1416,9 @@ hr {
 
 /* Teaching page: reduce the gap before the first course row. */
 .teaching-page .page-header {
-  margin-bottom: 1.25rem;
+  margin-bottom: 0;
+}
+
+.teaching-page .course-list {
+  margin-top: -2rem;
 }
