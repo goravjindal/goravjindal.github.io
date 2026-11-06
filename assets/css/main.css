@@ -846,6 +846,7 @@ hr {
 }
 
 .course h2 {
+  margin-top: 0;
   margin-bottom: 0.1rem;
   font-size: 1.1rem;
 }
@@ -1419,11 +1420,6 @@ hr {
   margin-bottom: 0;
 }
 
-.teaching-page .course-list {
-  margin-top: -2rem;
-}
-
-
 /* Slightly stronger separators across the site. */
 .site-header,
 .hero,
@@ -1545,4 +1541,10 @@ hr {
   .site-header::after {
     width: calc(100% - 2rem);
   }
+}
+
+/* Teaching page: separator after the intro, before the first course. */
+.teaching-page .course-list {
+  margin-top: 0.6rem;
+  border-top: 2px solid var(--rule);
 }
