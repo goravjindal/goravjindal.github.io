@@ -1127,7 +1127,9 @@ hr {
 
 .footer-inner {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.4rem;
 }
 
 .footer-links {
@@ -1142,9 +1144,9 @@ hr {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.85rem;
-  height: 2.85rem;
-  border-radius: 8px;
+  width: 3.25rem;
+  height: 3.25rem;
+  border-radius: 10px;
   color: var(--text-soft);
   transition: color 0.15s ease, background-color 0.15s ease;
 }
@@ -1155,21 +1157,31 @@ hr {
 }
 
 .footer-links svg {
-  width: 26px;
-  height: 26px;
+  width: 32px;
+  height: 32px;
 }
 
 .footer-icon-badge {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 26px;
-  height: 26px;
-  border: 1.7px solid currentColor;
+  width: 32px;
+  height: 32px;
+  border: 1.8px solid currentColor;
   border-radius: 50%;
-  font-size: 0.66rem;
+  font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: -0.02em;
+}
+
+.footer-copy {
+  width: 100%;
+  margin: 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  text-align: center;
 }
 
 /* -----------------------------------------------------------------------------
@@ -1418,6 +1430,7 @@ hr {
 .course,
 .cv-section,
 .site-footer,
+.footer-copy,
 hr {
   border-width: 1.5px;
 }
