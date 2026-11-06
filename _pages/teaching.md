@@ -9,6 +9,45 @@ math: true
 
 <div class="course-list">
   <article class="course">
+    <div class="course-term">WS 2026/27</div>
+    <div>
+      <h2>Complexity Theory</h2>
+      <p class="course-meta">Universität Regensburg · Co-lecturer with {% include person-link.html key="brand" name="Cornelius Brand" %}</p>
+      <div class="course-actions">
+        <details class="course-description">
+          <summary>Description</summary>
+          <div class="course-description-body">
+            <p>
+              A 6-ECTS lecture with exercises on computational complexity theory, covering lower bounds
+              on the resources required to solve computational problems.
+            </p>
+            <p><strong>Topics:</strong></p>
+            <ul>
+              <li>Time and space hierarchy theorems via diagonalization.</li>
+              <li>Advanced aspects of \(\mathsf{NP}\)-completeness, including Ladner’s theorem.</li>
+              <li>Space complexity: \(\mathsf{L}\), \(\mathsf{NL}\), and \(\mathsf{PSPACE}\).</li>
+              <li>The polynomial-time hierarchy and complete problems for its levels.</li>
+              <li>Communication complexity.</li>
+              <li>Circuit complexity.</li>
+              <li>Randomness and derandomization.</li>
+              <li>Algebraic models of computation.</li>
+            </ul>
+            <p>Assessment: oral exam (20–30 minutes).</p>
+          </div>
+        </details>
+        <details class="course-duties">
+          <summary>Responsibilities</summary>
+          <ul>
+            <li>Co-lecturer with Cornelius Brand.</li>
+            <li>Taught the lecture and exercise classes.</li>
+          </ul>
+        </details>
+        <a class="course-link" href="https://hellus.app.uni-regensburg.de/KVV/abruflink.php?id=1538" target="_blank" rel="noopener">Course page →</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="course">
     <div class="course-term">SS 2026</div>
     <div>
       <h2>Algebraic Complexity Theory</h2>
@@ -141,7 +180,7 @@ math: true
   <article class="course">
     <div class="course-term">01/2020–04/2020</div>
     <div>
-      <h2>CS-E4530 — Computational Complexity Theory</h2>
+      <h2>Computational Complexity Theory</h2>
       <p class="course-meta">Aalto University · Teaching assistant · Main instructor: {% include person-link.html key="orponen" name="Prof. Pekka Orponen" %}</p>
       <div class="course-actions">
         <details class="course-description">
@@ -163,7 +202,7 @@ math: true
   <article class="course">
     <div class="course-term">01/2019–04/2019</div>
     <div>
-      <h2>CS-E4530 — Computational Complexity Theory</h2>
+      <h2>Computational Complexity Theory</h2>
       <p class="course-meta">Aalto University · Teaching assistant · Main instructor: {% include person-link.html key="orponen" name="Prof. Pekka Orponen" %}</p>
       <div class="course-actions">
         <details class="course-description">

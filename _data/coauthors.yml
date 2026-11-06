@@ -111,6 +111,10 @@
   - firstname: ["Marcin"]
     url: https://www.mimuw.edu.pl/~malcin/
 
+"brand":
+  - firstname: ["Cornelius"]
+    url: https://sites.google.com/view/corneliusbrand/
+
 [approx17]: http://cui.unige.ch/tcs/random-approx/2017/
 [pavelkolev]: http://people.mpi-inf.mpg.de/~pkolev/
 [stoc18]: http://acm-stoc.org/stoc2018/
