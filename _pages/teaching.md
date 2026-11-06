@@ -250,8 +250,6 @@ math: true
           </ul>
         </details>
         <a class="course-link" href="https://www.dcs.warwick.ac.uk/~u2270030/teaching_sb/winter1718/gct2/index.html" target="_blank" rel="noopener">Course page →</a>
-        <a class="course-link" href="https://www.dcs.warwick.ac.uk/~u2270030/teaching_sb/winter1718/gct2/symmetries.pdf" target="_blank" rel="noopener">Symmetries notes →</a>
-        <a class="course-link" href="https://www.dcs.warwick.ac.uk/~u2270030/teaching_sb/winter1718/gct2/determinantal-compl.pdf" target="_blank" rel="noopener">Determinantal complexity notes →</a>
       </div>
     </div>
   </article>
@@ -294,7 +292,6 @@ math: true
           </ul>
         </details>
         <a class="course-link" href="https://www.dcs.warwick.ac.uk/~u2270030/teaching_sb/summer18/firstintrotogct/index.html" target="_blank" rel="noopener">Course page →</a>
-        <a class="course-link" href="https://www.dcs.warwick.ac.uk/~u2270030/teaching_sb/summer17/introtogct/gct.pdf" target="_blank" rel="noopener">Lecture notes →</a>
       </div>
     </div>
   </article>
