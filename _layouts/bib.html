@@ -57,7 +57,12 @@
           <summary>Abstract</summary>
           {%- assign abstract_text = entry.abstract | smart_latex | strip -%}
           {%- assign abstract_text = abstract_text | remove_first: 'Abstract ' -%}
-          <div>{{ abstract_text | markdownify }}</div>
+          <div>
+            {%- assign abstract_paragraphs = abstract_text | split: "\n\n" -%}
+            {%- for paragraph in abstract_paragraphs -%}
+              <p>{{ paragraph | strip | escape }}</p>
+            {%- endfor -%}
+          </div>
         </details>
       {% endif %}
 
