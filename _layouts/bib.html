@@ -50,6 +50,8 @@
       {% endif %}
       {% if entry.arxiv %}
         <a href="https://arxiv.org/abs/{{ entry.arxiv }}" rel="noopener">arXiv</a>
+      {% elsif entry.eprint and entry.archivePrefix == 'arXiv' %}
+        <a href="https://arxiv.org/abs/{{ entry.eprint }}" rel="noopener">arXiv</a>
       {% endif %}
       {% if entry.slides %}
         {% if entry.slides contains '://' %}
