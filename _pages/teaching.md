@@ -93,7 +93,7 @@ math: true
             <li>Teaching assistant for the course.</li>
             <li>Gave a substitute lecture on the Immerman–Szelepcsényi theorem.</li>
             <li>Prepared NP-hardness exercise sheets and graded them.</li>
-            <li>Solved exercise sheets for students.</li>
+            <li>Solved exercise sheets for students, explained the solutions, and clarified doubts.</li>
           </ul>
         </details>
       </div>
