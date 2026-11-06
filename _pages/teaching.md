@@ -50,7 +50,7 @@ math: true
             <li>
               Co-taught with
               <a href="https://bhargavcs.github.io/" target="_blank" rel="noopener">Bhargav CS</a> and
-              <a href="https://www.mathe2.uni-bayreuth.de/hishukla/" target="_blank" rel="noopener">Himanshu Shukla (FIDS)</a>.
+              <a href="https://www.mathe2.uni-bayreuth.de/hishukla/" target="_blank" rel="noopener">Himanshu Shukla</a>.
             </li>
           </ul>
         </details>
