@@ -58,7 +58,7 @@ math: true
             <p>
               A graduate introduction to algebraic and geometric complexity theory, following the first
               twelve chapters of Bläser and Ikenmeyer’s
-              <em>Introduction to Geometric Complexity Theory</em>. The goal is to develop the algebraic,
+              <a href="https://theoryofcomputing.org/articles/gs010/gs010.pdf" target="_blank" rel="noopener"><em>Introduction to Geometric Complexity Theory</em></a>. The goal is to develop the algebraic,
               geometric, and representation-theoretic tools needed to study the permanent-versus-determinant
               problem and the border rank of matrix multiplication.
             </p>
@@ -87,7 +87,6 @@ math: true
             <li>Conducted and graded the oral exam.</li>
           </ul>
         </details>
-        <a class="course-link" href="https://theoryofcomputing.org/articles/gs010/gs010.pdf" target="_blank" rel="noopener">Course text →</a>
       </div>
     </div>
   </article>
@@ -223,17 +222,38 @@ math: true
       <div class="course-actions">
         <details class="course-description">
           <summary>Description</summary>
-          <p>A continuation of the geometric complexity theory course, focusing on advanced topics and current research directions.</p>
+          <div class="course-description-body">
+            <p>
+              An advanced course on recent topics in geometric complexity theory, including connections
+              to tensor rank and matrix multiplication.
+            </p>
+            <p><strong>Topics:</strong></p>
+            <ul>
+              <li>Landsberg–Ottaviani equations</li>
+              <li>Determinantal complexity</li>
+              <li>GCT and symmetries</li>
+              <li>Tensor rank and matrix multiplication</li>
+            </ul>
+            <p>
+              Oral exams at the end of the semester; weekly assignments, with at least half the points
+              required for admission to the exam.
+            </p>
+          </div>
         </details>
         <details class="course-duties">
           <summary>Responsibilities</summary>
           <ul>
-            <li>Led tutorial sessions.</li>
-            <li>Prepared exercise sheets and graded assignments.</li>
-            <li>Held office hours and supported exam preparation.</li>
+            <li>Held exercise sessions.</li>
+            <li>Clarified students’ doubts.</li>
+            <li>Explained solutions to the exercise sheets.</li>
+            <li>Graded exercise sheets.</li>
+            <li>Prepared sample solutions.</li>
           </ul>
         </details>
-        <a class="course-link" href="https://www.dcs.warwick.ac.uk/~u2270030/teaching_sb/winter1718/gct2/index.html" rel="noopener">Course page →</a>
+        <a class="course-link" href="https://www.dcs.warwick.ac.uk/~u2270030/teaching_sb/winter1718/gct2/index.html" target="_blank" rel="noopener">Course page →</a>
+        <a class="course-link" href="https://www.dcs.warwick.ac.uk/~u2270030/teaching_sb/winter1718/gct2/landsberg-ottaviani.pdf" target="_blank" rel="noopener">Landsberg–Ottaviani notes →</a>
+        <a class="course-link" href="https://www.dcs.warwick.ac.uk/~u2270030/teaching_sb/winter1718/gct2/symmetries.pdf" target="_blank" rel="noopener">Symmetries notes →</a>
+        <a class="course-link" href="https://www.dcs.warwick.ac.uk/~u2270030/teaching_sb/winter1718/gct2/determinantal-compl.pdf" target="_blank" rel="noopener">Determinantal complexity notes →</a>
       </div>
     </div>
   </article>
@@ -246,17 +266,37 @@ math: true
       <div class="course-actions">
         <details class="course-description">
           <summary>Description</summary>
-          <p>An introductory course on geometric complexity theory, covering algebraic geometry, representation theory, and their applications to complexity.</p>
+          <div class="course-description-body">
+            <p>
+              An introduction to geometric complexity theory, the program initiated by Mulmuley and
+              Sohoni to use algebraic geometry and representation theory to prove complexity lower
+              bounds for explicit problems.
+            </p>
+            <p><strong>Topics:</strong></p>
+            <ul>
+              <li>Algebraic complexity theory</li>
+              <li>Basic algebraic geometry</li>
+              <li>Classical representation theory</li>
+              <li>First steps in geometric complexity theory</li>
+            </ul>
+            <p>
+              Oral exams at the end of the semester; weekly assignments, with at least half the points
+              required for admission to the exam.
+            </p>
+          </div>
         </details>
         <details class="course-duties">
           <summary>Responsibilities</summary>
           <ul>
-            <li>Led tutorial sessions.</li>
-            <li>Prepared exercise sheets and graded assignments.</li>
-            <li>Held office hours and supported exam preparation.</li>
+            <li>Held exercise sessions.</li>
+            <li>Clarified students’ doubts.</li>
+            <li>Explained solutions to the exercise sheets.</li>
+            <li>Graded exercise sheets.</li>
+            <li>Prepared sample solutions.</li>
           </ul>
         </details>
-        <a class="course-link" href="https://www.dcs.warwick.ac.uk/~u2270030/teaching_sb/summer18/firstintrotogct/index.html" rel="noopener">Course page →</a>
+        <a class="course-link" href="https://www.dcs.warwick.ac.uk/~u2270030/teaching_sb/summer18/firstintrotogct/index.html" target="_blank" rel="noopener">Course page →</a>
+        <a class="course-link" href="https://www.dcs.warwick.ac.uk/~u2270030/teaching_sb/summer17/introtogct/gct.pdf" target="_blank" rel="noopener">Lecture notes →</a>
       </div>
     </div>
   </article>
