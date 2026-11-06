@@ -648,46 +648,6 @@ hr {
 }
 
 /* -----------------------------------------------------------------------------
-   News
-   ----------------------------------------------------------------------------- */
-
-.news-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.news-list li {
-  display: grid;
-  grid-template-columns: 5.5rem minmax(0, 1fr);
-  gap: 1.5rem;
-  padding: 0.9rem 0;
-  border-top: 1px solid var(--rule);
-}
-
-.news-list li:first-child {
-  border-top: 0;
-}
-
-.news-list time {
-  padding-top: 0.15rem;
-  color: var(--text-muted);
-  font-family: var(--font-mono);
-  font-size: 0.78rem;
-}
-
-.news-list p {
-  margin: 0;
-  color: var(--text-soft);
-  font-size: 0.95rem;
-}
-
-.news-list a {
-  text-decoration: underline;
-  text-underline-offset: 0.15em;
-}
-
-/* -----------------------------------------------------------------------------
    Long-form content
    ----------------------------------------------------------------------------- */
 
@@ -1368,11 +1328,6 @@ hr {
     display: none;
   }
 
-  .news-list li {
-    grid-template-columns: 1fr;
-    gap: 0.2rem;
-  }
-
   .course {
     grid-template-columns: 7rem minmax(0, 1fr);
     gap: 0.75rem;
@@ -1459,7 +1414,6 @@ hr {
 .section,
 .pub-list h2,
 .pub,
-.news-list li,
 .topic-grid,
 .topic,
 .course,
@@ -1483,7 +1437,6 @@ hr {
 .hero,
 .section,
 .section .pub,
-.news-list li,
 .topic-grid,
 .topic {
   border-width: 2px;
