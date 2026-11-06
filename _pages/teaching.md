@@ -12,7 +12,7 @@ math: true
     <div class="course-term">WS 2026/27</div>
     <div>
       <h2>Complexity Theory</h2>
-      <p class="course-meta">Universität Regensburg · Co-lecturer with {% include person-link.html key="brand" name="Cornelius Brand" %}</p>
+      <p class="course-meta">Universität Regensburg · Co-instructor with {% include person-link.html key="brand" name="Cornelius Brand" %}</p>
       <div class="course-actions">
         <details class="course-description">
           <summary>Description</summary>
@@ -38,7 +38,7 @@ math: true
         <details class="course-duties">
           <summary>Responsibilities</summary>
           <ul>
-            <li>Co-lecturer with Cornelius Brand.</li>
+            <li>Co-instructor with Cornelius Brand.</li>
             <li>Taught the lecture and exercise classes.</li>
           </ul>
         </details>
