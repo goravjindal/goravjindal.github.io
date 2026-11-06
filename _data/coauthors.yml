@@ -107,6 +107,10 @@
   - firstname: ["Mikołaj", "Mikolaj"]
     url: https://www.mimuw.edu.pl/en/employees/1272/
 
+"pilipczuk":
+  - firstname: ["Marcin"]
+    url: https://www.mimuw.edu.pl/~malcin/
+
 [approx17]: http://cui.unige.ch/tcs/random-approx/2017/
 [pavelkolev]: http://people.mpi-inf.mpg.de/~pkolev/
 [stoc18]: http://acm-stoc.org/stoc2018/

@@ -63,20 +63,41 @@ math: true
     <div class="course-term">10/2025–11/2025</div>
     <div>
       <h2>Computational Complexity</h2>
-      <p class="course-meta">University of Warsaw · Instructor</p>
+      <p class="course-meta">University of Warsaw · Teaching assistant · Main instructor: {% include person-link.html key="pilipczuk" name="Marcin Pilipczuk" %}</p>
       <div class="course-actions">
         <details class="course-description">
           <summary>Description</summary>
-          <p>Complexity classes, reductions, and completeness results.</p>
+          <div class="course-description-body">
+            <p>
+              A rigorous introduction to computational complexity, from models of computation and basic
+              complexity classes to reductions, NP-completeness, randomized computation, interactive
+              proofs, cryptography, and fine-grained complexity.
+            </p>
+            <p><strong>Topics:</strong></p>
+            <ul>
+              <li>Decision and function problems; Turing machines, RAM, and Boolean circuits.</li>
+              <li>Time and space complexity; the main complexity classes: \(\mathsf{NC}\), \(\mathsf{L}\), \(\mathsf{NL}\), \(\mathsf{P}\), \(\mathsf{NP}\), \(\mathsf{PSPACE}\), \(\mathsf{P/poly}\), and \(\mathsf{BPP}\).</li>
+              <li>Polynomial-time computation, the \(\mathsf{P} \neq \mathsf{NP}\) conjecture, reductions, and NP-complete problems.</li>
+              <li>Approximation algorithms, fixed-parameter tractability, and average polynomial complexity.</li>
+              <li>Randomized computation, probabilistic classes, pseudorandom generators, and derandomization.</li>
+              <li>\(\mathsf{PSPACE}\), alternating machines, interactive proofs, and games against Nature.</li>
+              <li>One-way functions, cryptography, and zero-knowledge proofs.</li>
+              <li>Diagonalization and hierarchy theorems; limits of diagonalization for \(\mathsf{P} \neq \mathsf{NP}\).</li>
+              <li>Fine-grained and parameterized complexity; the Exponential Time Hypothesis.</li>
+            </ul>
+            <p>Assessment: quizzes, a mid-term exam, and a written exam.</p>
+          </div>
         </details>
         <details class="course-duties">
           <summary>Responsibilities</summary>
           <ul>
-            <li>Designed and taught the course.</li>
-            <li>Prepared lectures and exercises.</li>
-            <li>Assessed student work.</li>
+            <li>Teaching assistant for the course.</li>
+            <li>Gave a substitute lecture on the Immerman–Szelepcsényi theorem.</li>
+            <li>Prepared NP-hardness exercise sheets and graded them.</li>
+            <li>Solved exercise sheets for students.</li>
           </ul>
         </details>
+        <a class="course-link" href="https://informatorects.uw.edu.pl/en/courses/view?prz_kod=1000-218bZO" target="_blank" rel="noopener">Course page →</a>
       </div>
     </div>
   </article>
@@ -85,7 +106,7 @@ math: true
     <div class="course-term">10/2025–11/2025</div>
     <div>
       <h2>Professional Skills in Computer Science</h2>
-      <p class="course-meta">University of Warsaw · Teaching assistant · Course coordinator: {% include person-link.html key="bojanczyk" name="Mikołaj Bojańczyk" %}</p>
+      <p class="course-meta">University of Warsaw · Teaching assistant · Main instructor: {% include person-link.html key="bojanczyk" name="Mikołaj Bojańczyk" %}</p>
       <div class="course-actions">
         <details class="course-description">
           <summary>Description</summary>
