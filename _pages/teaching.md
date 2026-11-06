@@ -4,6 +4,7 @@ title: Teaching
 permalink: /teaching/
 description: Courses I have taught, tutored, or assisted with.
 wide: true
+math: true
 ---
 
 <div class="course-list">
@@ -29,13 +30,13 @@ wide: true
               <li>Waring rank and border Waring rank</li>
               <li>Actions, orbits, and orbit closures</li>
               <li>First algebraic geometry</li>
-              <li>Algebraic complexity classes: VP, VNP, and orbit problems</li>
-              <li>VP and the determinant</li>
-              <li>The permanent and Valiant’s conjecture</li>
+              <li>Algebraic complexity classes: \(\mathsf{VP}\), \(\mathsf{VNP}\), and orbit problems</li>
+              <li>\(\mathsf{VP}\) and the determinant</li>
+              <li>The permanent and \(\mathsf{VP} \neq \mathsf{VNP}\)</li>
               <li>Border complexity and group orbit closures</li>
               <li>Representation theory</li>
               <li>Representation theory of finite groups and Maschke’s theorem</li>
-              <li>Irreducible representations of GL<sub>n</sub>: first properties</li>
+              <li>Irreducible representations of \(\mathrm{GL}_n\): first properties</li>
               <li>Schur’s lemma, multiplicities, and isotypic decompositions</li>
             </ul>
           </div>

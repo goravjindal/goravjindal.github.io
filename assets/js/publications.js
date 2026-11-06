@@ -17,7 +17,7 @@
     }
   });
 
-  document.querySelectorAll(".pub-abstract").forEach(function (details) {
+  document.querySelectorAll(".pub-abstract, .course-description, .course-duties").forEach(function (details) {
     details.addEventListener("toggle", function () {
       if (details.open && window.MathJax && MathJax.typesetPromise) {
         MathJax.typesetPromise([details]).catch(function () {});
