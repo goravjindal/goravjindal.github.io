@@ -49,8 +49,8 @@ math: true
             <li>Conducted the oral exam.</li>
             <li>
               Co-taught with
-              <a href="https://bhargavcs.github.io/" target="_blank" rel="noopener">Bhargav CS</a> and
-              <a href="https://www.mathe2.uni-bayreuth.de/hishukla/" target="_blank" rel="noopener">Himanshu Shukla</a>.
+              {% include person-link.html key="bhargav" name="Bhargav CS" %} and
+              {% include person-link.html key="shukla" name="Himanshu Shukla" %}.
             </li>
           </ul>
         </details>
@@ -85,20 +85,37 @@ math: true
     <div class="course-term">10/2025–11/2025</div>
     <div>
       <h2>Professional Skills in Computer Science</h2>
-      <p class="course-meta">University of Warsaw · Instructor</p>
+      <p class="course-meta">University of Warsaw · Teaching assistant · Course coordinator: {% include person-link.html key="bojanczyk" name="Mikołaj Bojańczyk" %}</p>
       <div class="course-actions">
         <details class="course-description">
           <summary>Description</summary>
-          <p>Professional and research skills for computer science students.</p>
+          <div class="course-description-body">
+            <p>
+              A practical course on professional skills for computer scientists. It covers how to give
+              research talks, scientific writing, ethics, visual communication and interface design,
+              legal issues, and intellectual property. Students give practice talks, receive feedback,
+              and complete writing assignments.
+            </p>
+            <p><strong>Topics:</strong></p>
+            <ul>
+              <li>Giving a talk: audience, structure, slides, and answering questions; practice talks with discussion and feedback.</li>
+              <li>Scientific writing: organizing papers, workflow, mathematical and non-mathematical prose, and notation.</li>
+              <li>Ethics: privacy, algorithmic bias, automation, misinformation, and the responsibilities of computer scientists.</li>
+              <li>Visual communication and interface design.</li>
+              <li>Legal issues and intellectual property, including copyright, patents, and software licensing.</li>
+            </ul>
+          </div>
         </details>
         <details class="course-duties">
           <summary>Responsibilities</summary>
           <ul>
-            <li>Designed and led the course.</li>
-            <li>Coordinated professional-skills training.</li>
-            <li>Assessed student work.</li>
+            <li>Teaching assistant for the “Giving a talk” component.</li>
+            <li>Instructed students on how to structure and deliver research talks.</li>
+            <li>Gave feedback on student talks and led discussions of their strengths and weaknesses.</li>
+            <li>Helped students design slides and prepare for questions.</li>
           </ul>
         </details>
+        <a class="course-link" href="https://informatorects.uw.edu.pl/en/courses/view?prz_kod=1000-217bPSC" target="_blank" rel="noopener">Course page →</a>
       </div>
     </div>
   </article>
@@ -107,7 +124,7 @@ math: true
     <div class="course-term">01/2020–04/2020</div>
     <div>
       <h2>CS-E4530 — Computational Complexity Theory</h2>
-      <p class="course-meta">Aalto University · Teaching assistant · Prof. Pekka Orponen</p>
+      <p class="course-meta">Aalto University · Teaching assistant · Main instructor: {% include person-link.html key="orponen" name="Prof. Pekka Orponen" %}</p>
       <div class="course-actions">
         <details class="course-description">
           <summary>Description</summary>
@@ -129,7 +146,7 @@ math: true
     <div class="course-term">01/2019–04/2019</div>
     <div>
       <h2>CS-E4530 — Computational Complexity Theory</h2>
-      <p class="course-meta">Aalto University · Teaching assistant · Prof. Pekka Orponen</p>
+      <p class="course-meta">Aalto University · Teaching assistant · Main instructor: {% include person-link.html key="orponen" name="Prof. Pekka Orponen" %}</p>
       <div class="course-actions">
         <details class="course-description">
           <summary>Description</summary>
@@ -151,7 +168,7 @@ math: true
     <div class="course-term">WS 2017–2018</div>
     <div>
       <h2>Geometric Complexity Theory 2</h2>
-      <p class="course-meta">Saarland University · Teaching assistant · Prof. Dr. Markus Bläser, Christian Ikenmeyer</p>
+      <p class="course-meta">Saarland University · Teaching assistant · Main instructors: {% include person-link.html key="blaser" name="Prof. Dr. Markus Bläser" %}, {% include person-link.html key="ikenmeyer" name="Christian Ikenmeyer" %}</p>
       <div class="course-actions">
         <details class="course-description">
           <summary>Description</summary>
@@ -174,7 +191,7 @@ math: true
     <div class="course-term">SS 2017</div>
     <div>
       <h2>Introduction to Geometric Complexity Theory</h2>
-      <p class="course-meta">Saarland University · Teaching assistant · Prof. Dr. Markus Bläser, Christian Ikenmeyer</p>
+      <p class="course-meta">Saarland University · Teaching assistant · Main instructors: {% include person-link.html key="blaser" name="Prof. Dr. Markus Bläser" %}, {% include person-link.html key="ikenmeyer" name="Christian Ikenmeyer" %}</p>
       <div class="course-actions">
         <details class="course-description">
           <summary>Description</summary>
@@ -197,7 +214,7 @@ math: true
     <div class="course-term">SS 2016</div>
     <div>
       <h2>Complexity Theory of Polynomial-Time Problems</h2>
-      <p class="course-meta">Saarland University · Teaching assistant · Karl Bringmann, Sebastian Krinninger</p>
+      <p class="course-meta">Saarland University · Teaching assistant · Main instructors: {% include person-link.html key="bringmann" name="Karl Bringmann" %}, {% include person-link.html key="krinninger" name="Sebastian Krinninger" %}</p>
       <div class="course-actions">
         <details class="course-description">
           <summary>Description</summary>
@@ -220,7 +237,7 @@ math: true
     <div class="course-term">WS 2012–2013</div>
     <div>
       <h2>Algorithms and Data Structures</h2>
-      <p class="course-meta">Saarland University · Teaching assistant · Prof. Dr. Raimund Seidel</p>
+      <p class="course-meta">Saarland University · Teaching assistant · Main instructor: {% include person-link.html key="seidel" name="Prof. Dr. Raimund Seidel" %}</p>
       <div class="course-actions">
         <details class="course-description">
           <summary>Description</summary>

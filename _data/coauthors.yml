@@ -76,13 +76,37 @@
 
 "shukla":
   - firstname: ["Himanshu"]
-    url: http://home.iitk.ac.in/~hishukla/
+    url: https://www.mathe2.uni-bayreuth.de/hishukla/
 
 "gaillard":
   - firstname: ["Louis"]
     url: http://www.ens-lyon.fr/lecole/nous-connaitre/annuaire/louis-gaillard
 
 [ccc2017]: https://computationalcomplexity.org/Archive/2017/program.php
+"orponen":
+  - firstname: ["Pekka"]
+    url: http://users.ics.aalto.fi/orponen/
+
+"bringmann":
+  - firstname: ["Karl"]
+    url: https://people.mpi-inf.mpg.de/~kbringma/
+
+"krinninger":
+  - firstname: ["Sebastian"]
+    url: https://www.cosy.sbg.ac.at/~sk/
+
+"seidel":
+  - firstname: ["Raimund"]
+    url: https://www-tcs.cs.uni-saarland.de/
+
+"bhargav":
+  - firstname: ["C. S.", "CS"]
+    url: https://bhargavcs.github.io/
+
+"bojanczyk":
+  - firstname: ["Mikołaj", "Mikolaj"]
+    url: https://www.mimuw.edu.pl/en/employees/1272/
+
 [approx17]: http://cui.unige.ch/tcs/random-approx/2017/
 [pavelkolev]: http://people.mpi-inf.mpg.de/~pkolev/
 [stoc18]: http://acm-stoc.org/stoc2018/
