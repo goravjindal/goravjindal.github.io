@@ -32,6 +32,9 @@
   (function () {
     try {
       var saved = localStorage.getItem("theme");
+      if (saved !== "light" && saved !== "dark") {
+        saved = null;
+      }
       var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
       document.documentElement.dataset.theme = saved || (prefersDark ? "dark" : "light");
     } catch (e) {
