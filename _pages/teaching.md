@@ -85,7 +85,6 @@ math: true
               <li>Diagonalization and hierarchy theorems; limits of diagonalization for \(\mathsf{P} \neq \mathsf{NP}\).</li>
               <li>Fine-grained and parameterized complexity; the Exponential Time Hypothesis.</li>
             </ul>
-            <p>Assessment: quizzes, a mid-term exam, and a written exam.</p>
           </div>
         </details>
         <details class="course-duties">
@@ -97,7 +96,6 @@ math: true
             <li>Solved exercise sheets for students.</li>
           </ul>
         </details>
-        <a class="course-link" href="https://informatorects.uw.edu.pl/en/courses/view?prz_kod=1000-218bZO" target="_blank" rel="noopener">Course page →</a>
       </div>
     </div>
   </article>
@@ -136,7 +134,6 @@ math: true
             <li>Helped students design slides and prepare for questions.</li>
           </ul>
         </details>
-        <a class="course-link" href="https://informatorects.uw.edu.pl/en/courses/view?prz_kod=1000-217bPSC" target="_blank" rel="noopener">Course page →</a>
       </div>
     </div>
   </article>
