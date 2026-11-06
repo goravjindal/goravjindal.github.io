@@ -84,7 +84,7 @@ math: true
           <ul>
             <li>Taught the first four chapters: Boolean and arithmetic circuits, Waring rank, orbit closures, and first algebraic geometry.</li>
             <li>Designed and graded the exercise sheets.</li>
-            <li>Conducted the oral exam.</li>
+            <li>Conducted and graded the oral exam.</li>
           </ul>
         </details>
         <a class="course-link" href="https://theoryofcomputing.org/articles/gs010/gs010.pdf" target="_blank" rel="noopener">Course text →</a>
@@ -298,7 +298,6 @@ math: true
             <li>Clarified students’ doubts.</li>
             <li>Explained solutions to the exercise sheets.</li>
             <li>Graded exercise sheets.</li>
-            <li>Graded the oral exam.</li>
             <li>Prepared sample solutions.</li>
           </ul>
         </details>
