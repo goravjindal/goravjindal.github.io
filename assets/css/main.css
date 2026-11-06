@@ -737,7 +737,7 @@ hr {
 
 .topic-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.25rem;
   margin: 2rem 0 2.5rem;
 }
@@ -1249,6 +1249,20 @@ hr {
   }
 }
 
+@media (max-width: 800px) {
+  .topic-grid {
+    grid-template-columns: repeat(3, minmax(260px, 1fr));
+    overflow-x: auto;
+    padding-bottom: 0.75rem;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .topic {
+    scroll-snap-align: start;
+  }
+}
+
 @media (max-width: 700px) {
   .wrap {
     width: calc(100% - 2rem);
@@ -1356,10 +1370,6 @@ hr {
 
   .footer-links {
     justify-content: flex-start;
-  }
-
-  .topic-grid {
-    grid-template-columns: 1fr;
   }
 }
 
