@@ -3,13 +3,21 @@
     {%- assign author_last_raw = author.last | strip -%}
     {%- assign author_last = author_last_raw | split: '_' | first -%}
     {%- assign author_first = author.first | split: '_' | first | strip -%}
+    {%- assign author_last_clean = author_last_raw | smart_latex -%}
     {%- assign author_first_clean = author_first | smart_latex -%}
-    {%- assign coauthor_key = author_last_raw | smart_latex | downcase | remove_accents -%}
+    {%- assign author_first_key = author_first_clean | downcase | remove_accents -%}
+    {%- assign coauthor_key = author_last_clean | downcase | remove_accents -%}
+    {%- assign coauthor_key_raw = author_last_clean | downcase -%}
+    {%- assign coauthor_key_alt = coauthor_key_raw | replace: 'ä', 'ae' | replace: 'ö', 'oe' | replace: 'ü', 'ue' | replace: 'ß', 'ss' -%}
+    {%- assign coauthor_data = site.data.coauthors[coauthor_key] -%}
+    {%- unless coauthor_data -%}{%- assign coauthor_data = site.data.coauthors[coauthor_key_raw] -%}{%- endunless -%}
+    {%- unless coauthor_data -%}{%- assign coauthor_data = site.data.coauthors[coauthor_key_alt] -%}{%- endunless -%}
     {%- assign coauthor_url = null -%}
 
-    {%- if site.data.coauthors[coauthor_key] -%}
-      {%- for coauthor in site.data.coauthors[coauthor_key] -%}
-        {%- if coauthor.firstname contains author_first_clean -%}
+    {%- if coauthor_data -%}
+      {%- for coauthor in coauthor_data -%}
+        {%- assign coauthor_first = coauthor.firstname | join: ' ' | downcase | remove_accents -%}
+        {%- if coauthor_first contains author_first_key -%}
           {%- assign coauthor_url = coauthor.url -%}
           {%- break -%}
         {%- endif -%}
