@@ -516,7 +516,8 @@ hr {
 
 .pub-authors a {
   text-decoration: underline;
-  text-decoration-color: color-mix(in srgb, var(--accent) 35%, transparent);
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 1px;
   text-underline-offset: 0.15em;
 }
 

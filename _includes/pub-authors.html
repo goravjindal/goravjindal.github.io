@@ -19,7 +19,7 @@
     {%- if author_last == 'Jindal' and author_first contains 'Gorav' -%}
       <strong>{{ author_first | smart_latex }} {{ author_last | smart_latex }}</strong>
     {%- elsif coauthor_url -%}
-      <a href="{{ coauthor_url | strip }}" rel="noopener">{{ author_first | smart_latex }} {{ author_last | smart_latex }}</a>
+      <a href="{{ coauthor_url | strip }}" rel="noopener" target="_blank">{{ author_first | smart_latex }} {{ author_last | smart_latex }}</a>
     {%- else -%}
       {{ author_first | smart_latex }} {{ author_last | smart_latex }}
     {%- endif -%}
