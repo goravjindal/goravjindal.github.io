@@ -56,18 +56,11 @@ math: true
           <summary>Description</summary>
           <div class="course-description-body">
             <p>
-              Computational complexity theory studies the resources required to solve computational
-              problems. The most famous open question in the area is the “P vs. NP” problem: whether
-              finding solutions is harder than verifying them. Algebraic complexity theory replaces
-              Boolean computation with computation over fields, turning combinatorial problems into
-              polynomials and studying their complexity.
-            </p>
-            <p>
-              The course develops algebraic complexity classes such as \(\mathsf{VP}\) and
-              \(\mathsf{VNP}\), and studies lower bounds for important polynomials such as the
-              determinant. It introduces tools from algebraic geometry and representation theory,
-              covers classical results and recent techniques, and is intended as a self-contained
-              introductory treatment for mathematics students.
+              A graduate introduction to algebraic and geometric complexity theory, following the first
+              twelve chapters of Bläser and Ikenmeyer’s
+              <em>Introduction to Geometric Complexity Theory</em>. The goal is to develop the algebraic,
+              geometric, and representation-theoretic tools needed to study the permanent-versus-determinant
+              problem and the border rank of matrix multiplication.
             </p>
             <p><strong>Chapters covered:</strong></p>
             <ul>
@@ -90,16 +83,11 @@ math: true
           <summary>Responsibilities</summary>
           <ul>
             <li>Taught the first four chapters: Boolean and arithmetic circuits, Waring rank, orbit closures, and first algebraic geometry.</li>
-            <li>Held exercise sessions.</li>
-            <li>Clarified students’ doubts.</li>
-            <li>Explained solutions to the exercise sheets.</li>
             <li>Designed and graded the exercise sheets.</li>
-            <li>Prepared sample solutions.</li>
             <li>Conducted the oral exam.</li>
           </ul>
         </details>
         <a class="course-link" href="https://theoryofcomputing.org/articles/gs010/gs010.pdf" target="_blank" rel="noopener">Course text →</a>
-        <a class="course-link" href="https://hellus.app.uni-regensburg.de/KVV/abruflink.php?id=1468" target="_blank" rel="noopener">Course page →</a>
       </div>
     </div>
   </article>
@@ -281,17 +269,40 @@ math: true
       <div class="course-actions">
         <details class="course-description">
           <summary>Description</summary>
-          <p>A specialized course on fine-grained complexity theory, exploring tight bounds for polynomial-time solvable problems.</p>
+          <div class="course-description-body">
+            <p>
+              An advanced course (2+1, 5 credits) on fine-grained complexity: a more precise view of
+              the complexity of polynomial-time problems, with matching upper and lower bounds and
+              connections between seemingly unrelated problems.
+            </p>
+            <p><strong>Topics:</strong></p>
+            <ul>
+              <li>Conditional lower bounds from \(\mathsf{SETH}\) and Orthogonal Vectors.</li>
+              <li>The polynomial method for Orthogonal Vectors and All-Pairs Shortest Paths.</li>
+              <li>Subcubic equivalences between path, matrix, and triangle problems.</li>
+              <li>\(\mathsf{3SUM}\) algorithms and hardness.</li>
+              <li>Boolean matrix multiplication: upper bounds and hardness.</li>
+              <li>Dynamic graph algorithms: upper and lower bounds.</li>
+              <li>Nondeterministic \(\mathsf{SETH}\) and the \(\mathsf{OMv}\) conjecture.</li>
+            </ul>
+            <p>
+              The course includes six exercise sheets; students design conditional lower bounds and
+              must collect at least 50% of the points to be admitted to the oral exam.
+            </p>
+          </div>
         </details>
         <details class="course-duties">
           <summary>Responsibilities</summary>
           <ul>
-            <li>Prepared and graded exercises.</li>
-            <li>Supported tutorial sessions.</li>
-            <li>Held office hours.</li>
+            <li>Held exercise sessions.</li>
+            <li>Clarified students’ doubts.</li>
+            <li>Explained solutions to the exercise sheets.</li>
+            <li>Graded exercise sheets.</li>
+            <li>Graded the oral exam.</li>
+            <li>Prepared sample solutions.</li>
           </ul>
         </details>
-        <a class="course-link" href="https://www.mpi-inf.mpg.de/departments/algorithms-complexity/teaching/summer16/poly-complexity/" rel="noopener">Course page →</a>
+        <a class="course-link" href="https://www.mpi-inf.mpg.de/departments/algorithms-complexity/teaching/summer16/poly-complexity/" target="_blank" rel="noopener">Course page →</a>
       </div>
     </div>
   </article>
