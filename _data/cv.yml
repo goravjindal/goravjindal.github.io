@@ -91,27 +91,13 @@
       items:
         - IITJEE — All India Rank 159 out of 175,000 students
 
-- title: Skills
+- title: Skills and Languages
   type: list
   contents:
     - <u>Programming:</u> Python, Bash, C++, LaTeX
     - <u>Applications:</u> Gvim, Git, Microsoft Office
     - <u>Operating Systems:</u> Unix, Linux, Windows
-
-- title: Languages
-  type: list
-  contents:
-    - Hindi — Native speaker
-    - Punjabi — Native speaker
-    - English — Proficient
-    - German — B1 level
-
-- title: Academic Profile Links
-  type: list
-  contents:
-    - <a href="https://scholar.google.com/citations?user=VZnSCWMAAAAJ">Google Scholar</a>
-    - <a href="https://orcid.org/0000-0002-9749-5032">ORCID</a>
-    - <a href="https://dblp.org/pid/123/4675.html">DBLP</a>
+    - <u>Languages:</u> Hindi — Native speaker · Punjabi — Native speaker · English — Proficient · German — B1 level
 
 - title: Selected Talks & Visits
   type: list
