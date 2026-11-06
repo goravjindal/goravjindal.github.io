@@ -361,24 +361,11 @@ hr {
 }
 
 .hero-photo {
-  position: relative;
   width: min(100%, 300px);
   justify-self: end;
 }
 
-.hero-photo::before {
-  position: absolute;
-  inset: 14px -14px -14px 14px;
-  z-index: 0;
-  border: 1px solid var(--rule-strong);
-  border-radius: var(--radius);
-  background: var(--accent-soft);
-  content: "";
-}
-
 .hero-photo img {
-  position: relative;
-  z-index: 1;
   display: block;
   width: 100%;
   aspect-ratio: 4 / 5;
