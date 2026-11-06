@@ -4,4 +4,5 @@ title: CV
 permalink: /cv/
 description: A brief CV detailing my academic and professional history.
 wide: true
+page_class: cv-page
 ---
