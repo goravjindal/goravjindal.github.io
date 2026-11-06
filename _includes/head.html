@@ -1,0 +1,77 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+
+{% assign page_title = page.title | default: "Home" %}
+{% if page_title == "Home" %}
+  {% assign full_title = site.title | append: " · " | append: site.author.position %}
+{% else %}
+  {% assign full_title = page_title | append: " · " | append: site.title %}
+{% endif %}
+{% assign page_description = page.description | default: site.description | strip_newlines | strip %}
+
+<title>{{ full_title }}</title>
+<meta name="description" content="{{ page_description }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ full_title }}">
+<meta property="og:description" content="{{ page_description }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:site_name" content="{{ site.title }}">
+{% assign og_image = page.image | default: "prof_pic.jpg" %}
+<meta property="og:image" content="{{ og_image | prepend: '/assets/img/' | absolute_url }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ full_title }}">
+<meta name="twitter:description" content="{{ page_description }}">
+
+<link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem("theme");
+      var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      document.documentElement.dataset.theme = saved || (prefersDark ? "dark" : "light");
+    } catch (e) {
+      document.documentElement.dataset.theme = "light";
+    }
+  })();
+</script>
+
+{% if page.math %}
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [["\\(", "\\)"]],
+      displayMath: [["\\[", "\\]"]]
+    },
+    options: {
+      skipHtmlTags: ["script", "noscript", "style", "textarea", "pre", "code"]
+    }
+  };
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+{% endif %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ site.author.name | jsonify }},
+  "url": {{ "/" | absolute_url | jsonify }},
+  "jobTitle": {{ site.author.position | jsonify }},
+  "affiliation": {
+    "@type": "Organization",
+    "name": {{ site.author.affiliation | jsonify }}
+  },
+  "sameAs": [
+    "https://scholar.google.com/citations?user={{ site.data.socials.scholar }}",
+    "https://orcid.org/{{ site.data.socials.orcid }}",
+    "{{ site.data.socials.dblp }}",
+    "https://github.com/{{ site.data.socials.github }}",
+    "https://www.linkedin.com/in/{{ site.data.socials.linkedin }}"
+  ]
+}
+</script>

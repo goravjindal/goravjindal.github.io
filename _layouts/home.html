@@ -1,0 +1,72 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow">{{ site.author.position }}</p>
+      <h1>{{ site.author.name }}</h1>
+      <p class="hero-role">
+        <strong>{{ site.author.affiliation }}</strong> · {{ site.author.location }}
+      </p>
+
+      <div class="hero-bio">
+        {{ content }}
+      </div>
+
+      <div class="interests" aria-label="Research interests">
+        {% for interest in page.interests %}
+          <span>{{ interest }}</span>
+        {% endfor %}
+      </div>
+
+      <div class="hero-links">
+        <a class="is-primary" href="{{ '/publications/' | relative_url }}">Publications</a>
+        <a href="{{ '/cv/' | relative_url }}">CV</a>
+        {% include social-links.html %}
+      </div>
+    </div>
+
+    {% if page.image %}
+      <div class="hero-photo">
+        <img src="{{ page.image | prepend: '/assets/img/' | relative_url }}" alt="{{ site.author.name }}" width="600" height="750">
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Selected work</p>
+        <h2>Publications</h2>
+      </div>
+      <a class="section-link" href="{{ '/publications/' | relative_url }}">All publications →</a>
+    </div>
+
+    <div class="pub-list pub-list--compact">
+      {% bibliography --group_by none --query @*[selected=true]* --template bib-compact %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Updates</p>
+        <h2>News</h2>
+      </div>
+    </div>
+
+    <ul class="news-list">
+      {% for item in site.data.news limit: 4 %}
+        <li>
+          <time>{{ item.date }}</time>
+          <div>{{ item.text | markdownify }}</div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

@@ -1,10 +1,7 @@
 ---
 layout: cv
+title: CV
 permalink: /cv/
-title: cv
-nav: true
-nav_order: 5
-description: Gorav Jindal CV
-toc:
-  sidebar: left
+description: Positions, education, awards, and academic profile.
+wide: true
 ---

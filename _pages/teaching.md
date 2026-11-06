@@ -1,59 +1,58 @@
 ---
 layout: page
+title: Teaching
 permalink: /teaching/
-title: teaching
-description: Courses I have taught or tutored.
-nav: true
-nav_order: 6
+description: Courses I have taught, tutored, or assisted with.
+wide: true
 ---
 
-Below is a selection of courses I have tutored or assisted in, spanning algorithms, data structures, and complexity theory.
+<div class="course-list">
+  <article class="course">
+    <div class="course-term">WS 2012–2013</div>
+    <div>
+      <h2>Algorithms and Data Structures</h2>
+      <p class="course-meta">Saarland University · Teaching assistant · Prof. Dr. Raimund Seidel</p>
+      <p>An introductory undergraduate course covering the design, analysis, and implementation of fundamental algorithms and data structures.</p>
+    </div>
+  </article>
 
----
+  <article class="course">
+    <div class="course-term">Aalto University</div>
+    <div>
+      <h2>Computational Complexity Theory</h2>
+      <p class="course-meta">Aalto University · Teaching assistant · Prof. Pekka Orponen</p>
+      <p>A graduate-level introduction to computational complexity theory, including complexity classes, reductions, and completeness results.</p>
+      <a href="https://mycourses.aalto.fi/course/view.php?id=24358" rel="noopener">Course page →</a>
+    </div>
+  </article>
 
-## Algorithms and Data Structures  
-**Term:** WS 2012–2013  
-**Institution:** [Saarland University](http://www-tcs.cs.uni-sb.de/)  
-**Instructor:** [Prof. Dr. Raimund Seidel](http://www-tcs.cs.uni-sb.de/)  
+  <article class="course">
+    <div class="course-term">SS 2016</div>
+    <div>
+      <h2>Complexity Theory of Polynomial-Time Problems</h2>
+      <p class="course-meta">Max-Planck-Institut für Informatik · Teaching assistant · Karl Bringmann, Sebastian Krinninger</p>
+      <p>A specialized course on fine-grained complexity theory, exploring tight bounds for polynomial-time solvable problems.</p>
+      <a href="https://www.mpi-inf.mpg.de/departments/algorithms-complexity/teaching/summer16/poly-complexity/" rel="noopener">Course page →</a>
+    </div>
+  </article>
 
-An introductory undergraduate course covering the design, analysis, and implementation of fundamental algorithms and data structures.
+  <article class="course">
+    <div class="course-term">Summer 2018</div>
+    <div>
+      <h2>Introduction to Geometric Complexity Theory</h2>
+      <p class="course-meta">Max-Planck-Institut für Informatik · Teaching assistant · Prof. Dr. Markus Bläser, Christian Ikenmeyer</p>
+      <p>An introductory course on geometric complexity theory, covering algebraic geometry, representation theory, and their applications to complexity.</p>
+      <a href="https://www.dcs.warwick.ac.uk/~u2270030/teaching_sb/summer18/firstintrotogct/index.html" rel="noopener">Course page →</a>
+    </div>
+  </article>
 
----
-
-## Computational Complexity Theory  
-**Institution:** [Department of Computer Science, Aalto University](https://www.aalto.fi/en/department-of-computer-science)  
-**Instructor:** [Prof. Pekka Orponen](http://users.ics.aalto.fi/orponen/)  
-
-A graduate-level introduction to computational complexity theory, including complexity classes, reductions, and completeness results.  
-[Course page](https://mycourses.aalto.fi/course/view.php?id=24358)
-
----
-
-## Complexity Theory of Polynomial-Time Problems  
-**Term:** SS 2016  
-**Institution:** [Max-Planck-Institut für Informatik](https://www.mpi-inf.mpg.de/)  
-**Instructors:** [Karl Bringmann](https://people.mpi-inf.mpg.de/~kbringma/), [Sebastian Krinninger](https://www.cosy.sbg.ac.at/~sk/)  
-
-A specialized course on fine-grained complexity theory, exploring tight bounds for polynomial-time solvable problems.  
-[Course page](https://www.mpi-inf.mpg.de/departments/algorithms-complexity/teaching/summer16/poly-complexity/)
-
----
-
-## Introduction to Geometric Complexity Theory  
-**Term:** Summer 2018  
-**Institution:** [Max-Planck-Institut für Informatik](https://www.mpi-inf.mpg.de/)  
-**Instructors:** [Prof. Dr. Markus Bläser](https://www-cc.cs.uni-saarland.de/mblaeser/), [Christian Ikenmeyer](https://people.mpi-inf.mpg.de/~cikenmey/)  
-
-An introductory course on geometric complexity theory, covering algebraic geometry, representation theory, and their applications to complexity.  
-[Course page](https://www.dcs.warwick.ac.uk/~u2270030/teaching_sb/summer18/firstintrotogct/index.html)
-
----
-
-## Geometric Complexity Theory 2  
-**Term:** WS 2017–2018  
-**Institution:** [Max-Planck-Institut für Informatik](https://www.mpi-inf.mpg.de/)  
-**Instructors:** [Prof. Dr. Markus Bläser](https://www-cc.cs.uni-saarland.de/mblaeser/), [Christian Ikenmeyer](https://people.mpi-inf.mpg.de/~cikenmey/)  
-
-A continuation of the geometric complexity theory course, focusing on advanced topics and current research directions.  
-[Course page](https://www.dcs.warwick.ac.uk/~u2270030/teaching_sb/winter1718/gct2/index.html)
-
+  <article class="course">
+    <div class="course-term">WS 2017–2018</div>
+    <div>
+      <h2>Geometric Complexity Theory 2</h2>
+      <p class="course-meta">Max-Planck-Institut für Informatik · Teaching assistant · Prof. Dr. Markus Bläser, Christian Ikenmeyer</p>
+      <p>A continuation of the geometric complexity theory course, focusing on advanced topics and current research directions.</p>
+      <a href="https://www.dcs.warwick.ac.uk/~u2270030/teaching_sb/winter1718/gct2/index.html" rel="noopener">Course page →</a>
+    </div>
+  </article>
+</div>

@@ -1,20 +1,14 @@
 ---
 layout: page
+title: Publications
 permalink: /publications/
-title: publications
-description: Publications  in reversed chronological order. 
-nav: true
-nav_order: 2
+description: Papers and theses in reverse chronological order.
+wide: true
+math: true
 ---
 
-<!-- _pages/publications.md -->
+A complete list is also available on [Google Scholar](https://scholar.google.com/citations?user={{ site.data.socials.scholar }}) and [DBLP]({{ site.data.socials.dblp }}).
 
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
-
-<div class="publications">
-
+<div class="pub-list">
 {% bibliography %}
-
 </div>

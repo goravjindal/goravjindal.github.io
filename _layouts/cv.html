@@ -1,0 +1,87 @@
+---
+layout: default
+---
+<div class="wrap page page--wide cv-page">
+  <header class="page-header cv-header">
+    <div>
+      <p class="eyebrow">Curriculum vitae</p>
+      <h1>{{ page.title | default: "CV" }}</h1>
+      {% if page.description %}<p class="page-description">{{ page.description }}</p>{% endif %}
+      <p class="print-only cv-contact">
+        {{ site.author.email }} · {{ site.author.location }}
+      </p>
+    </div>
+
+    {% if page.cv_pdf %}
+      <a class="btn btn-ghost no-print" href="{{ page.cv_pdf | relative_url }}">Download PDF</a>
+    {% else %}
+      <button class="btn btn-ghost no-print" type="button" onclick="window.print()">Print / Save PDF</button>
+    {% endif %}
+  </header>
+
+  <div class="cv">
+    {% for section in site.data.cv %}
+      <section class="cv-section">
+        <h2>{{ section.title }}</h2>
+
+        {% case section.type %}
+          {% when 'map' %}
+            <dl class="cv-map">
+              {% for item in section.contents %}
+                <div>
+                  <dt>{{ item.name }}</dt>
+                  <dd>{{ item.value }}</dd>
+                </div>
+              {% endfor %}
+            </dl>
+
+          {% when 'text' %}
+            <div class="cv-text">{{ section.contents | markdownify }}</div>
+
+          {% when 'time_table' %}
+            <div class="cv-timeline">
+              {% for item in section.contents %}
+                <div class="cv-item">
+                  <div class="cv-years">{{ item.year }}</div>
+                  <div class="cv-detail">
+                    {% if item.title %}<h3>{{ item.title }}</h3>{% endif %}
+                    {% if item.institution %}<p class="cv-org">{{ item.institution }}</p>{% endif %}
+                    {% if item.description %}<p>{{ item.description }}</p>{% endif %}
+                    {% if item.items %}
+                      <ul>
+                        {% for bullet in item.items %}<li>{{ bullet }}</li>{% endfor %}
+                      </ul>
+                    {% endif %}
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+
+          {% when 'list' %}
+            <ul class="cv-list">
+              {% for item in section.contents %}
+                <li>{{ item }}</li>
+              {% endfor %}
+            </ul>
+
+          {% when 'nested_list' %}
+            <ul class="cv-list">
+              {% for group in section.contents %}
+                <li>
+                  {{ group.name }}
+                  {% if group.items %}
+                    <ul>
+                      {% for item in group.items %}<li>{{ item }}</li>{% endfor %}
+                    </ul>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+
+          {% else %}
+            {{ section.contents | markdownify }}
+        {% endcase %}
+      </section>
+    {% endfor %}
+  </div>
+</div>
