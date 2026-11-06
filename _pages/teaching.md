@@ -56,11 +56,18 @@ math: true
           <summary>Description</summary>
           <div class="course-description-body">
             <p>
-              A graduate introduction to algebraic and geometric complexity theory, following the first
-              twelve chapters of Bläser and Ikenmeyer’s
-              <em>Introduction to Geometric Complexity Theory</em>. The goal is to develop the algebraic,
-              geometric, and representation-theoretic tools needed to study the permanent-versus-determinant
-              problem and the border rank of matrix multiplication.
+              Computational complexity theory studies the resources required to solve computational
+              problems. The most famous open question in the area is the “P vs. NP” problem: whether
+              finding solutions is harder than verifying them. Algebraic complexity theory replaces
+              Boolean computation with computation over fields, turning combinatorial problems into
+              polynomials and studying their complexity.
+            </p>
+            <p>
+              The course develops algebraic complexity classes such as \(\mathsf{VP}\) and
+              \(\mathsf{VNP}\), and studies lower bounds for important polynomials such as the
+              determinant. It introduces tools from algebraic geometry and representation theory,
+              covers classical results and recent techniques, and is intended as a self-contained
+              introductory treatment for mathematics students.
             </p>
             <p><strong>Chapters covered:</strong></p>
             <ul>
@@ -83,11 +90,16 @@ math: true
           <summary>Responsibilities</summary>
           <ul>
             <li>Taught the first four chapters: Boolean and arithmetic circuits, Waring rank, orbit closures, and first algebraic geometry.</li>
+            <li>Held exercise sessions.</li>
+            <li>Clarified students’ doubts.</li>
+            <li>Explained solutions to the exercise sheets.</li>
             <li>Designed and graded the exercise sheets.</li>
+            <li>Prepared sample solutions.</li>
             <li>Conducted the oral exam.</li>
           </ul>
         </details>
         <a class="course-link" href="https://theoryofcomputing.org/articles/gs010/gs010.pdf" target="_blank" rel="noopener">Course text →</a>
+        <a class="course-link" href="https://hellus.app.uni-regensburg.de/KVV/abruflink.php?id=1468" target="_blank" rel="noopener">Course page →</a>
       </div>
     </div>
   </article>
