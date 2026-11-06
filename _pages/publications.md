@@ -7,7 +7,7 @@ wide: true
 math: true
 ---
 
-A complete list is also available on [DBLP]({{ site.data.socials.dblp }}).
+A complete list should also be available on [DBLP]({{ site.data.socials.dblp }}).
 
 <div class="pub-list">
 {% bibliography %}
