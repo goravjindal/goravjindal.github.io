@@ -13,7 +13,7 @@ page_class: teaching-page
     <div class="course-term">WS 2026/27</div>
     <div>
       <h2>Complexity Theory</h2>
-      <p class="course-meta">Universität Regensburg · Co-instructor with {% include person-link.html key="brand" name="Cornelius Brand" %}</p>
+      <p class="course-meta">University of Regensburg · Co-instructor with {% include person-link.html key="brand" name="Cornelius Brand" %}</p>
       <div class="course-actions">
         <details class="course-description">
           <summary>Description</summary>
@@ -51,7 +51,7 @@ page_class: teaching-page
     <div class="course-term">SS 2026</div>
     <div>
       <h2>Algebraic Complexity Theory</h2>
-      <p class="course-meta">Universität Regensburg · Co-instructor with {% include person-link.html key="bhargav" name="Bhargav CS" %} and {% include person-link.html key="shukla" name="Himanshu Shukla" %}</p>
+      <p class="course-meta">University of Regensburg · Co-instructor with {% include person-link.html key="bhargav" name="Bhargav CS" %} and {% include person-link.html key="shukla" name="Himanshu Shukla" %}</p>
       <div class="course-actions">
         <details class="course-description">
           <summary>Description</summary>

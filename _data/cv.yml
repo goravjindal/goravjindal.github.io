@@ -10,7 +10,7 @@
     - name: Phone
       value: +49 15780883476
     - name: Location
-      value: Regensburg, Bayern, Germany
+      value: Regensburg, Bavaria, Germany
 
 - title: Research Summary
   type: text
@@ -36,7 +36,7 @@
       year: 2022 - 2025
 
     - title: Postdoctoral Researcher
-      institution: Institut für Mathematik, Technische Universität Berlin
+      institution: Institute of Mathematics, Technical University of Berlin
       year: 2020 - 2022
 
     - title: Postdoctoral Researcher
@@ -55,7 +55,7 @@
       institution: Saarland University
       year: 2012 - 2013
 
-    - title: Hilfswissenschaftler
+    - title: Student Assistant
       institution: Saarland University
       year: 2012 - 2012
 
@@ -125,6 +125,6 @@
     - Markus Bläser — Saarland University —  mblaeser@cs.uni-saarland.de
     - Radu Curticapean — University of Regensburg — radu.curticapean@ur.de
     - Joël Ouaknine — MPI-SWS — joel@mpi-sws.org
-    - Peter Bürgisser — Technische Universität Berlin - pbuerg@math.tu-berlin.de
+    - Peter Bürgisser — Technical University of Berlin - pbuerg@math.tu-berlin.de
     - Parinya Chalermsook — University of Sheffield —  p.chalermsook@sheffield.ac.uk
     - Christian Ikenmeyer — University of Warwick — christian.ikenmeyer@warwick.ac.uk
