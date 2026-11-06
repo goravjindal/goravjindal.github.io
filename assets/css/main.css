@@ -505,14 +505,6 @@ hr {
   letter-spacing: 0.03em;
 }
 
-.pub-selected {
-  color: var(--text-muted);
-  font-size: 0.68rem;
-  font-weight: 500;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
 .pub-title {
   margin: 0;
   font-size: 1.08rem;
