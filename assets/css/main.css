@@ -1449,3 +1449,22 @@ hr {
 .teaching-page .course:last-child {
   border-bottom: 2px solid var(--rule);
 }
+
+/* Landing and research pages: match the teaching separator weight. */
+.hero,
+.section,
+.section .pub,
+.news-list li,
+.topic-grid,
+.topic {
+  border-width: 2px;
+}
+
+/* CV page: match the teaching separator weight. */
+.cv-section {
+  border-top-width: 2px;
+}
+
+.cv-section:last-child {
+  border-bottom: 2px solid var(--rule);
+}
