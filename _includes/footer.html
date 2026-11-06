@@ -1,4 +1,4 @@
-<footer class="site-footer">
+<footer class="site-footer{% if page.page_class %} site-footer--{{ page.page_class }}{% endif %}">
   <div class="wrap footer-inner">
     <div class="footer-links" aria-label="Contact and profiles">
       {% include social-links.html %}

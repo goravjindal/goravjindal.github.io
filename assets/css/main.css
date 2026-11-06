@@ -1440,6 +1440,22 @@ hr {
   margin-bottom: 0;
 }
 
+/* Teaching and CV pages: let the footer follow the last content rule. */
+.teaching-page.page,
+.cv-page.page {
+  padding-bottom: 0.25rem;
+}
+
+.site-footer--teaching-page,
+.site-footer--cv-page {
+  padding-top: 0.5rem;
+}
+
+.site-footer--teaching-page::before,
+.site-footer--cv-page::before {
+  display: none;
+}
+
 /* Slightly stronger separators across the site. */
 .site-header,
 .hero,
