@@ -203,7 +203,6 @@ math: true
             <li>Clarified students’ doubts.</li>
             <li>Explained solutions to the exercise sheets.</li>
             <li>Graded exercise sheets.</li>
-            <li>Graded the final exam.</li>
           </ul>
         </details>
       </div>
@@ -243,7 +242,6 @@ math: true
             <li>Clarified students’ doubts.</li>
             <li>Explained solutions to the exercise sheets.</li>
             <li>Graded exercise sheets.</li>
-            <li>Graded the final exam.</li>
           </ul>
         </details>
       </div>
