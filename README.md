@@ -8,7 +8,7 @@ BibTeX file, rebuild, and the publications page updates.
 
 ## Pages
 
-- `/` — brief introduction, selected publications, and news
+- `/` — brief introduction and selected publications
 - `/research/` — research interests
 - `/publications/` — all publications, grouped by year
 - `/teaching/` — courses
@@ -28,5 +28,7 @@ Then open <http://localhost:4000>.
 
 ## Deployment
 
-Pushing to `main` builds the site with GitHub Actions and publishes `_site` to
-the `gh-pages` branch.
+Pushing to `main` builds the site with GitHub Actions and deploys `_site`
+directly to GitHub Pages. Generated HTML is not committed to the repository, so
+no `gh-pages` branch is needed. In the repository settings, set **Pages → Build
+and deployment → Source** to **GitHub Actions**.
