@@ -51,26 +51,22 @@
       {% if entry.url and entry.doi == blank and entry.arxiv == blank %}
         <a href="{{ entry.url }}" rel="noopener">Link</a>
       {% endif %}
+
+      {% if entry.abstract %}
+        <details class="pub-abstract" name="pub-details-{{ entry.key }}">
+          <summary>Abstract</summary>
+          {%- assign abstract_text = entry.abstract | smart_latex | strip -%}
+          {%- assign abstract_text = abstract_text | remove_first: 'Abstract ' -%}
+          <div>{{ abstract_text | markdownify }}</div>
+        </details>
+      {% endif %}
+
+      {% if entry.bibtex %}
+        <details class="pub-bibtex" name="pub-details-{{ entry.key }}">
+          <summary>BibTeX</summary>
+          <pre><code>{{ entry.bibtex | escape }}</code></pre>
+        </details>
+      {% endif %}
     </div>
-
-    {% if entry.abstract or entry.bibtex %}
-      <div class="pub-toggles">
-        {% if entry.abstract %}
-          <details class="pub-abstract">
-            <summary>Abstract</summary>
-            {%- assign abstract_text = entry.abstract | smart_latex | strip -%}
-            {%- assign abstract_text = abstract_text | remove_first: 'Abstract ' -%}
-            <div>{{ abstract_text | markdownify }}</div>
-          </details>
-        {% endif %}
-
-        {% if entry.bibtex %}
-          <details class="pub-bibtex">
-            <summary>BibTeX</summary>
-            <pre><code>{{ entry.bibtex | escape }}</code></pre>
-          </details>
-        {% endif %}
-      </div>
-    {% endif %}
   </div>
 </article>

@@ -541,6 +541,7 @@ hr {
 .pub-links {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
   gap: 0.35rem;
 }
 
@@ -560,16 +561,55 @@ hr {
   text-decoration: none;
 }
 
-.pub-toggles {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 0.25rem 1rem;
-  margin-top: 0.35rem;
+.pub-links details {
+  position: relative;
+  flex: 0 0 auto;
 }
 
-.pub-toggles details[open] {
-  flex-basis: 100%;
+.pub-links details[open] > div,
+.pub-links details[open] > pre {
+  position: absolute;
+  top: calc(100% + 0.4rem);
+  left: 50%;
+  z-index: 20;
+  width: min(78ch, calc(100vw - 3rem));
+  max-height: 60vh;
+  overflow: auto;
+  margin: 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--rule);
+  border-left: 2px solid var(--accent);
+  border-radius: var(--radius-sm);
+  background: var(--bg-elevated);
+  box-shadow: var(--shadow);
+  color: var(--text-soft);
+  transform: translateX(-50%);
+}
+
+.pub-links summary {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 5px;
+  color: var(--text-soft);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  list-style: none;
+  cursor: pointer;
+}
+
+.pub-links summary::-webkit-details-marker {
+  display: none;
+}
+
+.pub-links summary::marker {
+  content: "";
+}
+
+.pub-links details[open] summary {
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
 .pub-abstract,
@@ -578,31 +618,13 @@ hr {
   font-size: 0.88rem;
 }
 
-.pub-abstract summary,
-.pub-bibtex summary {
-  width: fit-content;
-  color: var(--text-muted);
-  font-size: 0.74rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  cursor: pointer;
-}
-
-.pub-abstract[open] summary,
-.pub-bibtex[open] summary {
-  margin-bottom: 0.45rem;
-}
-
-.pub-abstract div {
-  max-width: 78ch;
-  padding-left: 1rem;
-  border-left: 2px solid var(--rule);
-  color: var(--text-soft);
+.pub-abstract div p:last-child {
+  margin-bottom: 0;
 }
 
 .pub-bibtex pre {
   overflow-x: auto;
-  margin: 0;
+  margin: 0.5rem 0 0;
   padding: 0.7rem 0.8rem;
   border: 1px solid var(--rule);
   border-radius: var(--radius-sm);
@@ -1159,6 +1181,18 @@ hr {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.5rem;
+  }
+
+  .pub-links details[open] > div,
+  .pub-links details[open] > pre {
+    position: fixed;
+    top: auto;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+    width: auto;
+    max-height: 70vh;
+    transform: none;
   }
 
   .pub--compact {
