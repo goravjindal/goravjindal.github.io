@@ -1440,3 +1440,12 @@ hr {
 hr {
   border-width: 1.5px;
 }
+
+/* Teaching page: stronger separators after each course. */
+.teaching-page .course {
+  border-top-width: 2px;
+}
+
+.teaching-page .course:last-child {
+  border-bottom: 2px solid var(--rule);
+}
