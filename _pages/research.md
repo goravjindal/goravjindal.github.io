@@ -2,7 +2,6 @@
 layout: page
 title: Research
 permalink: /research/
-description: What I work on, and where the different threads connect.
 wide: true
 page_class: research-page
 ---
