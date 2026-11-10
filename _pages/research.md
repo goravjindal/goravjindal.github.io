@@ -4,8 +4,8 @@ title: Research
 permalink: /research/
 description: What I work on, and where the different threads connect.
 wide: true
+page_class: research-page
 ---
-
 
 <div class="topic-grid">
   <article class="topic">
@@ -73,10 +73,7 @@ wide: true
     I am also interested in decidability and complexity questions about weighted
     automata and formal power series. One question is whether a series recognized
     by a weighted automaton can also be recognized using weights from a specified
-    subsemiring, such as the non-negative reals.
-  </p>
-  <p>
-    My <a href="https://samsa2025.github.io/slides/gorav.pdf">SAMSA 2025 talk,
+    subsemiring, such as the non-negative reals. My <a href="https://samsa2025.github.io/slides/gorav.pdf">SAMSA 2025 talk,
     <em>Rationality of Formal Power Series over Subsemirings</em></a>, gives examples
     of the questions I am interested in.
   </p>
